@@ -1,0 +1,349 @@
+
+=== PAGE 21 ===
+Continued
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Antibody violetFluor 450
+Anti-Human/Mouse
+CD11b (M1/70); CD11b-
+violet fluor 450
+(M1/70) (Rat
+monoclonal; 1:200)Tonbo Biosciences RRID: AB_2621936 ;
+Cat # 75–0112
+Antibody AF700 anti-mouse
+Ly-6G Antibody (1A8);
+Ly6G-AF700 (1A8)
+(Rat monoclonal;
+1:200)BioLegend RRID: AB_1064045 ;
+Cat # 127621
+Antibody CD45.2 Monoclonal
+Antibody (104),
+APC-Cy7, eBioscience;
+CD45.2-APC/Cy7 (104)
+(Mouse monoclonal,
+1:200)eBioscience RRID: AB_1272175 ;
+Cat # 47-0454-82
+Software,
+algorithmIgorPro version 6.3 WaveMetrics https://www.wavemetrics.
+com/order/order_
+igordownloads6.htm
+Software,
+algorithmMicrosoft Excel 2011 Microsoft https://www.microsoft.com
+/en-us/store/d/excel-
+2016-for-mac/
+Software,
+algorithmFIJI NIH https://imagej.net/
+Fiji/Downloads
+Software,
+algorithmGraphpad Prism 7 Graphpad https://www.graphpad.com/
+scientific-software/prism/
+Software,
+algorithmR-3.6.0 The R Project
+for Statistical
+Computinghttps://cran.r-project.
+org/bin/macosx/
+Software,
+algorithmPython 2.7 Anaconda https://www.anaconda.
+com/distribution/
+Software,
+algorithmHTSeq 0.11.1 Python Package Index https://htseq.
+readthedocs.io/
+en/release_0.11.1/
+install.html
+Software,
+algorithmTrimmomatic PMID: 24695404 https://github.com/
+timflutre/trimmomatic
+Software,
+algorithmTophat 2.1.1 PMID: 19289445 https://ccb.jhu.edu/
+software/tophat/
+Software,
+algorithmEdgeR PMID: 19910308 ;
+PMID: 22287627https://bioconductor.org/
+packages/release/bioc/
+html/edgeR.html
+Software,
+algorithmDESeq PMID: 20979621 https://bioconductor.org/
+packages/release/bioc/
+html/DESeq.html
+Software,
+algorithmFlowJo 10.4.2 FlowJo; Treestar https://www.flowjo.com/
+solutions/flowjo/downloads
+Other Bovine serum albumin,
+cold ethanol fraction,
+pH 5.2, /C2196%; BSASigma-Aldrich CAS 9048-46-8;
+Cat # A4503
+Other NGS; Goat serum;
+Normal goat serumAbcam Cat # ab7481
+Mouse studies
+All mice were housed in standard conditions in accordance with standards approved by the Animal
+Care and Use Committee of the University of California Berkeley (12 hr light-dark cycle, 21 ˚C). Wild-
+type C57BL/6 mice were obtained from Charles River or Jackson Laboratories and raised in-house.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 21 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 22 ===
+TSLPR KO mice were kindly provided by Dr. Steven Ziegler ( Crlf2tm1Jni;Carpino et al., 2004 ) and
+backcrossed onto C57BL/6. All experiments were performed under the policies and recommenda-
+tions of the International Association for the Study of Pain and approved by the University of Califor-
+nia Berkeley Animal Care and Use Committee. Where appropriate, genotypes were assessed using
+standard PCR.
+MC903 model of atopic dermatitis
+MC903 (Calcipotriol; R and D Systems) was applied to the shaved mouse cheek (20 ml of 0.2 mM in
+ethanol) or rostral back (40 ml of 0.2 mM in ethanol) once per day for 1–12 days using a pipette.
+100% ethanol was used. All MC903 studies were performed on 8–12 week old age-matched mice.
+Behavior, RNA-seq, flow cytometry, and immunohistochemistry were performed on days 1, 2, 3, 5,
+eight and/or 12. For AMG 487 experiments in the MC903 model, 50 mL 3.31 mM AMG 487 (Tocris)
+or 20% HPCD-PBS vehicle was injected subcutaneously one hour prior to recording behavior
+(Qu et al., 2015 ). Spontaneous scratching was manually scored for the first 30 min of observation.
+Both bout number and length were recorded. Behavioral scoring was performed while blind to
+experimental condition and mouse genotype.
+MC903 RNA isolation and sequencing
+On days 1 (six hours post-treatment), 2, 5, or eight post-treatment, mice treated with MC903 and
+vehicle were euthanized via isoflurane and cervical dislocation. Cheek skin was removed, flash-frozen
+in liquid nitrogen, and cryo-homogenized with a mortar and pestle. Ipsilateral trigeminal ganglia
+were dissected and both skin and trigeminal ganglia were homogenized for three minutes (skin) or
+one minute (TG) in 1 mL RNAzol RT (Sigma-Aldrich). Thoracic spinal cord was dissected from mice
+treated with 40 mL MC903 or ethanol on the shaved rostral back skin and homogenized for one min-
+ute in 1 mL RNAzol. Large RNA was extracted using RNAzol RT per manufacturer’s instructions.
+RNA pellets were DNase treated (Ambion), resuspended in 50 mL DEPC-treated water, and sub-
+jected to poly(A) selection and RNA-seq library preparation (Apollo 324) at the Functional Genomics
+Laboratory (UC Berkeley). Single-end read sequencing (length = 50 bp) was performed by the QB3
+Vincent G. Coates Genomic Sequencing Laboratory (UC Berkeley) on an Illumina HiSeq4000. See
+Supplementary file 1 for number of mice per experimental condition and number of mapped reads
+per sample. Data are available at Gene Expression Omnibus under GSE132173.
+MC903 RNA sequencing analysis
+Reads were mapped to the mm10 mouse genome using Bowtie2 and Tophat, and reads were
+assigned to transcripts using htseq-count ( Langmead et al., 2009 ;Langmead and Salzberg, 2012 ).
+For a given time point, replicate measurements for each gene from treated and control mice were
+used as input for DESeq (R) and genes with padjusted <0.05 (for skin and spinal cord) or padjusted <0.1
+(for trigeminal ganglia) for at least one time point were retained for analysis ( Anders and Huber,
+2012 ;Anders et al., 2013 ). For the skin dataset, we collated a set of AD-related immune cell
+markers, cytokines, atopic dermatitis disease genes, neurite outgrown/axonal guidance genes, and
+locally expressed neuronal transcripts, and from this list visualized genes that were significantly dif-
+ferentially expressed for at least one time point. For the trigeminal ganglia dataset, we plotted all
+genes that were significantly differentially expressed for at least one time point. Genes from these
+lists were plotted with hierarchical clustering using heatmap2 (R) ( Hill, 2019 ).
+Custom gene groups
+Genes were clustered into functional groups and significance was evaluated using a permutation
+test. Briefly, we first tabulated the absolute value of the log 2fold change of gene expression
+(between MC903 and EtOH) of each gene in a given group of ngenes in turn, and then we calcu-
+lated the median of these fold change values, ztrue. We then drew nrandom genes from the set of
+all genes detected in the samples and computed the median log 2fold change as above using this
+null set, znull. Repeating the latter 10,000 times established a null distribution of median log 2fold
+change values; we took the proportion of resampled gene groups that exhibited ( ztrue/C21znull) as an
+empirical p-value reporting the significance of changes in gene expression for a given group of n
+genes.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 22 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 23 ===
+Flow cytometry
+Skin samples were collected from the cheek of mice at the indicated time points with a 4- or 6 mm
+biopsy punch into cold RPMI 1640 medium (RPMI; Gibco) and minced into smaller pieces with surgi-
+cal scissors. When ear skin was collected, whole ears were dissected postmortem into cold RPMI
+and finely minced with scissors. For isolation of immune cells, skin samples were digested for 1 hr at
+37 ˚C using 1 U/mL Liberase TM (Roche) and 5 mg/mL DNAse I (Sigma). At the end of the digestion,
+samples were washed in FACS buffer (PBS with 0.5% FCS and 2 mM EDTA) and filtered through a
+70 or 100 mm strainer (Falcon). Cells were stained with LIVE/DEAD fixable stain Aqua in PBS (Invitro-
+gen), then blocked with anti-CD16/32 (UCSF Core) and stained with the following fluorophore-conju-
+gated antibodies (all from eBiosciences unless stated otherwise) in FACS buffer: cKit-Biotin (clone
+ACK2; secondary stain with SA-FITC), CD11b-violet fluor 450 (Tonbo; clone M1/70), Ly6C-PerCP/
+Cy5.5 (clone HK1.4), CD49b-PE/Cy7 (clone DX5), CD45.2-APC/Cy7 (clone 104), FceRI-PE (MAR-1),
+Ly6G-AF700 (clone 1A8). 10 mL of counting beads (Invitrogen) were added after the last wash to
+measure absolute cell counts. For measurement of CD4+T cells, 6 mm skin biopsy punch samples
+were digested for 30 min at 37 ˚C using Collagenase VIII (Sigma). At the end of the digestion, cells
+were washed in RPMI buffer (RPMI with: 5% FCS, 1% penicillin-streptomycin, 2 mM L-glutamine, 10
+mM HEPES buffer, 1 mM sodium pyruvate). Cells were blocked with anti-CD16/32 (UCSF Core) and
+stained with the following fluorophore-conjugated antibodies in FACS buffer (PBS with 5% FCS and
+2 mM EDTA): CD45-APC-eFluor780 (clone 30-F11; eBiosciences), CD11b-PE/Cy7 (clone M1/70; BD
+Biosciences), B220-PE/Cy7 (clone RA3-6B2; Tonbo Biosciences), CD11c-PE/Cy7 (clone N418; eBio-
+sciences), CD3-FITC (clone 145–2 C11; eBiosciences), CD8-BV785 (clone 53–6.7; Biolegend), CD4-PE
+(clone GK1.5; BD Biosciences), gdTCR-AF647 (clone GL3; Biolegend). 10 mL of counting beads (Invi-
+trogen) were added after the last wash to measure absolute cell counts, and samples were resus-
+pended in DAPI LIVE/DEAD (Invitrogen). Blood samples were collected from saphenous vein or from
+terminal bleed following decapitation. Red blood cells were lysed using ACK lysis buffer (Gibco),
+and samples were washed with FACS buffer (PBS with 0.5% FCS and 2 mM EDTA), and blocked with
+anti-CD16/32. Cells were stained with Ly6G-PE (1A8; BD Biosciences), CD11b-violet fluor 450 (M1/
+70, Tonbo), Ly6C-PerCP/Cy5.5 (HK1.4, Biolegend), and aGr1-APC/Cy7 (RB6-8C5, eBiosciences). For
+all experiments, single cell suspensions were analyzed on an LSR II or LSR Fortessa (BD Biosciences),
+and data were analyzed using FlowJo (TreeStar, v.9.9.3) software.
+Human keratinocyte RNA sequencing
+Normal human epidermal keratinocytes from juvenile skin (PromoCell #C-12001) were cultured in
+PromoCell Keratinocyte Growth Medium two and passaged fewer than five times. Cells were treated
+for three hours at room temperature with 100 mM SLIGRL or vehicle (Ringer’s + 0.1% DMSO). Total
+RNA was extracted by column purification (Qiagen RNeasy Mini Kit). RNA was sent to the Vincent J.
+Coates Sequencing Laboratory at UC Berkeley for standard library preparation and sequenced on an
+Illumina HiSeq2500 or 4000. Sequences were trimmed (Trimmomatic), mapped (hg19, TopHat) and
+assigned to transcripts using htseq-count. Differential gene expression was assessed using R (edgeR)
+(Hill, 2019 ). Data are available at Gene Expression Omnibus under GSE132174.
+IHC of whole-mount skin
+Staining was performed as previously described ( Hill et al., 2018 ;Marshall et al., 2016 ). Briefly, 8
+week old mice were euthanized and the cheek skin was shaved. The removed skin was fixed over-
+night in 4% PFA, then washed in PBS (3X for 10 min each). Dermal fat was scraped away with a scal-
+pel and skin was washed in PBST (0.3% Triton X-100; 3X for two hours each) then incubated in 1:500
+primary antibody (Rabbit anti beta-Tubulin II; Abcam #ab18207 or Rabbit anti-CGRP; Immunostar
+#24112) in blocking buffer (PBST with 5% goat serum and 20% DMSO) for 6 days at 4˚C. Skin was
+washed as before and incubated in 1:500 secondary antibody (Goat anti-Rabbit Alexa 594; Invitro-
+gen #R37117) in blocking buffer for 3 days at 4˚C. Skin was washed in PBST, serially dried in metha-
+nol: PBS solutions, incubated overnight in 100% methanol, and finally cleared with a 1:2 solution of
+benzyl alcohol: benzyl benzoate (BABB; Sigma) before mounting between No. 1.5 coverglass. Whole
+mount skin samples were imaged on a Zeiss LSM 880 confocal microscope with OPO using a 20x
+water objective. Image analysis was performed using a custom macro in FIJI. Briefly, maximum inten-
+sity z-projections of the beta-tubulin III or CGRP channel were converted to binary files that
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 23 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 24 ===
+underwent edge-detection analysis. Regions were defined by circling all stained regions. Region
+sizes and locations were saved.
+IHC of sectioned trigeminal ganglia
+TG were dissected from 8- to 12 week old adult mice and post-fixed in 4% PFA for one hour. TG
+were cryo-protected overnight at 4˚C in 30% sucrose-PBS, embedded in OCT, and then cryosec-
+tioned at 14 mm onto slides for staining. Slides were washed 3x in PBST (0.3% Triton X-100), blocked
+in 2.5% Normal Goat serum + 2.5% BSA-PBST, washed 3X in PBST, blocked in endogenous IgG
+block (1:10 F(ab) anti-mouse IgG (Abcam ab6668) + 1:1000 Rat anti-mouse CD16/CD32 (UCSF MAB
+Core) in 0.3% PBST), washed 3X in PBST and incubated overnight at 4˚C in 1:1000 primary antibody
+in PBST + 0.5% Normal Goat Serum + 0.5% BSA. Slides were washed 3x in PBS, incubated 2 hr at
+RT in 1:1000 secondary antibody, washed 3X in PBS, and then incubated 30 min in 1:2000 DAPI-
+PBS. Slides were washed 3x in PBS and mounted in Fluoromount-G with No. 1.5 coverglass. Primary
+antibodies used: Mouse anti-CD45 (eBioscience #14-054-82) and Chicken anti-Peripherin (Abcam
+#39374). Secondary antibodies used: Goat anti-Chicken Alexa 594 (ThermoFisher #A11042) and
+Goat anti-Mouse Alexa 488 (Abcam #150117). DAPI (ThermoFisher #D1306) was also used to mark
+nuclei. Imaging of TG IHC experiments was performed on an Olympus IX71 microscope with a
+Lambda LS-xl light source (Sutter Instruments). For TG IHC analysis, images were analyzed using
+automated scripts in FIJI (ImageJ) software ( Hill, 2019 ). Briefly, images were separated into the
+DAPI, CD45, and Peripherin channels. The minimum/maximum intensity thresholds were batch-
+adjusted to pre-determined levels, and adjusted images were converted to binary files. Regions
+were defined by circling all stained regions with pre-determined size-criteria. Region sizes and loca-
+tions were saved.
+Neutrophil depletion
+Neutrophils were acutely depleted using intraperitoneal injection with 250 mg aGR1 in PBS (clone
+RB6-8C5, a gift from D. Portnoy, UC Berkeley, or from Biolegend), 16–24 hr before behavioral and
+flow cytometry experiments. Depletion was verified using flow cytometry on blood collected from
+terminal bleed following decapitation. For longer depletion experiments using the MC903 model,
+mice were injected (with 250 mg aGR1 in PBS or PBS vehicle, i.p.) beginning one day prior to MC903
+administration and each afternoon thereafter through day 7 of the model, or on days 8–11 for mea-
+surement of day 12 itch behaviors, and blood was collected via saphenous venipuncture at days 3, 5,
+or by decapitation at day eight to verify depletion.
+CXCL10 ELISA measurements in skin
+Neutrophil-depleted or uninjected mice were treated with MC903 or ethanol for 7 days. On day 8, 6
+mm biopsy punches of cheek skin were harvested, flash-frozen in liquid nitrogen, cryo-homogenized
+by mortar and pestle, and homogenized on ice for three minutes at maximum speed in 0.5 mL of
+the following tissue homogenization buffer (all reagents from Sigma unless stated otherwise): 100
+mM Tris, pH 7.4; 150 mM NaCl, 1 mM EGTA, 1 mM EDTA, 1% Triton X-100, and 0.5% Sodium deox-
+ycholate in ddH2O; on the day of the experiment, 200 mM fresh PMSF in 100% ethanol was added
+to 1 mM, with one tablet cOmplete protease inhibitor (Roche) per 50 mL, and five tablets PhosSTOP
+inhibitor (Roche) per 50 mL buffer. Tissues were agitated in buffer for two hours at 4˚C, and centri-
+fuged at 13,000 rpm for 20 min at 4˚C. Supernatants were aliquoted and stored at /C080˚C for up to
+one week. After thawing, samples were centrifuged at 10,000 rpm for five minutes at 4˚C. Protein
+content of skin homogenates was quantified by BCA (Thermo Scientific) and homogenates were
+diluted to 2 mg/mL protein in PBS and were subsequently diluted 1:2 in Reagent Diluent (R and D
+Systems). CXCL10 protein was quantified using the Mouse CXCL10 Duoset ELISA kit (R and D Sys-
+tems; #DY466-05) according to manufacturer’s instructions. Plate was read at 450 nm and CXCL10
+was quantified using a seven-point standard curve (with blank and buffer controls) and fitted with a
+4-parameter logistic curve.
+Acute itch behavior
+Itch behavioral measurements were performed as previously described ( Shimada and LaMotte,
+2008 ;Wilson et al., 2011 ;Morita et al., 2015 ). Mice were shaved one week prior to itch behavior
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 24 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 25 ===
+and acclimated in behavior chambers once for thirty minutes at the same time of day on the day
+prior to the experiment. Behavioral experiments were performed during the day. Compounds
+injected: 1 mg carrier-free CXCL1 (R and D systems) in PBS, 3.31 mM AMG 487 (Tocris, prepared
+from 100 mM DMSO stock) in 20% HPCD-PBS, 50 mM Chloroquine diphosphate (Sigma) in PBS,
+along with corresponding vehicle controls. Acute pruritogens were injected using the cheek model
+(20mL, subcutaneous/s.c.) of itch, as previously described ( Shimada and LaMotte, 2008 ). AMG 487
+(50mL) or vehicle was injected s.c. into the rostral back skin one hour prior to recording of behavior.
+Behavioral scoring was performed as described above.
+Lipidomics
+Skin was collected from the cheek of mice post-mortem with a 6 mm biopsy punch and immediately
+flash-frozen in liquid nitrogen. Lipid mediators and metabolites were quantified via liquid chroma-
+tography-tandem mass spectrometry (LC-MS/MS) as described before ( von Moltke et al., 2012 ). In
+brief, skin was homogenized in cold methanol to stabilize lipid mediators. Deuterated internal stand-
+ards (PGE 2-d4, LTB 4-d4, 15-HETE-d8, LXA 4-d5, DHA-d5, AA-d8) were added to samples to calculate
+extraction recovery. LC-MS/MS system consisted of an Agilent 1200 Series HPLC, Luna C18 column
+(Phenomenex, Torrance, CA, USA), and AB Sciex QTRAP 4500 mass spectrometer. Analysis was car-
+ried out in negative ion mode, and lipid 30 mediators quantified using scheduled multiple reaction
+monitoring (MRM) mode using four to six specific transition ions per analyte ( Sapieha et al., 2011 ).
+1-Fluoro-2,4-dinitrobenzene (DNFB) model of atopic dermatitis
+The DNFB model was conducted as described previously ( Solinski et al., 2019a ). Briefly, the rostral
+backs of isofluorane-anesthetized mice were shaved using surgical clippers. Two days after shaving,
+mice were treated with 25 mL 0.5% DNFB (Sigma) dissolved in 4:1 acetone:olive oil vehicle on the
+rostral back using a pipette. Five days after the initial DNFB sensitization, mice were challenged with
+40mL 0.2% DNFB or 4:1 acetone:olive oil vehicle applied to the outer surface of the right ear.
+Twenty-four hours after DNFB or vehicle challenge, mice were euthanized and ear skin was har-
+vested for flow cytometry.
+Statistical analyses
+Different control experimental conditions ( e.g. uninjected versus PBS-injected animals) were pooled
+when the appropriate statistical test showed they were not significantly different
+(Supplementary file 2 ). For all experiments except RNA-seq (see above), the following statistical
+tests were used, where appropriate: Student’s t-test, one-way ANOVA with Tukey-Kramer post hoc
+comparison, and two-way ANOVA with Tukey Kramer or Sidak’s post-hoc comparison. Bar graphs
+show mean ±SEM. Statistical analyses were performed using PRISM seven software (GraphPad). For
+allpvalues, *=0.01 < p<0.05, **=0.001 < p<0.01, ***=0.0001 < p<0.001, and ****= p< 0.0001.
+Acknowledgements
+The authors would like to thank members of the Bautista and Barton labs for helpful discussions on
+the data. We are grateful to S Ziegler (Ben Aroya Research Institute) for the gift of the TSLPR KO
+mouse. We also thank M Pellegrino and L The ´ for pilot studies on human keratinocyte transcriptome,
+and T Morita and J Wong for technical assistance withTSLPR KO mouse behavioral experiments.
+DMB is supported by the NIH (AR059385; NS07224 and NS098097, also to RBB) and the Howard
+Hughes Medical Institute. GMB is supported by the NIH (AI072429, AI063302, AI104914, AI105184)
+and the Burroughs Wellcome Fund. JD was supported by a Long-Term Fellowship from the Human
+Frontier Science Program (LT-000081/2013 L). KG is supported by NIH grant EY026082. Confocal
+imaging experiments were conducted at the CRL Molecular Imaging Center, supported by the Helen
+Wills Neuroscience Institute (UC Berkeley). We would like to thank H Aaron and F Ives for their
+microscopy training and assistance. This work used the Functional Genomics Laboratory and the Vin-
+cent J Coates Genomics Sequencing Laboratory at UC Berkeley, supported by NIH S10 OD018174
+Instrumentation Grant.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 25 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 26 ===
+Additional information
+Funding
+Funder Grant reference number Author
+National Institute of Arthritis
+and Musculoskeletal and Skin
+DiseasesAR059385 Diana M Bautista
+National Institute of Neurolo-
+gical Disorders and StrokeNS07224 Rachel B Brem
+Diana M Bautista
+Howard Hughes Medical Insti-
+tuteDiana M Bautista
+National Institute of Allergy
+and Infectious DiseasesAI072429 Gregory M Barton
+National Institute of Allergy
+and Infectious DiseasesAI063302 Gregory M Barton
+National Institute of Allergy
+and Infectious DiseasesAI104914 Gregory M Barton
+National Institute of Allergy
+and Infectious DiseasesAI105184 Gregory M Barton
+Burroughs Wellcome Fund Gregory M Barton
+Human Frontier Science Pro-
+gramLT-000081/2013-L Jacques Deguine
+National Eye Institute EY026082 Karsten Gronert
+National Institute of Neurolo-
+gical Disorders and StrokeNS098097 Rachel B Brem
+Diana M Bautista
+The funders had no role in study design, data collection and interpretation, or the
+decision to submit the work for publication.
+Author contributions
+Carolyn M Walsh, Conceptualization, Formal analysis, Investigation, Visualization, Methodology,
+Writing—original draft, Writing—review and editing, Performed flow cytometry and behavior experi-
+ments, and made substantial contributions to Figures 1C, 1G, 2A, 2D, 2E, 2F, 2I, Figure 2—figure
+supplement 2, and Figure 2—figure supplement 4; Rose Z Hill, Conceptualization, Data curation,
+Software, Formal analysis, Investigation, Visualization, Methodology, Writing—original draft, Writ-
+ing—review and editing, Performed flow cytometry, behavior, skin, somatosensory ganglia and spi-
+nal cord RNA-seq, IHC, ELISA, and made substantial contributions to Figures 1A, 1B, 1C, 1H, 1I, 1J,
+Figure 1—figure supplement 1, Figure 1—figure supplement 7, Figure 1—figure supplement 9, Fig-
+ures 2J, 2K, 3A, 3B, 3C, 3D, 3E, 3F, 3G, 4A, 4B, 4C, 4D, 4E, 4F, 4G, Figure 4—figure supplement 1,
+and Figure 4—figure supplement 2; Jamie Schwendinger-Schreck, Conceptualization, Investigation,
+Methodology, Writing—review and editing, Performed flow cytometry, keratinocyte RNA-Seq and
+behavior experiments, and made substantial contributions to Figure 1—figure supplement 6, Figure
+1—figure supplement 10, Figures 2A, 2E, Figure 2—figure supplement 2, and Figure 2—figure sup-
+plement 3; Jacques Deguine, Conceptualization, Formal analysis, Investigation, Methodology, Writ-
+ing—review and editing, Performed flow cytometry experiments, and made substantial contributions
+to Figures 2A, 2B, 2C, 2E, 2G, 2H, Figure 2—figure supplement 1, Figure 2—figure supplement 2,
+and Figure 2—figure supplement 4; Emily C Brock, Conceptualization, Formal analysis, Investigation,
+Methodology, Writing—review and editing, Performed flow cytometry and behavior experiments,
+and made substantial contributions to Figures 1C, 1E, 1F, Figure 1—figure supplement 5, Figures
+2A, 2B, 2C, 2F, 2G, 2H, Figure 2—figure supplement 1, Figures 2—figure supplement 2, and Figure
+2—figure supplement 4; Natalie Kucirek, Investigation, Writing—review and editing, Performed
+behavior experiments, and made substantial contributions to Figures 1C and 2F; Ziad Rifi, Investiga-
+tion, Writing—review and editing, Performed IHC experiments, and made substantial contributions
+to Figures 3C, 3D, 3E, and 3F; Jessica Wei, Investigation, Performed mass spectrometry
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 26 of 33Research article Immunology and Inflammation Neuroscience

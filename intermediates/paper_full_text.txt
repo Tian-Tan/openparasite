@@ -1,0 +1,1873 @@
+
+--- PAGE 1 ---
+*For correspondence:
+barton@berkeley.edu (GMB);
+dbautista@berkeley.edu (DMB)
+†These authors contributed
+equally to this work
+§Author order was randomly
+determined by a coin flip
+Present address:‡The Scripps
+Research Institute, La Jolla,
+United States
+Competing interests: The
+authors declare that no
+competing interests exist.
+Funding: See page 26
+Received: 14 May 2019
+Accepted: 17 October 2019
+Published: 21 October 2019
+Reviewing editor: Andrew J
+King, University of Oxford,
+United Kingdom
+Copyright Walsh et al. This
+article is distributed under the
+terms of the Creative Commons
+Attribution License, which
+permits unrestricted use and
+redistribution provided that the
+original author and source are
+credited.Neutrophils promote CXCR3-dependent
+itch in the development of atopic
+dermatitis
+Carolyn M Walsh1†§, Rose Z Hill1†§‡, Jamie Schwendinger-Schreck1,
+Jacques Deguine1, Emily C Brock1, Natalie Kucirek1, Ziad Rifi1, Jessica Wei2,
+Karsten Gronert2, Rachel B Brem3,4, Gregory M Barton1*, Diana M Bautista1,5*
+1Department of Molecular and Cell Biology, University of California, Berkeley,
+Berkeley, United States;2Vision Science Program, School of Optometry, University
+of California, Berkeley, Berkeley, United States;3Department of Plant and Microbial
+Biology, University of California, Berkeley, Berkeley, United States;4Buck Institute
+for Research on Aging, Novato, United States;5Helen Wills Neuroscience Institute,
+University of California, Berkeley, Berkeley, United States
+Abstract Chronic itch remains a highly prevalent disorder with limited treatment options. Most
+chronic itch diseases are thought to be driven by both the nervous and immune systems, but the
+fundamental molecular and cellular interactions that trigger the development of itch and the acute-
+to-chronic itch transition remain unknown. Here, we show that skin-infiltrating neutrophils are key
+initiators of itch in atopic dermatitis, the most prevalent chronic itch disorder. Neutrophil depletion
+significantly attenuated itch-evoked scratching in a mouse model of atopic dermatitis. Neutrophils
+were also required for several key hallmarks of chronic itch, including skin hyperinnervation,
+enhanced expression of itch signaling molecules, and upregulation of inflammatory cytokines,
+activity-induced genes, and markers of neuropathic itch. Finally, we demonstrate that neutrophils
+are required for induction of CXCL10, a ligand of the CXCR3 receptor that promotes itch via
+activation of sensory neurons, and we find that that CXCR3 antagonism attenuates chronic itch.
+Introduction
+Chronic itch is a debilitating disorder that affects millions of people worldwide ( Matterne et al.,
+2011 ;Mollanazar et al., 2016 ;Dalgard et al., 2015 ). It is a symptom of a number of skin diseases
+and systemic disorders, as well as a side effect of a growing list of medications. Like chronic pain,
+chronic itch can be a disease in and of itself ( Sta¨nder and Steinhoff, 2002 ;Oaklander, 2011 ;
+Dhand and Aminoff, 2014 ). Unlike acute itch, which can facilitate removal of crawling insects, para-
+sites, or irritants, persistent scratching in chronic itch disorders has no discernable benefit; scratching
+damages skin, leading to secondary infection, disfiguring lesions, and exacerbation of disease sever-
+ity (Mollanazar et al., 2016 ;Yosipovitch and Papoiu, 2008 ;Ikoma et al., 2006 ). The most common
+chronic itch disorder is atopic dermatitis (AD; commonly known as eczema), which affects fifteen mil-
+lion people in the United States alone ( Spergel and Paller, 2003 ). Severe AD can trigger the atopic
+march, where chronic itch and inflammation progress to food allergy, allergic rhinitis, and asthma
+(Spergel and Paller, 2003 ;Zheng et al., 2011 ).
+Little is known about the underlying mechanisms that drive chronic itch pathogenesis. As such,
+studies of human chronic itch disorders have sought to identify candidate mechanisms of disease
+progression. A number of studies have identified biomarkers and disease genes in itchy human AD
+lesions ( Ewald et al., 2017 ;Choy et al., 2012 ;Guttman-Yassky et al., 2009 ;Sua´rez-Farin ˜as et al.,
+2013 ;Jabbari et al., 2012 ). Indeed, a recent study compared the transcriptomes of healthy skin to
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 1 of 33RESEARCH ARTICLE
+--- PAGE 2 ---
+itchy and non-itchy skin from psoriasis and AD patients, revealing dramatic changes in expression of
+genes associated with cytokines, immune cells, epithelial cells, and sensory neurons
+(Nattkemper et al., 2018 ). However, due to the difficulty in staging lesion development and obtain-
+ing staged samples from patients, there is currently no temporal map of when individual molecules
+and cell types contribute to chronic itch pathogenesis. Furthermore, the use of human patient data
+does not allow for rigorous mechanistic study of how disease genes contribute to chronic itch. To
+this end, we used a well-characterized inducible animal model of itch to define where, when, and
+how these genes identified from patient data contribute to chronic itch pathogenesis.
+We employed the MC903 mouse model of AD and the atopic march ( Dai et al., 2017 ;Li et al.,
+2009 ;Li et al., 2006 ;Zhang et al., 2009 ;Moosbrugger-Martinz et al., 2017 ) to provide a frame-
+work within which to identify the molecules and cells that initiate the development of atopic itch.
+The MC903 model is ideal for our approach because of its highly reproducible phenotypes that
+closely resemble human AD and its ability to induce the development of lesions and scratching
+(Li et al., 2009 ;Li et al., 2006 ;Zhang et al., 2009 ;Oetjen et al., 2017 ;Morita et al., 2015 ;
+Kim et al., 2019 ). By contrast, it is difficult to synchronously time the development of lesions in com-
+monly used genetic models of AD, such as filaggrin mutant mice or Nc/Nga mice. Another advan-
+tage of the MC903 model is that it displays collectively more hallmarks of human AD than any one
+particular genetic mouse model. For example, the commonly used IL-31tgoverexpressor model
+(Cevikbas et al., 2014 ;Meng et al., 2018 ) lacks strong Th2 induction, ( Martel et al., 2017 ) and itch
+behaviors have not yet been rigorously characterized in the keratinocyte-TSLP overexpressor model.
+As MC903 is widely used to study the chronic phase of AD, we hypothesized that MC903 could also
+be used to define the early mechanisms underlying the development of chronic itch, beginning with
+healthy skin. We performed RNA-seq of skin at key time points in the model. We complemented this
+approach with measurements of itch behavior and immune cell infiltration. The primary goal of our
+study was to identify the inciting molecules and cell types driving development of chronic itch. To
+that end, we show that infiltration of neutrophils into skin is required for development of chronic
+itch. Additionally, we demonstrate that neutrophils direct early hyperinnervation of skin, and the
+upregulation of itch signaling molecules and activity-induced genes in sensory neurons. Finally, we
+identify CXCL10/CXCR3 signaling as a key link between infiltrating neutrophils and sensory neurons
+that drives itch behaviors.eLife digest Chronic itch is a debilitating disorder that can last for months or years. Eczema, or
+atopic dermatitis, is the most common cause for chronic itch, affecting one in ten people worldwide.
+Many treatments for the condition are ineffective, and the exact cause of the disease is unknown,
+but many different types of cells are likely involved. These include skin cells and inflammation-
+promoting immune cells, as well as nerve cells that detect inflammation, relay itch and pain
+information to the brain, and regulate the immune system.
+Learning more about how these cells interact in eczema may help scientists find better
+treatments for the condition. So far, a lot of research has focused on static ‘snapshots’ of mature
+eczema lesions from human skin or animal models. These studies have identified abnormalities in
+genes or cells, but have not revealed how these genes and cells interact over time to cause chronic
+itch and inflammation.
+Now, Walsh et al. reveal that immune cells called neutrophils trigger chronic itch in eczema. The
+experiments involved mice with a condition that mimics eczema, and showed that removing the
+neutrophils in these mice alleviated their itching. They also showed that dramatic and rapid changes
+occur in the nervous system of mice suffering from the eczema-like condition. For example, excess
+nerves grow in the animals’ damaged skin, genes in the nerves that detect sensations become
+hyperactive, and changes occur in the spinal cord that have been linked to nerve pain. When
+neutrophils are absent, these changes do not take place.
+These findings show that neutrophils play a key role in chronic itch and inflammation in eczema.
+Drugs that target neutrophils, which are already used to treat other diseases, might help with
+chronic itch, but they would need to be tested before they can be used on people with eczema.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 2 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 3 ---
+Results
+MC903 triggers rapid changes in expression of skin barrier, epithelial
+cell-derived cytokine, and axon guidance genes
+Although a variety of AD- and chronic itch-associated genes have been identified, when and how
+they contribute to disease pathogenesis is unclear. Using RNA-seq of MC903-treated skin, we
+observed distinct temporal patterns by which these classes of genes are differentially expressed
+across the first eight days of the model ( Figure 1A–B ,Figure 1—figure supplement 1A ). Overall,
+we found that 62% of genes from a recent study of human chronic itch lesions ( Nattkemper et al.,
+2018 ) (Figure 1—figure supplement 1A ) and 67% of AD-related genes ( Figure 1B ) were signifi-
+cantly changed for at least one of the time points examined, suggesting that the MC903 mouse
+model recapitulates many key transcriptional changes occuring in human chronic itch and AD.
+MC903 dramatically alters the transcriptional profile of keratinocytes by derepressing genomic loci
+under the control of the Vitamin D Receptor. In line with rapid changes in transcription, proteases
+(Klk6,Klk13 , among others) and skin barrier genes ( Cdhr1 ) changed as early as six hours after the
+first treatment, before mice begin scratching ( Figure 1B ). Increased protease activity in AD skin is
+thought to promote breakdown of the epidermal barrier and release of inflammatory cytokines from
+keratinocytes ( Rattenholl and Steinhoff, 2003 ;Yosipovitch, 2004 ). One such cytokine, thymic stro-
+mal lymphopoetin (TSLP) is a key inducer of the Type two immune response, which is characteristic
+of human AD and the MC903 model, via signaling in CD4+T cells, basophils, and other immune cells
+(Li et al., 2006 ;Zhang et al., 2009 ;Briot et al., 2010 ;Demehri et al., 2009 ;Gao et al., 2010 ;
+Kim et al., 2013 ). Beginning at day two, before any significant itch-evoked scratching ( Figure 1C ),
+immune cell infiltration ( Figure 1E–G ,Figure 1—figure supplements 3A ,4Aand5A–C ), or skin
+lesions (data not shown) ( Morita et al., 2015 ) were observed, we saw increases in Tslp, as well as
+several other epithelial-derived cytokines, including the neutrophil chemoattractant genes Cxcl1,
+Cxcl2, Cxcl3, and Cxcl5 (Figure 1D ). To ask whether upregulation of these chemokine genes was
+dependent on protease activity, we treated human keratinocytes with the protease-activated recep-
+tor two agonist SLIGRL. SLIGRL treatment triggered increased expression of several of these chemo-
+kine genes, including IL8, the human ortholog of mouse Cxcl1/Cxcl2, andCXCL2 (Figure 1—figure
+supplement 6A ). These increases occurred after a few hours of exposure to SLIGRL, suggesting that
+increased protease activity can rapidly trigger increases in neutrophil chemoattractants in skin, simi-
+lar to what we observe in MC903-treated mouse skin.
+Unexpectedly, in the skin we observed early changes in a number of transcripts encoding neuro-
+nal outgrowth factors ( Ngf,Artn) and axon pathfinding molecules ( Slit1,Sema3d, Sema3a ), some of
+which are directly implicated in chronic itch ( Hidaka et al., 2017 ;Kou et al., 2012 ;Tominaga and
+Takamori, 2013 ;Tominaga et al., 2007 ;Tominaga and Takamori, 2014 ;Figure 1—figure supple-
+ment 7A ), prior to when mice began scratching. We thus used immunohistochemistry (IHC) of
+whole-mount skin to examine innervation at this time point. We saw increased innervation of lesions
+at day two but not day one of the model ( Figure 1H–I ,Figure 1—figure supplement 8A ). Our
+RNA-seq data showed elevation in skin CGRP transcript Calca , along with other markers of peptider-
+gic nerve endings, specifically at day 2. Indeed, we saw an increase in CGRP+innervation of skin at
+day 2 ( Figure 1J ,Figure 1—figure supplement 9A ), which suggests that elevation of neuronal tran-
+scripts in skin is due to hyperinnervation of peptidergic itch and/or pain fibers. The increased inner-
+vation was surprising because such changes had previously only been reported in mature lesions
+from human chronic itch patients ( Nattkemper et al., 2018 ;Haas et al., 2010 ;Kamo et al., 2013 ;
+Oaklander and Siegel, 2005 ;Schu¨ttenhelm et al., 2015 ;Pereira et al., 2016 ;Tominaga et al.,
+2009 ). Our findings suggest that early hyperinnervation is promoted by local signaling in the skin
+and is independent of the itch-scratch cycle.
+Neutrophils are the first immune cells to infiltrate AD skin
+By day five, mice exhibited robust itch behaviors ( Figure 1C ) and stark changes in a number of AD
+disease genes ( Figure 1A–B ). For example, loss-of-function mutations in filaggrin ( FLG) are a major
+risk factor for human eczema ( Palmer et al., 2006 ;Sandilands et al., 2007 ). Interestingly, Flg2 levels
+sharply decreased at day five. In parallel, we saw continued and significant elevation in neutrophil
+and basophil chemoattractant genes ( Cxcl1,2,3,5 , and Tslp,Figure 1D ). Using flow cytometry, we
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 3 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 4 ---
+Figure 1. The MC903 model parallels the progression of human atopic disease and suggests a temporal sequence of AD pathogenesis. ( A) Exact
+permutation test (10,000 iterations, see Materials and methods) for significance of mean absolute log 2fold change in gene expression at Day 8 (MC903
+vs. ethanol) of custom-defined groups of genes for indicated categories (see Figure 1—source data 1 ). (B) Log 2fold change in gene expression
+(MC903 vs. ethanol) in mouse skin at indicated time points for key immune and mouse/human AD genes that were significantly differentially expressed
+Figure 1 continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 4 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 5 ---
+observed a number of infiltrating immune cells in the skin at day 5. Of these, we neutrophils were
+the most abundant immune cell subtype ( Figure 1E ,Figure 1—figure supplement 3A ). It was not
+until day eight that we observed the classical AD-associated immune signature in the skin,
+(Gittler et al., 2012 ) with upregulation of Il4, Il33 and other Th2-associated genes ( Figure 1B ,
+Figure 1D ). We also observed increases in the T cell chemoattractant genes Cxcl9, Cxcl10, and
+Cxcl11 (Figure 1D ), which are thought to be hallmarks of chronic AD lesions in humans ( Oetjen and
+Kim, 2018 ;Mansouri and Guttman-Yassky, 2015 ). Neutrophils and a number of other immune cells
+that started to infiltrate on day five were robustly elevated in skin by day eight, including basophils
+(Figure 1F ), CD4+T cells ( Figure 1G ,Figure 1—figure supplement 4A ), eosinophils ( Figure 1—fig-
+ure supplement 5C ), and mast cells ( Figure 1—figure supplement 5B ), but not inflammatory mono-
+cytes ( Figure 1—figure supplement 5A ).Figure 1 continued
+for at least one time point in the MC903 model. Only genes from our initial list (see Materials and methods) differentially expressed at corrected p<0.05
+and changing >2 fold between treatments for at least one condition are shown. Green bars = increased expression in MC903 relative to ethanol;
+magenta = decreased expression. Exact values and corrected p-values are reported in Figure 1—source data 2 andSource Data 1 Supplemental
+Data, respectively. D1 = 6 hr post-treatment; D2 = Day 2; D5 = Day 5; D8 = Day 8. ( C) Scratching behavior of mice treated with MC903 or ethanol for
+indicated length of time (two-way ANOVA: **** pinteraction <0.0001, F(2,409) = 13.25; Sidak’s multiple comparisons: pday 3 = 0.1309, n = 62,51 mice; * pday
+5= 0.0171, n = 69,56 mice; **** pday 8 < 0.0001, n = 92,85 mice). Exact values displayed in Figure 1—source data 3 . (D) Log 2fold change in gene
+expression of neutrophil chemoattractants (upper), Th2 cytokines (middle) and T cell chemoattractants (lower, from RNA-seq data). ( E) Neutrophil
+counts in MC903- and ethanol-treated skin at indicated time points (two-way ANOVA: ** ptreatment = 0.0023, F(1,102) = 9.82; Sidak’s multiple
+comparisons: pday 2 > 0.999, n = 4,4 mice; pday 3 = 0.9801, n = 5,5 mice; *** pday 5 = 0.0003, n = 6,8 mice; *** pday 8 = 0.0001, n = 40,38 mice). ( F)
+Basophil counts in MC903- and ethanol-treated skin at indicated time points (two-way ANOVA: ** ptreatment = 0.0051, F(1,102) = 8.17; Sidak’s multiple
+comparisons: pday 2 > 0.999, n = 4,4 mice; pday 3 = 0.8850, n = 5,5 mice; pday 5 = 0.0606, n = 6,8 mice; **** pday 8 < 0.0001, n = 40,38 mice). ( G) CD4+T
+cell counts in MC903- and ethanol-treated skin at indicated time points (two-way ANOVA: ** ptime= 0.0042, F(1,44) = 9.10; pday 3 = 0.9998, n = 8,6 mice;
+pday 5 = 0.2223, n = 9,8 mice; ** pday 8 = 0.0021, n = 11,8 mice). Day 8 immune cell infiltrate represented as % of CD45+cells in Figure 1—figure
+supplement 2A–B (seeSupplementary file 3 for all experimental conditions). Exact values displayed in Figure 1—source data 4 and representative
+FACS plots for myeloid and T cell gating shown in Figure 1—figure supplement 3A andFigure 1—figure supplement 4A . For Figure 4E–G , data
+from mice receiving i.p. injection of PBS (see Figure 4 ) in addition to MC903 or EtOH are also included. ( H) (Upper and Lower) Representative
+maximum intensity Z-projections from immunohistochemistry (IHC) of whole-mount mouse skin on Day 2 of the MC903 model. Skin was stained with
+neuronal marker beta-tubulin III (BTIII; green). Hair follicle autofluorescence is visible in the magenta channel. Images were acquired on a confocal using
+a 20x water objective. ( I) Quantification of innervation (see Materials and methods) of mouse skin as determined from BTIII staining (*p=0.012; two-
+tailed t-test ( t= 3.114; df = 9); n = 7,4 images each from two mice per treatment). Day 1 IHC results as follows: 31.78 ±18.39% (MC903) and 31.51 ±
+16.43% (EtOH); p=0.988; two-tailed unpaired t-test; n = 6 images each from two mice per treatment. Exact values are reported in Figure 1—source
+data 5 . (J) Quantification of CGRP+nerve fibers (see Materials and methods) in skin (**p=0.0083; two-tailed t-test ( t= 2.868; df = 25); n = 15, 12 images
+from three mice per treatment). Exact values are reported in Figure 1—source data 5 . Representative images in Figure 1—figure supplement 9A .
+The online version of this article includes the following source data and figure supplement(s) for figure 1:
+Source data 1. Values displayed in the bar plot shown in Figure 1A .
+Source data 2. Values displayed in the heat map shown in Figure 1B .
+Source data 3. Values displayed in the bar plot shown in Figure 1C .
+Source data 4. Values displayed in the bar plots shown in Figure 1E–G andFigure 1—figure supplement 5A–C .
+Source data 5. Values displayed in the bar plots shown in Figure 1I andFigure 1J .
+Source data 6. Values displayed in the heat map shown in Figure 1—figure supplement 1A .
+Source data 7. Values displayed in the heat map shown in Figure 1—figure supplement 6A .
+Source data 8. Values displayed in the heat map shown in Figure 1—figure supplement 7A .
+Source data 9. Values displayed in the bar plot shown in Figure 1—figure supplement 10A .
+Figure supplement 1. Expression of mouse and human itch genes.
+Figure supplement 2. Immune cells represented as % of CD45+cells.
+Figure supplement 3. Myeloid and granulocyte gating strategy.
+Figure supplement 4. T cell gating strategy.
+Figure supplement 5. Immune cell counts in MC903-treated skin.
+Figure supplement 6. Protease receptor activation triggers rapid upregulation of neutrophil chemoattractant genes in human keratinocytes.
+Figure supplement 7. Expression of neuronal genes and axon guidance molecules in skin.
+Figure supplement 8. Method of image quantification for whole mount skin.
+Figure supplement 9. Peptidergic fibers display hyperinnervation in MC903-treated skin.
+Figure supplement 10. Inflammatory lipids in MC903-treated skin.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 5 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 6 ---
+CD4+T cells are ubiquitous in mature human AD lesions ( Guttman-Yassky and Krueger, 2017 )
+and promote chronic AD itch and inflammation. More specifically, they play a key role in IL4R a-
+dependent sensitization of pruriceptors in the second week of the MC903 model ( Oetjen et al.,
+2017 ). Thus, we were quite surprised to find that itch behaviors preceded significant CD4+T cell
+infiltration. Therefore, neutrophils drew our attention as potential early mediators of MC903 itch.
+While neutrophil infiltration is a hallmark of acute inflammation, it remains unclear whether neutro-
+phils contribute to the pathogenesis of chronic itch. Moreover, neutrophils release known prurito-
+gens, including proteases, reactive oxygen species, and/or histamine, inflammatory lipids, and
+cytokines that sensitize and/or activate pruriceptors ( Dong and Dong, 2018 ;Hashimoto et al.,
+2018 ). Increased levels of the prostaglandin PGE 2and the neutrophil-specific leukotriene LTB 4have
+also been reported in skin of AD patients ( Fogh et al., 1989 ). Indeed, by mass spectrometry, we
+observed increases in several of these inflammatory lipids, PGD 2and PGE 2, as well as LTB 4and its
+precursor 5-HETE ( Figure 1—figure supplement 10A ) in MC903-treated skin, implicating neutro-
+phils in driving AD itch and inflammation. Thus, we next tested the requirement of neutrophils to
+itch in the MC903 model.
+Neutrophils are required for early itch behaviors in the MC903 model
+of AD
+We first asked whether neutrophils, the most abundant population of infiltrating immune cells in this
+chronic itch model, were required for MC903-evoked itch. Systemic depletion of neutrophils using
+daily injections of an anti-Gr1 (aGr1) antibody ( Ghasemlou et al., 2015 ;Sivick et al., 2014 ) dramati-
+cally attenuated itch-evoked scratching through the first eight days of the model ( Figure 2A ). Con-
+sistent with a key role for neutrophils in driving chronic itch, our depletion strategy significantly and
+selectively reduced circulating and skin infiltrating neutrophils on days five and eight, days on which
+control, but not depleted mice, scratched robustly ( Figure 2B ;Figure 2—figure supplement 1A–C ).
+In contrast, basophils and CD4+T cells continued to infiltrate the skin following aGr1 treatment
+(Figure 2C–D ), suggesting that these cells are not required for early MC903 itch.
+We next used the cheek model of acute itch ( Shimada and LaMotte, 2008 ) to ask whether neu-
+trophil recruitment is sufficient to trigger scratching behaviors. As expected, we observed significant
+and selective recruitment of neutrophils to cheek skin within 15 min after CXCL1 injection ( Figure 2—
+figure supplement 2A–B ). CXCL1 injection also triggered robust scratching behaviors ( Figure 2E )
+on a similar time course to neutrophil infiltration ( Figure 2—figure supplement 2B ). Thus, we next
+acutely depleted neutrophils with aGr1 to determine whether neutrophils were required for CXCL1-
+evoked acute itch. Indeed, aGr1-treatment rapidly reduced circulating neutrophils ( Figure 2—figure
+supplement 2C ) and resulted in a dramatic loss of CXCL1-evoked itch behaviors ( Figure 2C ). This
+effect was specific to neutrophil-induced itch, as injection of chloroquine, a pruritogen that directly
+activates pruriceptors to trigger itch, still triggered robust scratching in aGr1-treated animals ( Fig-
+ure 2—figure supplement 3A ). Given that CXCL1 has been shown to directly excite and/or sensitize
+sensory neurons, ( Deftu et al., 2017 ;Deftu et al., 2018 ) it is possible that the mechanism by which
+CXCL1 elicits itch may also involve neuronal pathways. However, our results show that CXCL1-medi-
+ated neutrophil infiltration is sufficient to drive acute itch behaviors, and that neutrophils are neces-
+sary for itch in the MC903 model.
+We also examined MC903-evoked itch behaviors in mice deficient in Crlf2 , the gene encoding
+the TSLP Receptor (TSLPR KO mice; Carpino et al., 2004 ). TSLPR is expressed by both immune cells
+and sensory neurons and is a key mediator of AD in humans and in mouse models ( Li et al., 2009 ;
+Li et al., 2006 ;Zhang et al., 2009 ;Demehri et al., 2009 ;Briot et al., 2009 ). Surprisingly, MC903-
+treated TSLPR KO mice displayed robust scratching behaviors through the first eight days of the
+model ( Figure 2F ). In contrast to our results in aGr1-injected mice, TSLPR KO mice displayed robust
+neutrophil infiltration ( Figure 2G ), but completely lacked basophil and CD4+T cell infiltration into
+the skin ( Figure 2H–I ,Figure 2—figure supplement 4A ), and additionally displayed a reduction in
+mast cells ( Figure 2—figure supplement 4A ). These results suggest that basophils and CD4+T cells
+are not required for early itch and further support an inciting role for neutrophils. Previous studies
+have shown that TSLP drives the expression of Type two cytokines and related immune cells that
+promote itch and inflammation in mature AD skin lesions ( Li et al., 2009 ;Li et al., 2006 ;
+Zhang et al., 2009 ;Demehri et al., 2009 ;Briot et al., 2009 ). Consistent with a later role for TSLP
+signaling in AD, we did observe a significant reduction in itch-evoked scratching in TSLPR KO mice
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 6 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 7 ---
+Figure 2. Neutrophils are necessary and sufficient for itch behaviors. ( A) Scratching behavior of uninjected and PBS-injected mice (combined) and
+aGr1-injected mice treated with MC903 or ethanol for indicated length of time (two-way ANOVA: **** pinteraction <0.0001, F(4,447) = 7.16; Tukey’s
+multiple comparisons: pday 3 MC903 vs. EtOH = 0.1111 n = 62,51,17 mice; * pday 5 MC903 vs. EtOH = 0.0154, pday 5 MC903 vs. aGr1 = 0.9854, pday 5 aGr1 vs.
+EtOH = 0.2267, n = 69,56,17 mice; **** pday 8 MC903 vs. EtOH <0.0001, *** pday 8 MC903 vs. aGr1 = 0.0007, pday 8 aGr1 vs. EtOH = 0.1543, n = 92,85,17 mice). ( B)
+Neutrophil count from cheek skin of uninjected/PBS-injected MC903- and ethanol-treated, and aGr1-injected MC903-treated mice on day 8 (one-way
+ANOVA: ****p<0.0001, F(2,92) = 10.59; Tukey’s multiple comparisons: **** pMC903 vs. EtOH <0.00001, n = 40,38 mice; * pMC903 vs. aGr1 MC903 = 0.0109,
+n = 40,17 mice; paGr1 vs. EtOH = 0.8859, n = 38,17 mice). ( C) Basophil count from cheek skin of uninjected/PBS-injected MC903- and ethanol-treated, and
+aGr1-injected MC903-treated mice on day 8 (one-way ANOVA: ****p=0.0001, F(2,92) = 14.61; Tukey’s multiple comparisons: pMC903 vs. aGr1
+MC903 = 0.3217, n = 40,17 mice, **** pMC903 vs. EtOH <0.0001, n = 40,38 mice, * paGr1 MC903 vs. EtOH = 0.0204, n = 17,38 mice). ( D) CD4+T cell count from
+cheek skin of PBS-injected MC903- and ethanol-treated, and aGr1-injected MC903-treated mice on day 8 (two-way ANOVA: ** ptreatment = 0.0035, F
+(1,35) = 9.82; Holm-Sidak multiple comparisons for PBS versus aGr1: pMC903 = 0.8878, n = 9,11 mice; pEtOH = 0.5201, n = 8,9 mice). Control MC903 and
+EtOH data from Figure 2B–C are also displayed in Figure 1 . Exact values displayed for Figure 2A–D inFigure 2—source data 1 . (E) Scratching
+behavior of mice immediately after injection of 1 mg CXCL1 or PBS (s.c. cheek). For neutrophil-depletion experiments, mice received 250 mg anti-Gr1
+(aGr1) 20 hr prior to cheek injection of CXCL1 or PBS (one-way ANOVA: ****p<0.0001, F(4,88) = 75.53; Tukey’s multiple comparisons: * pCXCL1 vs.
+PBS= 0.0126, n = 36,31 mice; paGr1-CXCL1 vs. aGr1-PBS > 0.9999, n = 10,10 mice; paGr1-CXCL1 vs. PBS = 0.9986, n = 10,31 mice). Exact values displayed in
+Figure 2—source data 2 . (F) Scratching behavior of WT and TSLPR KO (TSLPR KO) mice treated with MC903 or ethanol for indicated length of time
+(two-way ANOVA: **** pinteraction <0.0001, F(9,657) = 4.93; Tukey’s multiple comparisons: **** pday 8 WT MC903 vs. EtOH <0.0001, * pday 8 WT MC903 vs. KO
+MC903 = 0.0194, **p day 8 KO MC903 vs. KO EtOH = 0.0039, n = 92,85,36,26 mice; **** pday 12 WT MC903 vs. EtOH <0.0001, ** pday 12 WT MC903 vs. KO MC903 = 0.0028,
+pday 12 KO MC903 vs. KO EtOH = 0.7061, n = 26,26,27,23 mice). ( G) Neutrophil count from cheek skin of wild-type MC903- and ethanol-treated, and TSLPR
+KO MC903-treated mice on day 5 (two-way ANOVA: ** pgenotype = 0.0025, F(2,125) = 6.28; Tukey’s multiple comparisons: **** pday 5 WT MC903 vs. WT
+EtOH <0.0001, n = 6,8 mice; pday 5 WT MC903 vs. KO MC903 = 0.2198, n = 6,6 mice; * pday 5 WT EtOH vs. KO MC903 = 0.0212, n = 8,6 mice). ( H) Basophil count
+from cheek skin of wild-type MC903- and ethanol-treated, and TSLPR KO MC903-treated mice on day 8 (two-way ANOVA: ** pgenotype = 0.0003, F(2,117)
+= 8.87; Tukey’s multiple comparisons: **** pday 8 WT MC903 vs. WT EtOH <0.0001, n = 40,38 mice; **** pday 8 WT MC903 vs. KO MC903 <0.0001, n = 40,15 mice;
+pday 8 WT EtOH vs. KO MC903 = 0.9519, n = 38,15 mice). See also Figure 2—figure supplement 5A . For Figure 2G–H , data from days 3, 5, and 8 are
+Figure 2 continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 7 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 8 ---
+in the second week of the model ( Figure 2F ). Thus, our data support a model in which neutrophils
+are necessary for initiation of AD and itch behaviors early in the development of AD, whereas TSLPR
+signaling mediates the recruitment of basophils and CD4+T cells to promote later stage itch and
+chronic inflammation.
+The incomplete loss of itch behaviors on day 12 in the TSLPR KO animals ( Figure 2F ) raised the
+question of whether neutrophils might also contribute to itch during the second week of the MC903
+model. To directly answer this question, we measured neutrophil infiltration and itch-evoked scratch-
+ing on day 12 in mice that received either aGr1 or PBS on days 8–11 of the model to selectively
+deplete neutrophils solely during the second week. Neutrophil depletion in the second week with
+aGr1 robustly decreased skin-infiltrating neutrophils ( Figure 2J ), and substantially reduced scratch-
+ing behaviors at day 12 ( Figure 2K ), supporting a role for neutrophils in chronic itch. Interestingly,
+we observed a 79% mean reduction in time spent scratching after neutrophil depletion at day 12,
+whereas loss of TSLPR effected a 44% reduction in time spent scratching. We speculate that neutro-
+phils and TSLP signaling comprise independent mechanisms that together account for the majority
+of AD itch. In order to ascertain whether neutrophils could be salient players in other models of AD,
+and not just MC903, we measured neutrophil infiltration into ear skin in the 1-fluoro-2,4-dinitroben-
+zene (DNFB) model of atopic dermatitis, which relies on hapten-induced sensitization to drive
+increased IgE, mixed Th1/Th2 cytokine response, skin thickening, inflammation, and robust scratch-
+ing behaviors in mice ( Zhang et al., 2015 ;Kitamura et al., 2018 ;Solinski et al., 2019a ). Indeed,
+neutrophils also infiltrated DNFB- but not vehicle-treated skin ( Figure 2—figure supplement 5A ).
+Taken together, these observations are complementary to published datasets showing evidence for
+neutrophil chemokines and transcripts in human AD lesions ( Ewald et al., 2017 ;Choy et al., 2012 ;
+Guttman-Yassky et al., 2009 ;Sua´rez-Farin ˜as et al., 2013 ;Jabbari et al., 2012 ). Overall, our data
+support a key role for neutrophils in promoting AD itch and inflammation.
+MC903 drives rapid and robust changes in the peripheral and central
+nervous systems
+But how do neutrophils drive AD itch? Itchy stimuli are detected and transduced by specialized sub-
+sets of peripheral somatosensory neurons. Thus, to answer this question we first profiled the tran-
+scriptional changes in somatosensory neurons in the MC903 model, which were previously
+unstudied. In general, little is known regarding neuronal changes in chronic itch. Our initialFigure 2 continued
+presented in Figure 2—source data 3 . (I) CD4+T cell count from cheek skin of wild-type MC903- and ethanol-treated, and TSLPR KO MC903-treated
+mice on day 8 (one-way ANOVA: **p=0.0053, F(2,24) = 6.564; Tukey’s multiple comparisons: * pWT MC903 vs. WT EtOH = 0.0163, n = 11,8 mice; * pMC903 vs.
+KO MC903 = 0.0130, n = 11,8 mice; pWT EtOH vs. KO MC903 = 0.9953, n = 8,8 mice). Wild-type MC903 and EtOH data from 2F-H are also displayed in
+Figure 1 . Exact values for Figure 2F–I displayed in Figure 2—source data 3 . (J) Neutrophil count from cheek skin of wild-type MC903- and ethanol-
+treated mice on day 12 of the MC903 model. MC903-treated animals received daily i.p. injections of 250 mg aGr1 antibody or PBS (250 mL) on days 8–11
+of the model (one-way ANOVA: *p=0.01, F(2,13) = 6.69; Tukey’s multiple comparisons: * pMC903-PBS vs. EtOH = 0.0141, n = 6,5 mice; * pMC903-PBS vs. MC903-
+aGr1= 0.10330, n = 6,5 mice; pMC903-aGr1 vs. EtOH = 0.9005, n = 5,5 mice). ( K) Time spent scratching over a thirty minute interval for wild-type MC903- and
+ethanol-treated mice on day 12 of the MC903 model. MC903-treated animals received daily i.p. injections of 250 mg aGr1 antibody or PBS (250 mL) on
+days 8–11 of the model (one-way ANOVA: ****p<0.0001, F(2,26) = 53.1; Tukey’s multiple comparisons: **** pMC903-PBS vs. EtOH <0.0001, n = 12,5 mice;
+****pMC903-PBS vs. MC903-aGr1 < 0.0001, n = 12,12 mice; pMC903-aGr1 vs. EtOH = 0.3734, n = 12,5 mice). Values from bar plots are reported in Figure 2—
+source data 5 .
+The online version of this article includes the following source data and figure supplement(s) for figure 2:
+Source data 1. Values displayed in bar plots shown in Figure 2A–D .
+Source data 2. Values displayed in the bar plots shown in Figure 2E and Figs.
+Source data 3. Values displayed in the bar plots shown in Figure 2F–I andFigure 2—figure supplement 4A–B .
+Source data 4. Values used to generate the line plots shown in Figure 2—figure supplement 1C .
+Source data 5. Values displayed in the bar plots shown in Figure 2J–K .
+Source data 6. Values displayed in the bar plots in Figure 2—figure supplement 5A .
+Figure supplement 1. aGr1 treatment preferentially depletes neutrophils.
+Figure supplement 2. CXCL1 rapidly and selectively recruits neutrophils to skin.
+Figure supplement 3. Neutrophil depletion does not affect chloroquine-evoked itch.
+Figure supplement 4. Loss of TSLPR reduces skin basophil and mast cell numbers in the first week of AD development.
+Figure supplement 5. Neutrophils robustly infiltrate the skin in the DNFB mouse model of atopic dermatitis.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 8 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 9 ---
+examination of early hyperinnervation and changes in axon guidance molecules in skin suggested
+that neurons are indeed affected early on in the MC903 model, before the onset of itch-evoked
+scratching behaviors. In contrast to the skin, where we saw many early transcriptional changes, we
+did not see any significant transcriptional changes in the trigeminal ganglia (TG) until five days after
+the first treatment, and in total only 84 genes were differentially expressed through the eighth day
+(Figure 3A–B ). These hits included genes related to excitability of itch sensory neurons, ( Dong and
+Dong, 2018 ;Usoskin et al., 2015 ) neuroinflammatory genes, ( Takeda et al., 2009 ) and activity-
+induced or immediate early genes ( Figure 3A ). Interestingly, we observed enrichment of neuronal
+markers expressed by one specific subset of somatosensory neurons that are dedicated to itch
+(Il31ra, Osmr, Trpa1, Cysltr2, and Nppb ), termed ‘NP3’ neurons ( Dong and Dong, 2018 ;
+Usoskin et al., 2015 ;Huang et al., 2018 ;Solinski et al., 2019b ). Similar to what has been reported
+in mouse models of chronic pain, we observed changes in neuroinflammatory ( Bdnf, Nptx1, Nptx2,
+Nptxr ) and immune genes ( Itk, Cd19, Rag, Tmem173 ). However, these transcriptional changes
+occurred just a few days after itch onset, in contrast to the slow changes in nerve injury and pain
+models that occur over weeks, indicating that neuropathic changes may occur sooner than previously
+thought in chronic itch. These changes occurred in tandem with the onset of scratching behaviors
+(Figure 1C ), suggesting that the early molecular and cellular changes we observed by this time point
+may be important for development or maintenance of itch-evoked scratching.
+The changes we observed in immune-related genes in the TG were suggestive of infiltration or
+expansion of immune cell populations, which has been reported in models of nerve injury and
+chronic pain, but has never been reported in chronic itch. To validate our observations, we used IHC
+to ask whether CD45+immune cells increase in the TG. We observed a significant increase in TG
+immune cell counts at day eight but not day five ( Figure 3C–F ,Figure 3—figure supplement 1A–
+D). Because we observed such dramatic expression changes in the TG on day eight of the model,
+we postulated that the CNS may also be affected by this time point. Thus, we performed RNA-seq
+on spinal cord segments that innervate the MC903-treated rostral back skin of mice. To date, only
+one study has examined changes in the spinal cord during chronic itch ( Shiratori-Hayashi et al.,
+2015 ). The authors showed that upregulation of the STAT3-dependent gene Lcn2 occurred three
+weeks after induction of chronic itch and was essential for sustained scratching behaviors. Surpris-
+ingly, we saw upregulation of Lcn2 on day eight of the MC903 model and, additionally, we observed
+robust induction of immediate early genes ( Fos, Junb, Figure 3G ), suggesting that MC903 itch
+drives activity-dependent changes in the spinal cord as early as one week after beginning treatment.
+Together, our findings show that sustained itch and inflammation can drive changes in the PNS and
+CNS much sooner than previously thought, within days rather than weeks after the onset of scratch-
+ing. We next set out to explore how loss of neutrophils impacts the molecular changes observed in
+skin and sensory neurons in the MC903 model, and which of these changes might contribute to neu-
+trophil-dependent itch.
+Neutrophils are required for upregulation of select itch- and atopic-
+related genes, including the itch-inducing chemokine CXCL10
+To ask how neutrophils promote itch in the MC903 model, we examined the transcriptional changes
+in skin and sensory ganglia isolated from non-itchy neutrophil-depleted animals and from the TSLPR
+KO mice, which scratched robustly. A number of AD-associated cytokines that were upregulated in
+control MC903 skin were not upregulated in TSLPR KO and neutrophil-depleted skin. For example,
+Il33 upregulation is both neutrophil- and TSLPR-dependent ( Figure 4A ,Figure 4—figure supple-
+ment 1A ). By contrast, upregulation of epithelial-derived cytokines and chemokines Tslp,Cxcl1 ,
+Cxcl2 ,Cxcl3 , and Cxcl5 was unaffected by either loss of TSLPR or neutrophil depletion ( Figure 4B ),
+suggesting these molecules are produced by skin cells even when the MC903-evoked immune
+response is compromised. Consistent with previous studies, Il4upregulation was completely depen-
+dent on TSLPR but not neutrophils, establishing a role for TSLP signaling in the Type two immune
+response. Among the hundreds of MC903-dependent genes we examined, only a handful of genes
+were uniquely affected by neutrophil depletion. One such gene was Cxcl10 , a chemokine known to
+be released by skin epithelial cells, neutrophils, and other myeloid cells ( Hashimoto et al., 2018 ;
+Ioannidis et al., 2016 ;Kanda et al., 2007 ;Koga et al., 2008 ;Michalec et al., 2002 ;
+Padovan et al., 2002 ;Tamassia et al., 2007 ).Cxcl10 expression was increased in TSLPR KO but not
+neutrophil-depleted skin ( Figure 4B ,Figure 4—figure supplement 1A ). CXCL10 has been
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 9 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 10 ---
+Figure 3. The MC903 model induces rapid and robust changes in neuronal tissue. ( A) Exact permutation test (10,000 iterations, see
+Materials and methods) for significance of mean absolute log 2fold change in gene expression at Day 8 (MC903 vs. ethanol) of custom-defined groups
+of genes for indicated categories (see Figure 3—source data 1 ). (B) Log 2fold change in gene expression (MC903 vs. ethanol) in mouse trigeminal
+ganglia (TG) at indicated time points for all genes which were significantly differentially expressed for at least one time point in the MC903 model.
+Figure 3 continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 10 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 11 ---
+previously shown to drive acute itch in a model of allergic contact dermatitis via CXCR3 signaling in
+sensory neurons, ( Qu et al., 2015 ) and is elevated in skin of AD patients ( Mansouri and Guttman-
+Yassky, 2015 ). Expression of Cxcl9 and Cxcl11 , two other CXCR3 ligands that are elevated in AD
+but have an unknown role in itch, was also decreased in AD skin of neutrophil-depleted mice
+(Figure 4B ).
+CXCR3 signaling is necessary for MC903-evoked chronic itch
+We hypothesized that neutrophil-dependent upregulation of CXCL10 activates sensory neurons to
+drive itch behaviors. Consistent with this model, neutrophil depletion attenuated the expression of
+activity-induced immediate early genes ( Vgf, Junb ) in the TG, suggestive of neutrophil-dependent
+sensory neuronal activity ( Figure 4C ,Figure 4—figure supplement 1B ). We found that neutrophils
+also contributed to other sensory neuronal phenotypes in the model. For example, we observed that
+expression of Lcn2 , a marker of neuropathic itch, and activity-induced genes FosandJunb were not
+increased in spinal cord isolated from neutrophil-depleted animals, indicating that neutrophil-depen-
+dent scratching behaviors may indeed drive changes in the CNS ( Figure 4D ). We also observed that
+neutrophil-depleted animals displayed no skin hyperinnervation at day two ( Figure 4E ). This result
+was surprising because we did not observe significant neutrophil infiltration at this early time point,
+but these data suggest that low numbers of skin neutrophils are sufficient to mediate these early
+effects.
+To test our model wherein CXCL10 activates CXCR3 to drive neutrophil-dependent itch, we first
+asked whether this CXCR3 ligand is in fact released in MC903-treated skin. We performed ELISA on
+cheek skin homogenate and found that CXCL10 protein was increased in MC903-treated skin from
+uninjected wild-type and TSLPR KO animals, but not in skin from neutrophil-depleted mice
+(Figure 4F ). To test whether CXCR3 signaling directly contributes to AD itch, we asked whether
+acute blockade of CXCR3 using the antagonist AMG 487 ( Qu et al., 2015 ) affected scratching
+behaviors in the MC903 model. We found that the CXCR3 antagonist strongly attenuated scratching
+behaviors on days five, eight, and twelve ( Figure 4G ), with the greatest effect at day eight. In con-
+trast, CXCR3 blockade did not attenuate scratching behaviors in naive mice injected with the prurito-
+gen chloroquine ( Figure 4G ), demonstrating that CXCR3 signaling contributes to chronic itch but is
+not required for scratching in response to an acute pruritogen. Thus, we propose that neutrophils
+promote chronic itch in atopic dermatitis via upregulation of CXCL10 and subsequent activation of
+CXCR3-dependent itch pathways ( Figure 5 ).Figure 3 continued
+Green bars = increased expression in MC903 relative to ethanol; magenta = decreased expression. Exact values and corrected p-values are reported in
+Figure 3—source data 2 andSource Data 1 Supplemental Data, respectively. ( C) Representative composite images showing immune cells (CD45,
+green), and sensory neurons (Prph, magenta) with DAPI (blue) in sectioned trigeminal ganglia from mice treated with Vehicle or MC903 for five days on
+the cheek. ( D) Quantification of images examining average number of CD45+cells per section and average ratio of CD45:Peripherin cells per section
+after five days of treatment (p=0.562 ( t= 0.6318, df= 4), 0.542 ( t= 0.6660, df= 4); two-tailed unpaired t-tests, n = 33–159 fields of view (images) each of
+both trigeminal ganglia from three mice per condition treated bilaterally). ( E) Representative composite images showing immune cells (CD45, green),
+and sensory neurons (Peripherin (Prph), magenta) with DAPI (blue) in sectioned trigeminal ganglia from mice treated with Vehicle or MC903 for eight
+days on the cheek. ( F) Quantification of images examining average number of CD45+cells per section and average ratio of CD45:Peripherin cells per
+section after eight days of treatment (**p=0.0019 ( t= 5.977, df= 5), **p =0.0093 ( t= 4.107, df= 4); two-tailed unpaired t-tests; n = 42–172 fields of view
+(images) each of both trigeminal ganglia from 3 EtOH or 4 MC903 animals treated bilaterally). Scale bar = 100 mm. Images were acquired on a
+fluorescence microscope using a 10x air objective. Values from bar plots and all TG IHC data are available in Figure 3—source data 3 . (G) Log 2fold
+change in gene expression (MC903 vs. ethanol) in mouse spinal cord on day 8 showing selected differentially expressed genes ( padjusted <0.05). Exact
+values and corrected p-values are reported in Source Data 1 Supplemental Data.
+The online version of this article includes the following source data and figure supplement(s) for figure 3:
+Source data 1. Values displayed in the bar plot shown in Figure 3A .
+Source data 2. Values displayed in the heat map shown in Figure 3B .
+Source data 3. Quantification of all IHC samples from trigeminal ganglia, and Values displayed in the bar plots shown in Figure 3D,F .
+Figure supplement 1. Method of image quantification for sectioned trigeminal ganglia.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 11 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 12 ---
+Discussion
+There is great interest in unraveling the neuroimmune interactions that promote acute and chronic
+itch. Here, we show that neutrophils are essential for the early development of MC903-evoked itch.
+Figure 4. Neutrophils are required for induction of the itch-inducing chemokine CXCL10. ( A) Log 2fold change (Day 8 MC903 vs. EtOH) of Th2 genes in
+skin from uninjected wild-type, aGR1-treated, and TSLPR KO animals. ( B) Log 2fold change (Day 8 MC903 vs. EtOH) of chemokine genes in skin from
+uninjected wild-type, aGr1-treated, and TSLPR KO animals. ( C) Log 2fold change (Day 8 MC903 vs. EtOH) of activity-induced genes in trigeminal
+ganglia from uninjected wild-type, aGr1-treated, and TSLPR KO animals. ( D) Log 2fold change (Day 8 MC903 vs. EtOH) of Lcn2 and activity-induced
+genes in spinal cord from uninjected and aGr1-treated wild-type mice on day 8. For Figure 4A–D , exact values and corrected p-values are reported in
+Source Data 1 Supplemental Data. ( E) Quantification of innervation (see Materials and methods) of MC903 and EtOH-treated mouse skin as
+determined from BTIII staining (p=0.8985; two-tailed t-test ( t= 0.1294; df = 18); n = 9,11 images each from two mice per treatment. Exact values are
+reported in Figure 4—source data 1 . (F) CXCL10 levels in skin homogenate as measured by ELISA on day 8 of the MC903 model for uninjected
+animals (left; *p=0.029 ( t= 2.715, df= 7); two-tailed t-test; n = 4,5 animals), animals which received aGr1 for 8 days (middle; p=0.43 ( t= 0.815, df= 11);
+two-tailed t-test; n = 6,6 animals), and TSLPR KO animals (right; *p=0.0357 ( t= 2.696, df= 6); two-tailed t-test; n = 4,4 animals. Skin homogenates were
+isolated on separate days and so uninjected, WT samples were not compared to aGr1-treated samples or to TSLPR KO samples. ( G) (Left) Time spent
+scratching over a thirty minute interval on days 5, 8, and 12 of the MC903 model, one hour after mice were injected with either 3.31 mM of the CXCR3
+antagonist AMG 487 or vehicle (20% HPCD in PBS; 50 mL s.c. in rostral back); (two-way ANOVA: **** ptreatment <0.0001, F(1,67) = 50.64; Tukey’s multiple
+comparisons: * pday 5 = 0.0216, n = 8,10 mice; *** pday 8 = 0.0007, n = 18,21 mice; **** pday 12 < 0.0001, n = 8,8 mice). (Right) Time spent scratching over a
+thirty minute interval one hour after mice were injected with either 3.31 mM of the CXCR3 antagonist AMG 487 or vehicle (20% HPCD in PBS; 50 mL s.c.
+in rostral back), and immediately after mice were injected with 50 mM chloroquine (20 mL i.d., cheek). p=0.92 ( t= 0.0964, df= 8); two-tailed t-test;
+n = 5,5 mice. Values from bar plots in Figure 4F–G are displayed in Figure 4—source data 2 .
+The online version of this article includes the following source data and figure supplement(s) for figure 4:
+Source data 1. Values displayed in the bar plot shown in Figure 4E .
+Source data 2. Values displayed in the bar plots shown in Figure 4F–G .
+Source data 3. Values displayed in the heat map shown in Figure 4—figure supplement 1A .
+Source data 4. Values displayed in the heat map shown in Figure 4—figure supplement 1B .
+Figure supplement 1. MC903-dependent gene expression changes in aGr1-treated and TSLPR KO animals.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 12 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 13 ---
+We further show that the recruitment of neutrophils to the skin is sufficient to drive itch behaviors
+within minutes of infiltration. While neutrophils are known to release a variety of pruritogens, their
+roles in itch and AD were not studied ( Hashimoto et al., 2018 ). Only a few studies have even
+reported the presence of neutrophils in human AD lesions ( Choy et al., 2012 ;Koro et al., 1999 ;
+Mihm et al., 1976 ;Shalit et al., 1987 ). Neutrophils have been implicated in psoriatic inflammation
+and inflammatory pain, ( Sumida et al., 2014 ;Perkins and Tracey, 2000 ;Guerrero et al., 2008 ;
+Cunha et al., 2003 ;Finley et al., 2013 ;Carreira et al., 2013 ;Levine et al., 2006 ;Scho¨n et al.,
+2000 ) where they are thought to rapidly respond to tissue injury and inflammation, ( Oyoshi et al.,
+2012 ) but they have not been directly linked to itch.
+There is a strong precedence for immune cell-neuronal interactions that drive modality-specific
+outcomes, such as itch versus pain, under distinct inflammatory conditions. In allergy, mast cells infil-
+trate the upper dermis and epidermis and release pruritogens to cause itch, ( Solinski et al., 2019b ;
+Meixiong et al., 2019 ) whereas in tissue injury, mast cell activation can trigger pain hypersensitivity
+(Chatterjea and Martinov, 2015 ). Likewise, neutrophils are also implicated in both pain and itch.
+Figure 5. Model of early AD pathogenesis. ( A) AD induction first results in increased protease expression and barrier dysfunction, which drives
+production of the cytokines TSLP and CXCL1 via PAR2 activation within keratinocytes. CXCL1 can recruit neutrophils via its receptor CXCR2.
+Neutrophils may evoke itch by multiple pathways, including degranulation and release of proteases and histamine, production of sensitizing lipids such
+as PGE 2and LTB 4, (Hashimoto et al., 2018 ) and induction of CXCL10 expression, which can activate sensory neurons via CXCR3. TSLP activates a
+number of immune cells to elicit IL-4 production, including basophils, which results in increased IL-4, recruitment of CD4+T cells, ( Oetjen et al., 2017 )
+and sensitization of neurons to promote itch later in the model.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 13 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 14 ---
+For example, pyoderma gangrenosum, which causes painful skin ulcerations recruits neutrophils to
+the deep dermal layers to promote tissue damage and pain ( Hashimoto et al., 2018 ). In AD, neutro-
+phils are recruited to the upper dermis and epidermis, ( Choy et al., 2012 ;Shalit et al., 1987 ) and
+we now show that neutrophils trigger itch in AD. Adding to the complex and diverse roles of neutro-
+phils, neutrophils recruited to subcutaneous sites during invasive streptococcal infection alleviate
+pain by clearing the tissue of bacteria ( Pinho-Ribeiro et al., 2018 ). Several potential mechanisms
+may explain these diverse effects of neutrophils. First, the location of the inflammatory insult could
+promote preferential engagement of pain versus itch nerve fibers ( Hashimoto et al., 2018 ). This is
+supported by observations that neutrophil-derived reactive oxygen species and leukotrienes can
+promote either itch or pain under different inflammatory conditions ( Salvemini et al., 2011 ;
+Bautista et al., 2006 ;Liu and Ji, 2012 ;Caceres et al., 2009 ). Second, it has been proposed that
+there are distinct functional subsets of neutrophils that release modality-specific inflammatory medi-
+ators ( Wang, 2018 ). Third, the disease-specific inflammatory milieu may induce neutrophils to specif-
+ically secrete mediators of either itch or pain. Indeed, all three of these mechanisms have been
+proposed to underlie the diverse functions of microglia and macrophages in homeostasis, tissue
+repair, injury, and neurodegenerative disease ( Hammond et al., 2018 ). It will be of great interest to
+the field to decipher the distinct mechanisms by which neutrophils and other immune cells interact
+with the nervous system to drive pain and itch.
+In addition to neutrophils, TSLP signaling and the Type two immune response plays an important
+role in the development of itch in the second week of the MC903 model. Dendritic cells, mast cells,
+basophils, and CD4+T cells are all major effectors of the TSLP inflammatory pathway in the skin. We
+propose that neutrophils play an early role in triggering itch and also contribute to chronic itch in
+parallel with the TSLP-Type two response. While we have ruled out an early role for TSLP signaling
+and basophils and CD4+T cells in early itch, other cell types such as mast cells, which have recently
+been linked directly to chronic itch, ( Solinski et al., 2019b ;Meixiong et al., 2019 ) and dendritic
+cells may be playing an important role in setting the stage for itch and inflammation prior to infiltra-
+tion of neutrophils.
+Given the large magnitude of the itch deficit in the neutrophil-depleted mice, we were surprised
+to find fewer expression differences in MC903-dependent, AD-associated genes between neutrophil
+depleted and non-depleted mice than were observed between WT and TSLPR KO mice. One of the
+few exceptions were the Th1-associated genes Cxcl9/10/11 (Ewald et al., 2017 ;Brunner et al.,
+2017 ). We found that induction of these genes and of CXCL10 protein was completely dependent
+on neutrophils. While our results do not identify the particular cell type(s) responsible for neutrophil-
+dependent CXCL10 production, a number of cell types present in skin have been shown to produce
+CXCL10, including epithelial keratinocytes, myeloid cells, and sensory neurons ( Hashimoto et al.,
+2018 ;Ioannidis et al., 2016 ;Kanda et al., 2007 ;Koga et al., 2008 ;Michalec et al., 2002 ;
+Padovan et al., 2002 ;Tamassia et al., 2007 ). In support of a role for neutrophils in promoting
+chronic itch, we observed striking differences in neutrophil-dependent gene expression in the spinal
+cord, where expression of activity-induced genes and the chronic itch gene Lcn2 were markedly
+attenuated by loss of neutrophils. Moreover, we also demonstrate that depletion of neutrophils in
+the second week of the MC903 model can attenuate chronic itch-evoked scratching. In examining
+previous characterizations of both human and mouse models of AD and related chronic itch disor-
+ders, several studies report that neutrophils and/or neutrophil chemokines are indeed present in
+chronic lesions ( Ewald et al., 2017 ;Choy et al., 2012 ;Guttman-Yassky et al., 2009 ;Sua´rez-
+Farin˜as et al., 2013 ;Jabbari et al., 2012 ;Nattkemper et al., 2018 ;Li et al., 2017 ;
+Saunders et al., 2016 ;Andersson, 2015 ;Liu et al., 2019 ;Malik et al., 2017 ). Our observations
+newly implicate neutrophils in setting the stage for the acute-to-chronic itch transition by triggering
+molecular changes necessary to develop a chronic, itchy lesion and also contributing to persistent
+itch.
+Additionally, we demonstrate a novel role of CXCR3 signaling in MC903-induced itch. The
+CXCR3 ligand CXCL10 contributes to mouse models of acute and allergic itch ( Qu et al., 2015 ;
+Qu et al., 2017 ;Jing et al., 2018 ); however, its role in chronic itch was previously unknown. We
+speculate that the residual itch behaviors after administration of the CXCR3 antagonist could be due
+to TSLPR-dependent IL-4 signaling, as TSLPR-deficient mice display reduced itch behaviors by the
+second week of the model, or due to some other aspect of neutrophil signaling, such as release of
+proteases, leukotrienes, prostaglandins, or reactive oxygen species, all of which can directly trigger
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 14 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 15 ---
+itch via activation of somatosensory neurons ( Hashimoto et al., 2018 ). Our observations are in align-
+ment with a recent study showing that dupilumab, a new AD drug that blocks IL4R a, a major down-
+stream effector of the TSLP signaling pathway, does not significantly reduce CXCL10 protein levels
+in human AD lesions ( Hamilton et al., 2014 ). Taken together, these findings suggest that the TSLP/
+IL-4 and neutrophil/CXCL10 pathways are not highly interdependent, and supports our findings that
+Il4transcript is robustly upregulated in the absence of neutrophils. Additionally, targeting IL4R asig-
+naling has been successful in treating itch and inflammation in some, but not all, AD patients
+(Simpson et al., 2016 ). We propose that biologics or compounds targeting neutrophils and/or the
+CXCR3 pathway may be useful for AD that is incompletely cleared by dupilumab monotherapy.
+Drugs targeting neutrophils are currently in clinical trials for the treatment of psoriasis, asthma, and
+other inflammatory disorders. For example, MDX-1100, a biologic that targets CXCL10, has already
+shown efficacy for treatment of rheumatoid arthritis in phase II clinical trials ( Yellin et al., 2012 ).
+While rheumatoid arthritis and AD have distinct etiologies, ( Scott et al., 2010 ) our body of work
+indicates that CXCL10 or CXCR3 may be promising targets for treating chronic itch. Our findings
+may also be applicable to other itch disorders where neutrophil chemoattractants and/or CXCL10
+are also elevated, such as psoriasis and allergic contact dermatitis. Overall, our data suggest that
+neutrophils incite itch and inflammation in early AD through several mechanisms, including: 1)
+directly triggering itch upon infiltration into the skin, as shown by acute injection of CXCL1, and, 2)
+indirectly triggering itch by altering expression of endogenous pruritogens (e.g. induction of Cxcl10
+expression; Hashimoto et al., 2018 ;Ioannidis et al., 2016 ;Kanda et al., 2007 ;Koga et al., 2008 ;
+Michalec et al., 2002 ;Padovan et al., 2002 ;Tamassia et al., 2007 ). Together, these direct and
+indirect mechanisms for neutrophil-dependent itch may explain why neutrophils have a dramatic
+effect on scratching behaviors on not only days eight and twelve but also day five of the model,
+when neutrophils are recruited in large numbers, but CXCR3 ligands are not as robustly induced.
+More generally, our study provides a framework for understanding how and when human chronic
+itch disease genes contribute to the distinct stages of AD pathogenesis. Our analysis of MC903-
+evoked transcriptional changes suggests we may be able to extend findings in the model not only to
+atopic dermatitis, but also to related disorders, including specific genetic forms of atopy. For exam-
+ple, we provide evidence that MC903 treatment may also model the filaggrin loss-of-function muta-
+tions, which are a key inciting factor in human heritable atopic disease ( Palmer et al., 2006 ;
+Sandilands et al., 2007 ). There are many rich datasets looking at mature patient lesions and data-
+sets for mature lesions in other mouse models of chronic itch ( Ewald et al., 2017 ;Choy et al.,
+2012 ;Guttman-Yassky et al., 2009 ;Jabbari et al., 2012 ;Nattkemper et al., 2018 ;Oetjen et al.,
+2017 ;Liu et al., 2019 ;Liu et al., 2016 ). Our study adds a temporal frame of reference to these
+existing datasets and sets the stage for probing the function of AD disease genes in greater detail.
+Furthermore, we have mapped the time course of gene expression changes in primary sensory gan-
+glia and spinal cord during chronic itch development. We show that the MC903 model recapitulates
+several hallmarks of neuropathic disease on a time course much shorter than has been reported for
+chronic itch, or chronic pain. Nervous system tissues are extremely difficult to obtain from human
+AD patients, and thus little is known regarding the neuronal changes in chronic itch disorders in
+both mouse models and human patients. Our findings can now be compared to existing and future
+datasets examining neuronal changes in chronic pain, diabetic neuropathy, shingles, neuropathic
+itch, psoriasis, and other inflammatory disorders where neuronal changes are poorly understood but
+may contribute to disease progression. The early changes we see in skin innervation, sensory gan-
+glia, and spinal cord dovetail with recent studies examining neuroimmune interactions in other
+inflammatory conditions, ( Pinho-Ribeiro et al., 2018 ;Baral et al., 2018 ;Pinho-Ribeiro et al., 2017 ;
+Blake et al., 2018 ) which all implicate early involvement of sensory neurons in the pathogenesis of
+inflammatory diseases.
+Materials and methods
+Key resources table
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 15 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 16 ---
+Continued
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Strain,
+strain
+background
+(Mus musculus )C57BL/6; WT;
+wild-typeThe Jackson
+LaboratoryJackson Stock #:
+000664;
+RRID: IMSR_JAX:000664
+Strain, strain
+background
+(Mus musculus )C57BL/6; WT;
+wild-typeCharles River
+LaboratoriesRRID: IMSR_CRL:27 ;
+Charles River strain
+code #: 027;
+Strain, strain
+background
+(Mus musculus )Crlf2tm1Jni;
+TSLPR KOPMID: 14993294 RRID: MGI:3039553 ;
+MGI Cat# 3039553Obtained
+from the
+laboratory of
+Steven F. Ziegler
+(Ben Aroya
+Research Institute)
+Antibody Purified anti-mouse
+Ly-6G/Gr-1 antibody.
+Low endotoxin,
+no azide, in PBS;
+anti-GR1 (RB6-8C5); aGr1UCSF Core UCSF Core
+Cat# AM051Obtained from
+the laboratory of
+Daniel Portnoy
+(UC Berkeley)
+Antibody LEAF Purified
+anti-mouse
+Ly-6G/Ly-6C (Gr-1);
+antibody;
+RB6-8C5; aGr1Biolegend RRID: AB_313379 ;
+BioLegend
+Cat# 108414
+Antibody Anti- b-tubulin III
+(Rabbit polyclonal;
+1:1000)Abcam RRID: AB_444319 ;
+Cat # ab18207
+Antibody Anti-CGRP
+(Rabbit polyclonal;
+1:1000)Immunostar RRID: AB_572217 ;
+Cat # 24112
+Antibody Anti-Peripherin
+(Chicken polyclonal;
+1:1000)Abcam RRID: AB_777207 ;
+Cat # ab39374
+Antibody Goat Anti-Mouse
+IgG H and L Alexa
+Fluor 488
+(Goat polyclonal;
+1:1000)Abcam RRID: AB_2688012 ;
+Cat # ab150117
+Antibody Goat anti-Chicken
+IgY (H+L) Secondary
+Antibody, Alexa Fluor
+488 (Goat
+polyclonal; 1:1000)Thermo
+Fisher ScientificRRID: AB_2534096 ;
+Cat # A-11039
+Antibody Goat Anti-Chicken
+IgG (H+L) Secondary
+Antibody, Alexa
+Fluor 594 (Goat
+polyclonal; 1:1000)Thermo
+Fisher ScientificRRID: AB_2534099 ;
+Cat # A11042
+Antibody Goat anti-Rabbit
+IgG (H+L) Secondary
+Antibody, Alexa
+Fluor 594 (Goat
+polyclonal; 1:1000)Invitrogen RRID: AB_2556545 ;
+Cat # R37117
+Commercial
+assay or kitPromocell Keratinocyte
+Growth Medium 2Promocell Cat # C-20011
+Cell line (human) Normal Human
+Epidermal Keratinocytes (NHEK), single juvenile
+donor, cryopreservedPromocell Cat # C-12001
+Other Liberase TM
+Research Grade;
+LiberaseRoche Cat # 5401119001
+Continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 16 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 17 ---
+Continued
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Other Dnase I from
+bovine pancreasSigma Cat # 11284932001
+Other Ambionª DNase I
+(RNase-free); DNAseAmbion Cat # AM2222
+Peptide,
+recombinant proteinSLIGRL-NH2;
+SLIGRLTocris Cas 171436-38-7;
+Cat #1468
+Commercial
+assay or kitQiagen RNeasy
+mini kitQiagen Cat # 74104
+Commercial
+assay or kitRNAzol RT Sigma-Aldrich Cat # R4533-50ML
+Chemical
+compound, drug(2-Hydroxypropyl)-
+b-cyclodextrin; HPCDSigma-Aldrich Cas 128446-35-5;
+Cat # H107
+Chemical
+compound, drugMethyl alcohol;
+Methanol; MeOHSigma-Aldrich Cas 67-56-1;
+Cat # 34860
+Chemical
+compound, drugEthanol, Absolute
+(200 Proof), Molecular
+Biology Grade,
+Fisher BioReagents;
+Absolute Ethanol,
+Molecular-Biology grade;
+Ethanol; EtOHFischer Scientific Cas 64-17-5;
+Cat # BP2818100
+Chemical
+compound, drugMC903; Calcipotriol Tocris Cas 112965-21-6;
+Cat # 2700
+Chemical
+compound, drug(±)-AMG 487; AMG Tocris Cas 947536-03-0;
+Cat # 4487
+Chemical
+compound, drugChloroquine
+diphosphate;
+ChloroquineSigma-Aldrich CAS 50-63-5;
+Cat # C6628
+Chemical
+compound, drugDimethyl
+sulfoxide; DMSOSigma-Aldrich Cat # 8418–100 mL
+Chemical
+compound, drugFormaldehyde, 16%,
+methanol free,
+Ultra Pure;
+Paraformaldehyde; PFAPolysciences, Inc. Cat # 18814–10
+Chemical
+compound, drugTissue Tek
+Optimal cutting
+temperature
+compound (OCT)Sakura Finetek USA Cat # 4583
+Chemical
+compound, drugTriton X-100 solution;
+Triton X-100BioUltra CAS 9002-93-1;
+Cat # 93443
+Chemical
+compound, drugPhosphate-buffered
+saline (PBS),
+pH 7.4; PBSGibco Cat # 10010023
+Chemical
+compound, drugBenzyl benzoate Sigma-Aldrich CAS 120-51-4;
+Cat # B6630
+Chemical
+compound, drugBenzyl alcohol Sigma-Aldrich CAS 100-51-6;
+Cat # 305197
+Chemical
+compound, drugSucrose Sigma-Aldrich CAS 57-50-1;
+Cat # S0389
+Chemical
+compound, drugLIVE/DEAD Fixable
+Aqua Dead Cell
+Stain Kit, for
+405 nm excitation;
+AquaThermo
+Fisher ScientificCat # L34957
+Chemical
+compound, drugIsoflurane Piramal CAS 26675-46-7
+Continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 17 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 18 ---
+Continued
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Chemical
+compound, drug4’,6-Diamidino-
+2-Phenylindole,
+Dihydrochloride; DAPIThermoFisher
+ScientificCAS 28718-90-3;
+Cat # 1306
+Chemical
+compound, drug4’,6-Diamidino-
+2-Phenylindole,
+Dihydrochloride;
+DAPI LIVE/DEADInvitrogen Cat # L34961
+Chemical
+compound, drugFluoromount-G ThermoFisher
+ScientificCat # 00-4958-02
+Antibody Goat Anti-Mouse
+IgG - H and L -
+Fab Fragment
+Polyclonal
+Antibody, Unconjugated,
+Abcam; F(ab)
+anti-mouse IgG (
+Goat polyclonal; 1:200)Abcam RRID: AB_955960 ;
+Cat # ab6668
+Antibody Anti-Mouse CD45.2
+Purified 100 ug
+antibody, Thermo
+Fisher Scientific;
+Mouse anti-CD45.2
+(Mouse monoclonal;
+1:1000)eBioscience RRID: AB_467261 ;
+Cat # 14-0454-82
+Antibody Purified anti-mouse
+CD16/32 antibody.
+Low endotoxin,
+no azide, in PBS;
+Rat anti-Mouse
+CD16/32 (2.4G2)
+(Rat monoclonal; 1:1000)UCSF Core UCSF Core Cat# AM004
+Commercial
+assay or kitDuoSet ELISA
+Ancillary Reagent Kit 2R and D Systems Cat # DY008
+Commercial
+assay or kitMouse CXCl10
+DuoSet ELISAR and D Systems Cat # DY466
+Commercial
+assay or kitPierce BCA
+Protein Assay Kit
+- Reducing Agent
+CompatibleThermo
+Fisher ScientificCat # 23250
+Chemical
+compound, drug2-Amino-2-
+(hydroxymethyl)
+/C01,3-propanediol;
+Trizma base, TRIS,
+TRIS baseSigma-Aldrich Cas 77-86-1;
+Cat # T4661
+Chemical
+compound, drugEthylene
+glycol-bis
+(2-aminoethylether)-
+N,N,N0,N0-tetraacetic
+acid; EGTASigma-Aldrich Cas 67-42-5;
+Cat # E3889
+Chemical
+compound, drugEthylenedinitrilo)
+tetraacetic
+acid; EDTASigma-Aldrich Cas 60-00-4;
+Cat # E9884
+Commercial
+assay or kitPhosSTOP inhibitor Roche Cat # 4906845001
+Chemical
+compound, drugSodium
+deoxycholate, /C2197%
+(titration); Sodium
+deoxycholateSigma-Aldrich Cas 302-95-4;
+Cat # D6750
+Continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 18 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 19 ---
+Continued
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Chemical
+compound, drugPhenylmethyl
+sulfonyl fluoride;
+PMSFSigma-Aldrich Cas 329-98-6;
+Cat # 10837091001
+Chemical
+compound, drug1-Fluoro-2,4,
+-dinitrobenzene;
+DNFBSigma Cas 70-34-8;
+Cat # D1529
+Commercial
+assay or kitcOmplete protease
+inhibitor cocktailRoche Cat # 11697498001
+Other Advanced RPMI
+Medium 1640; RPMIGibco Cat # 12633012
+Other Fetal Bovine
+Serum; FBS; FCSHyClone Cat # 30396.03
+Other sodium
+pyruvate 100 mMGibco Cat # 11360070
+Other N-2-hydroxyethy
+lpiperazine-N-2-
+ethane sulfonic acid;
+HEPES 1MGibco Cat # 15630080
+Other L-Glutamine 200 mM Gibco Cat # 25030081
+Other Penicillin-Streptomycin
+(10,000 U/mL; Pen-StrepGibco Cat # 15140122
+Other Collagenase VIII Sigma-Aldrich Cat # C2139-500MG
+Commercial
+assay or kitInvitrogen
+CountBright
+Absolute Counting
+Beads, for flow
+cytometry;
+Counting BeadsInvitrogen Cat # C36950
+Antibody CD45 Monoclonal
+Antibody
+(30-F11), APC-eFluor
+780, eBioscience(TM),
+Thermo Fisher Scientific;
+CD45-APC/eFluor 780
+(30-F11) (Rat
+monoclonal; 1:200)eBioscience RRID: AB_1548781 ;
+Cat # 47-0451-82
+Antibody CD11b Monoclonal
+Antibody (M1/70),
+PE-Cyanine7,
+eBioscience(TM),
+Thermo Fisher Scientific;
+CD11b-PE/Cy7 (M1/70)
+(Rat monoclonal;
+1:200)BD Biosciences RRID: AB_469588 ;
+Cat # 25-0112-82
+Antibody PE-Cyanine7
+Anti-Human/Mouse
+CD45R (B220) (RA3-6B2)
+Antibody, Tonbo
+Biosciences; B220-PE/Cy7 (
+RA3-6B2) (Rat
+monoclonal; 1:200)Tonbo Biosciences RRID: AB_2621849 ;
+Cat # 60–0452
+Antibody CD11c Monoclonal
+Antibody (N418),
+PE-Cyanine7,
+eBioscience(TM),
+Thermo Fisher Scientific;
+CD11c-PE/Cy7 (N418)
+(Armenian Hamster
+monoclonal; 1:200)eBioscience RRID: AB_469590 ;
+Cat # 25-0114-82
+Continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 19 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 20 ---
+Continued
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Antibody CD3e Monoclonal Antibody
+(145–2 C11), FITC,
+eBioscience(TM), Thermo
+Fisher Scientific;
+CD3-FITC (145–2 C11)
+(Armenian Hamster
+monoclonal; 1:200)eBioscience RRID: AB_464882 ;
+Cat # 11-0031-82
+Antibody Brilliant Violet 785
+anti-mouse CD8a
+antibody, BioLegend;
+CD8-BV785 (53–6.7)
+(Rat monoclonal;
+1:200)Biolegend RRID: AB_1121880 ;
+Cat # 100749
+Antibody Rat Anti-CD4 Monoclonal
+Antibody, Phycoerythrin
+Conjugated, Clone
+GK1.5, BD
+Biosciences; CD4-PE
+(GK1.5) (Rat
+monoclonal; 1:200)BD Biosciences RRID: AB_395014 ;
+Cat # 553730
+Antibody Alexa Fluor 647
+anti-mouse TCR g/d
+Antibody; gdTCR-AF647
+(GL3) (Armenian
+Hamster
+monoclonal; 1:200)Biolegend RRID: AB_313826 ;
+Cat # 118133
+Antibody CD117 (c-Kit)
+Monoclonal
+Antibody (2B8), Biotin;
+c-Kit-Biotin (ACK2)
+(Rat monoclonal;
+1:200)eBioscience RRID: AB_466569 ;
+Cat # 13-1171-82
+Antibody FceR1 alpha Monoclonal
+Antibody (MAR-1), PE,
+eBioscience; FceRI-PE
+(MAR-1) (Armenian
+Hamster monoclonal;
+1:200)eBioscience RRID: AB_466028 ;
+Cat # 12-5898-82
+Antibody CD49b (Integrin alpha 2)
+Monoclonal Antibody
+(DX5), PE-Cyanine7,
+eBioscience;
+CD49b-PE/Cy7
+(DX5) (Rat
+monoclonal; 1:200)eBioscience RRID: AB_469667 ;
+Cat # 25-5971-82
+Antibody Anti-Siglec-F-APC,
+mouse (clone: REA798);
+SiglecF-APC; (Rat
+monoclonal; 1:200)Miltenyi Biotech RRID: AB_2653441 ;
+Cat # 130-112-333
+Other Streptavidin
+FITC; SA-FITCeBioscience RRID: AB_11431787 ;
+Cat # 11-4317-87
+Antibody Ly-6C Monoclonal
+Antibody (HK1.4),
+PerCP-Cyanine5.5,
+eBioscience;
+Ly6C-PerCP/Cy5.5
+(HK1.4) (Rat
+monoclonal; 1:200)eBioscience RRID: AB_1518762 ;
+Cat # 45-5932-82
+Continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 20 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 21 ---
+Continued
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Antibody violetFluor 450
+Anti-Human/Mouse
+CD11b (M1/70); CD11b-
+violet fluor 450
+(M1/70) (Rat
+monoclonal; 1:200)Tonbo Biosciences RRID: AB_2621936 ;
+Cat # 75–0112
+Antibody AF700 anti-mouse
+Ly-6G Antibody (1A8);
+Ly6G-AF700 (1A8)
+(Rat monoclonal;
+1:200)BioLegend RRID: AB_1064045 ;
+Cat # 127621
+Antibody CD45.2 Monoclonal
+Antibody (104),
+APC-Cy7, eBioscience;
+CD45.2-APC/Cy7 (104)
+(Mouse monoclonal,
+1:200)eBioscience RRID: AB_1272175 ;
+Cat # 47-0454-82
+Software,
+algorithmIgorPro version 6.3 WaveMetrics https://www.wavemetrics.
+com/order/order_
+igordownloads6.htm
+Software,
+algorithmMicrosoft Excel 2011 Microsoft https://www.microsoft.com
+/en-us/store/d/excel-
+2016-for-mac/
+Software,
+algorithmFIJI NIH https://imagej.net/
+Fiji/Downloads
+Software,
+algorithmGraphpad Prism 7 Graphpad https://www.graphpad.com/
+scientific-software/prism/
+Software,
+algorithmR-3.6.0 The R Project
+for Statistical
+Computinghttps://cran.r-project.
+org/bin/macosx/
+Software,
+algorithmPython 2.7 Anaconda https://www.anaconda.
+com/distribution/
+Software,
+algorithmHTSeq 0.11.1 Python Package Index https://htseq.
+readthedocs.io/
+en/release_0.11.1/
+install.html
+Software,
+algorithmTrimmomatic PMID: 24695404 https://github.com/
+timflutre/trimmomatic
+Software,
+algorithmTophat 2.1.1 PMID: 19289445 https://ccb.jhu.edu/
+software/tophat/
+Software,
+algorithmEdgeR PMID: 19910308 ;
+PMID: 22287627https://bioconductor.org/
+packages/release/bioc/
+html/edgeR.html
+Software,
+algorithmDESeq PMID: 20979621 https://bioconductor.org/
+packages/release/bioc/
+html/DESeq.html
+Software,
+algorithmFlowJo 10.4.2 FlowJo; Treestar https://www.flowjo.com/
+solutions/flowjo/downloads
+Other Bovine serum albumin,
+cold ethanol fraction,
+pH 5.2, /C2196%; BSASigma-Aldrich CAS 9048-46-8;
+Cat # A4503
+Other NGS; Goat serum;
+Normal goat serumAbcam Cat # ab7481
+Mouse studies
+All mice were housed in standard conditions in accordance with standards approved by the Animal
+Care and Use Committee of the University of California Berkeley (12 hr light-dark cycle, 21 ˚C). Wild-
+type C57BL/6 mice were obtained from Charles River or Jackson Laboratories and raised in-house.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 21 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 22 ---
+TSLPR KO mice were kindly provided by Dr. Steven Ziegler ( Crlf2tm1Jni;Carpino et al., 2004 ) and
+backcrossed onto C57BL/6. All experiments were performed under the policies and recommenda-
+tions of the International Association for the Study of Pain and approved by the University of Califor-
+nia Berkeley Animal Care and Use Committee. Where appropriate, genotypes were assessed using
+standard PCR.
+MC903 model of atopic dermatitis
+MC903 (Calcipotriol; R and D Systems) was applied to the shaved mouse cheek (20 ml of 0.2 mM in
+ethanol) or rostral back (40 ml of 0.2 mM in ethanol) once per day for 1–12 days using a pipette.
+100% ethanol was used. All MC903 studies were performed on 8–12 week old age-matched mice.
+Behavior, RNA-seq, flow cytometry, and immunohistochemistry were performed on days 1, 2, 3, 5,
+eight and/or 12. For AMG 487 experiments in the MC903 model, 50 mL 3.31 mM AMG 487 (Tocris)
+or 20% HPCD-PBS vehicle was injected subcutaneously one hour prior to recording behavior
+(Qu et al., 2015 ). Spontaneous scratching was manually scored for the first 30 min of observation.
+Both bout number and length were recorded. Behavioral scoring was performed while blind to
+experimental condition and mouse genotype.
+MC903 RNA isolation and sequencing
+On days 1 (six hours post-treatment), 2, 5, or eight post-treatment, mice treated with MC903 and
+vehicle were euthanized via isoflurane and cervical dislocation. Cheek skin was removed, flash-frozen
+in liquid nitrogen, and cryo-homogenized with a mortar and pestle. Ipsilateral trigeminal ganglia
+were dissected and both skin and trigeminal ganglia were homogenized for three minutes (skin) or
+one minute (TG) in 1 mL RNAzol RT (Sigma-Aldrich). Thoracic spinal cord was dissected from mice
+treated with 40 mL MC903 or ethanol on the shaved rostral back skin and homogenized for one min-
+ute in 1 mL RNAzol. Large RNA was extracted using RNAzol RT per manufacturer’s instructions.
+RNA pellets were DNase treated (Ambion), resuspended in 50 mL DEPC-treated water, and sub-
+jected to poly(A) selection and RNA-seq library preparation (Apollo 324) at the Functional Genomics
+Laboratory (UC Berkeley). Single-end read sequencing (length = 50 bp) was performed by the QB3
+Vincent G. Coates Genomic Sequencing Laboratory (UC Berkeley) on an Illumina HiSeq4000. See
+Supplementary file 1 for number of mice per experimental condition and number of mapped reads
+per sample. Data are available at Gene Expression Omnibus under GSE132173.
+MC903 RNA sequencing analysis
+Reads were mapped to the mm10 mouse genome using Bowtie2 and Tophat, and reads were
+assigned to transcripts using htseq-count ( Langmead et al., 2009 ;Langmead and Salzberg, 2012 ).
+For a given time point, replicate measurements for each gene from treated and control mice were
+used as input for DESeq (R) and genes with padjusted <0.05 (for skin and spinal cord) or padjusted <0.1
+(for trigeminal ganglia) for at least one time point were retained for analysis ( Anders and Huber,
+2012 ;Anders et al., 2013 ). For the skin dataset, we collated a set of AD-related immune cell
+markers, cytokines, atopic dermatitis disease genes, neurite outgrown/axonal guidance genes, and
+locally expressed neuronal transcripts, and from this list visualized genes that were significantly dif-
+ferentially expressed for at least one time point. For the trigeminal ganglia dataset, we plotted all
+genes that were significantly differentially expressed for at least one time point. Genes from these
+lists were plotted with hierarchical clustering using heatmap2 (R) ( Hill, 2019 ).
+Custom gene groups
+Genes were clustered into functional groups and significance was evaluated using a permutation
+test. Briefly, we first tabulated the absolute value of the log 2fold change of gene expression
+(between MC903 and EtOH) of each gene in a given group of ngenes in turn, and then we calcu-
+lated the median of these fold change values, ztrue. We then drew nrandom genes from the set of
+all genes detected in the samples and computed the median log 2fold change as above using this
+null set, znull. Repeating the latter 10,000 times established a null distribution of median log 2fold
+change values; we took the proportion of resampled gene groups that exhibited ( ztrue/C21znull) as an
+empirical p-value reporting the significance of changes in gene expression for a given group of n
+genes.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 22 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 23 ---
+Flow cytometry
+Skin samples were collected from the cheek of mice at the indicated time points with a 4- or 6 mm
+biopsy punch into cold RPMI 1640 medium (RPMI; Gibco) and minced into smaller pieces with surgi-
+cal scissors. When ear skin was collected, whole ears were dissected postmortem into cold RPMI
+and finely minced with scissors. For isolation of immune cells, skin samples were digested for 1 hr at
+37 ˚C using 1 U/mL Liberase TM (Roche) and 5 mg/mL DNAse I (Sigma). At the end of the digestion,
+samples were washed in FACS buffer (PBS with 0.5% FCS and 2 mM EDTA) and filtered through a
+70 or 100 mm strainer (Falcon). Cells were stained with LIVE/DEAD fixable stain Aqua in PBS (Invitro-
+gen), then blocked with anti-CD16/32 (UCSF Core) and stained with the following fluorophore-conju-
+gated antibodies (all from eBiosciences unless stated otherwise) in FACS buffer: cKit-Biotin (clone
+ACK2; secondary stain with SA-FITC), CD11b-violet fluor 450 (Tonbo; clone M1/70), Ly6C-PerCP/
+Cy5.5 (clone HK1.4), CD49b-PE/Cy7 (clone DX5), CD45.2-APC/Cy7 (clone 104), FceRI-PE (MAR-1),
+Ly6G-AF700 (clone 1A8). 10 mL of counting beads (Invitrogen) were added after the last wash to
+measure absolute cell counts. For measurement of CD4+T cells, 6 mm skin biopsy punch samples
+were digested for 30 min at 37 ˚C using Collagenase VIII (Sigma). At the end of the digestion, cells
+were washed in RPMI buffer (RPMI with: 5% FCS, 1% penicillin-streptomycin, 2 mM L-glutamine, 10
+mM HEPES buffer, 1 mM sodium pyruvate). Cells were blocked with anti-CD16/32 (UCSF Core) and
+stained with the following fluorophore-conjugated antibodies in FACS buffer (PBS with 5% FCS and
+2 mM EDTA): CD45-APC-eFluor780 (clone 30-F11; eBiosciences), CD11b-PE/Cy7 (clone M1/70; BD
+Biosciences), B220-PE/Cy7 (clone RA3-6B2; Tonbo Biosciences), CD11c-PE/Cy7 (clone N418; eBio-
+sciences), CD3-FITC (clone 145–2 C11; eBiosciences), CD8-BV785 (clone 53–6.7; Biolegend), CD4-PE
+(clone GK1.5; BD Biosciences), gdTCR-AF647 (clone GL3; Biolegend). 10 mL of counting beads (Invi-
+trogen) were added after the last wash to measure absolute cell counts, and samples were resus-
+pended in DAPI LIVE/DEAD (Invitrogen). Blood samples were collected from saphenous vein or from
+terminal bleed following decapitation. Red blood cells were lysed using ACK lysis buffer (Gibco),
+and samples were washed with FACS buffer (PBS with 0.5% FCS and 2 mM EDTA), and blocked with
+anti-CD16/32. Cells were stained with Ly6G-PE (1A8; BD Biosciences), CD11b-violet fluor 450 (M1/
+70, Tonbo), Ly6C-PerCP/Cy5.5 (HK1.4, Biolegend), and aGr1-APC/Cy7 (RB6-8C5, eBiosciences). For
+all experiments, single cell suspensions were analyzed on an LSR II or LSR Fortessa (BD Biosciences),
+and data were analyzed using FlowJo (TreeStar, v.9.9.3) software.
+Human keratinocyte RNA sequencing
+Normal human epidermal keratinocytes from juvenile skin (PromoCell #C-12001) were cultured in
+PromoCell Keratinocyte Growth Medium two and passaged fewer than five times. Cells were treated
+for three hours at room temperature with 100 mM SLIGRL or vehicle (Ringer’s + 0.1% DMSO). Total
+RNA was extracted by column purification (Qiagen RNeasy Mini Kit). RNA was sent to the Vincent J.
+Coates Sequencing Laboratory at UC Berkeley for standard library preparation and sequenced on an
+Illumina HiSeq2500 or 4000. Sequences were trimmed (Trimmomatic), mapped (hg19, TopHat) and
+assigned to transcripts using htseq-count. Differential gene expression was assessed using R (edgeR)
+(Hill, 2019 ). Data are available at Gene Expression Omnibus under GSE132174.
+IHC of whole-mount skin
+Staining was performed as previously described ( Hill et al., 2018 ;Marshall et al., 2016 ). Briefly, 8
+week old mice were euthanized and the cheek skin was shaved. The removed skin was fixed over-
+night in 4% PFA, then washed in PBS (3X for 10 min each). Dermal fat was scraped away with a scal-
+pel and skin was washed in PBST (0.3% Triton X-100; 3X for two hours each) then incubated in 1:500
+primary antibody (Rabbit anti beta-Tubulin II; Abcam #ab18207 or Rabbit anti-CGRP; Immunostar
+#24112) in blocking buffer (PBST with 5% goat serum and 20% DMSO) for 6 days at 4˚C. Skin was
+washed as before and incubated in 1:500 secondary antibody (Goat anti-Rabbit Alexa 594; Invitro-
+gen #R37117) in blocking buffer for 3 days at 4˚C. Skin was washed in PBST, serially dried in metha-
+nol: PBS solutions, incubated overnight in 100% methanol, and finally cleared with a 1:2 solution of
+benzyl alcohol: benzyl benzoate (BABB; Sigma) before mounting between No. 1.5 coverglass. Whole
+mount skin samples were imaged on a Zeiss LSM 880 confocal microscope with OPO using a 20x
+water objective. Image analysis was performed using a custom macro in FIJI. Briefly, maximum inten-
+sity z-projections of the beta-tubulin III or CGRP channel were converted to binary files that
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 23 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 24 ---
+underwent edge-detection analysis. Regions were defined by circling all stained regions. Region
+sizes and locations were saved.
+IHC of sectioned trigeminal ganglia
+TG were dissected from 8- to 12 week old adult mice and post-fixed in 4% PFA for one hour. TG
+were cryo-protected overnight at 4˚C in 30% sucrose-PBS, embedded in OCT, and then cryosec-
+tioned at 14 mm onto slides for staining. Slides were washed 3x in PBST (0.3% Triton X-100), blocked
+in 2.5% Normal Goat serum + 2.5% BSA-PBST, washed 3X in PBST, blocked in endogenous IgG
+block (1:10 F(ab) anti-mouse IgG (Abcam ab6668) + 1:1000 Rat anti-mouse CD16/CD32 (UCSF MAB
+Core) in 0.3% PBST), washed 3X in PBST and incubated overnight at 4˚C in 1:1000 primary antibody
+in PBST + 0.5% Normal Goat Serum + 0.5% BSA. Slides were washed 3x in PBS, incubated 2 hr at
+RT in 1:1000 secondary antibody, washed 3X in PBS, and then incubated 30 min in 1:2000 DAPI-
+PBS. Slides were washed 3x in PBS and mounted in Fluoromount-G with No. 1.5 coverglass. Primary
+antibodies used: Mouse anti-CD45 (eBioscience #14-054-82) and Chicken anti-Peripherin (Abcam
+#39374). Secondary antibodies used: Goat anti-Chicken Alexa 594 (ThermoFisher #A11042) and
+Goat anti-Mouse Alexa 488 (Abcam #150117). DAPI (ThermoFisher #D1306) was also used to mark
+nuclei. Imaging of TG IHC experiments was performed on an Olympus IX71 microscope with a
+Lambda LS-xl light source (Sutter Instruments). For TG IHC analysis, images were analyzed using
+automated scripts in FIJI (ImageJ) software ( Hill, 2019 ). Briefly, images were separated into the
+DAPI, CD45, and Peripherin channels. The minimum/maximum intensity thresholds were batch-
+adjusted to pre-determined levels, and adjusted images were converted to binary files. Regions
+were defined by circling all stained regions with pre-determined size-criteria. Region sizes and loca-
+tions were saved.
+Neutrophil depletion
+Neutrophils were acutely depleted using intraperitoneal injection with 250 mg aGR1 in PBS (clone
+RB6-8C5, a gift from D. Portnoy, UC Berkeley, or from Biolegend), 16–24 hr before behavioral and
+flow cytometry experiments. Depletion was verified using flow cytometry on blood collected from
+terminal bleed following decapitation. For longer depletion experiments using the MC903 model,
+mice were injected (with 250 mg aGR1 in PBS or PBS vehicle, i.p.) beginning one day prior to MC903
+administration and each afternoon thereafter through day 7 of the model, or on days 8–11 for mea-
+surement of day 12 itch behaviors, and blood was collected via saphenous venipuncture at days 3, 5,
+or by decapitation at day eight to verify depletion.
+CXCL10 ELISA measurements in skin
+Neutrophil-depleted or uninjected mice were treated with MC903 or ethanol for 7 days. On day 8, 6
+mm biopsy punches of cheek skin were harvested, flash-frozen in liquid nitrogen, cryo-homogenized
+by mortar and pestle, and homogenized on ice for three minutes at maximum speed in 0.5 mL of
+the following tissue homogenization buffer (all reagents from Sigma unless stated otherwise): 100
+mM Tris, pH 7.4; 150 mM NaCl, 1 mM EGTA, 1 mM EDTA, 1% Triton X-100, and 0.5% Sodium deox-
+ycholate in ddH2O; on the day of the experiment, 200 mM fresh PMSF in 100% ethanol was added
+to 1 mM, with one tablet cOmplete protease inhibitor (Roche) per 50 mL, and five tablets PhosSTOP
+inhibitor (Roche) per 50 mL buffer. Tissues were agitated in buffer for two hours at 4˚C, and centri-
+fuged at 13,000 rpm for 20 min at 4˚C. Supernatants were aliquoted and stored at /C080˚C for up to
+one week. After thawing, samples were centrifuged at 10,000 rpm for five minutes at 4˚C. Protein
+content of skin homogenates was quantified by BCA (Thermo Scientific) and homogenates were
+diluted to 2 mg/mL protein in PBS and were subsequently diluted 1:2 in Reagent Diluent (R and D
+Systems). CXCL10 protein was quantified using the Mouse CXCL10 Duoset ELISA kit (R and D Sys-
+tems; #DY466-05) according to manufacturer’s instructions. Plate was read at 450 nm and CXCL10
+was quantified using a seven-point standard curve (with blank and buffer controls) and fitted with a
+4-parameter logistic curve.
+Acute itch behavior
+Itch behavioral measurements were performed as previously described ( Shimada and LaMotte,
+2008 ;Wilson et al., 2011 ;Morita et al., 2015 ). Mice were shaved one week prior to itch behavior
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 24 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 25 ---
+and acclimated in behavior chambers once for thirty minutes at the same time of day on the day
+prior to the experiment. Behavioral experiments were performed during the day. Compounds
+injected: 1 mg carrier-free CXCL1 (R and D systems) in PBS, 3.31 mM AMG 487 (Tocris, prepared
+from 100 mM DMSO stock) in 20% HPCD-PBS, 50 mM Chloroquine diphosphate (Sigma) in PBS,
+along with corresponding vehicle controls. Acute pruritogens were injected using the cheek model
+(20mL, subcutaneous/s.c.) of itch, as previously described ( Shimada and LaMotte, 2008 ). AMG 487
+(50mL) or vehicle was injected s.c. into the rostral back skin one hour prior to recording of behavior.
+Behavioral scoring was performed as described above.
+Lipidomics
+Skin was collected from the cheek of mice post-mortem with a 6 mm biopsy punch and immediately
+flash-frozen in liquid nitrogen. Lipid mediators and metabolites were quantified via liquid chroma-
+tography-tandem mass spectrometry (LC-MS/MS) as described before ( von Moltke et al., 2012 ). In
+brief, skin was homogenized in cold methanol to stabilize lipid mediators. Deuterated internal stand-
+ards (PGE 2-d4, LTB 4-d4, 15-HETE-d8, LXA 4-d5, DHA-d5, AA-d8) were added to samples to calculate
+extraction recovery. LC-MS/MS system consisted of an Agilent 1200 Series HPLC, Luna C18 column
+(Phenomenex, Torrance, CA, USA), and AB Sciex QTRAP 4500 mass spectrometer. Analysis was car-
+ried out in negative ion mode, and lipid 30 mediators quantified using scheduled multiple reaction
+monitoring (MRM) mode using four to six specific transition ions per analyte ( Sapieha et al., 2011 ).
+1-Fluoro-2,4-dinitrobenzene (DNFB) model of atopic dermatitis
+The DNFB model was conducted as described previously ( Solinski et al., 2019a ). Briefly, the rostral
+backs of isofluorane-anesthetized mice were shaved using surgical clippers. Two days after shaving,
+mice were treated with 25 mL 0.5% DNFB (Sigma) dissolved in 4:1 acetone:olive oil vehicle on the
+rostral back using a pipette. Five days after the initial DNFB sensitization, mice were challenged with
+40mL 0.2% DNFB or 4:1 acetone:olive oil vehicle applied to the outer surface of the right ear.
+Twenty-four hours after DNFB or vehicle challenge, mice were euthanized and ear skin was har-
+vested for flow cytometry.
+Statistical analyses
+Different control experimental conditions ( e.g. uninjected versus PBS-injected animals) were pooled
+when the appropriate statistical test showed they were not significantly different
+(Supplementary file 2 ). For all experiments except RNA-seq (see above), the following statistical
+tests were used, where appropriate: Student’s t-test, one-way ANOVA with Tukey-Kramer post hoc
+comparison, and two-way ANOVA with Tukey Kramer or Sidak’s post-hoc comparison. Bar graphs
+show mean ±SEM. Statistical analyses were performed using PRISM seven software (GraphPad). For
+allpvalues, *=0.01 < p<0.05, **=0.001 < p<0.01, ***=0.0001 < p<0.001, and ****= p< 0.0001.
+Acknowledgements
+The authors would like to thank members of the Bautista and Barton labs for helpful discussions on
+the data. We are grateful to S Ziegler (Ben Aroya Research Institute) for the gift of the TSLPR KO
+mouse. We also thank M Pellegrino and L The ´ for pilot studies on human keratinocyte transcriptome,
+and T Morita and J Wong for technical assistance withTSLPR KO mouse behavioral experiments.
+DMB is supported by the NIH (AR059385; NS07224 and NS098097, also to RBB) and the Howard
+Hughes Medical Institute. GMB is supported by the NIH (AI072429, AI063302, AI104914, AI105184)
+and the Burroughs Wellcome Fund. JD was supported by a Long-Term Fellowship from the Human
+Frontier Science Program (LT-000081/2013 L). KG is supported by NIH grant EY026082. Confocal
+imaging experiments were conducted at the CRL Molecular Imaging Center, supported by the Helen
+Wills Neuroscience Institute (UC Berkeley). We would like to thank H Aaron and F Ives for their
+microscopy training and assistance. This work used the Functional Genomics Laboratory and the Vin-
+cent J Coates Genomics Sequencing Laboratory at UC Berkeley, supported by NIH S10 OD018174
+Instrumentation Grant.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 25 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 26 ---
+Additional information
+Funding
+Funder Grant reference number Author
+National Institute of Arthritis
+and Musculoskeletal and Skin
+DiseasesAR059385 Diana M Bautista
+National Institute of Neurolo-
+gical Disorders and StrokeNS07224 Rachel B Brem
+Diana M Bautista
+Howard Hughes Medical Insti-
+tuteDiana M Bautista
+National Institute of Allergy
+and Infectious DiseasesAI072429 Gregory M Barton
+National Institute of Allergy
+and Infectious DiseasesAI063302 Gregory M Barton
+National Institute of Allergy
+and Infectious DiseasesAI104914 Gregory M Barton
+National Institute of Allergy
+and Infectious DiseasesAI105184 Gregory M Barton
+Burroughs Wellcome Fund Gregory M Barton
+Human Frontier Science Pro-
+gramLT-000081/2013-L Jacques Deguine
+National Eye Institute EY026082 Karsten Gronert
+National Institute of Neurolo-
+gical Disorders and StrokeNS098097 Rachel B Brem
+Diana M Bautista
+The funders had no role in study design, data collection and interpretation, or the
+decision to submit the work for publication.
+Author contributions
+Carolyn M Walsh, Conceptualization, Formal analysis, Investigation, Visualization, Methodology,
+Writing—original draft, Writing—review and editing, Performed flow cytometry and behavior experi-
+ments, and made substantial contributions to Figures 1C, 1G, 2A, 2D, 2E, 2F, 2I, Figure 2—figure
+supplement 2, and Figure 2—figure supplement 4; Rose Z Hill, Conceptualization, Data curation,
+Software, Formal analysis, Investigation, Visualization, Methodology, Writing—original draft, Writ-
+ing—review and editing, Performed flow cytometry, behavior, skin, somatosensory ganglia and spi-
+nal cord RNA-seq, IHC, ELISA, and made substantial contributions to Figures 1A, 1B, 1C, 1H, 1I, 1J,
+Figure 1—figure supplement 1, Figure 1—figure supplement 7, Figure 1—figure supplement 9, Fig-
+ures 2J, 2K, 3A, 3B, 3C, 3D, 3E, 3F, 3G, 4A, 4B, 4C, 4D, 4E, 4F, 4G, Figure 4—figure supplement 1,
+and Figure 4—figure supplement 2; Jamie Schwendinger-Schreck, Conceptualization, Investigation,
+Methodology, Writing—review and editing, Performed flow cytometry, keratinocyte RNA-Seq and
+behavior experiments, and made substantial contributions to Figure 1—figure supplement 6, Figure
+1—figure supplement 10, Figures 2A, 2E, Figure 2—figure supplement 2, and Figure 2—figure sup-
+plement 3; Jacques Deguine, Conceptualization, Formal analysis, Investigation, Methodology, Writ-
+ing—review and editing, Performed flow cytometry experiments, and made substantial contributions
+to Figures 2A, 2B, 2C, 2E, 2G, 2H, Figure 2—figure supplement 1, Figure 2—figure supplement 2,
+and Figure 2—figure supplement 4; Emily C Brock, Conceptualization, Formal analysis, Investigation,
+Methodology, Writing—review and editing, Performed flow cytometry and behavior experiments,
+and made substantial contributions to Figures 1C, 1E, 1F, Figure 1—figure supplement 5, Figures
+2A, 2B, 2C, 2F, 2G, 2H, Figure 2—figure supplement 1, Figures 2—figure supplement 2, and Figure
+2—figure supplement 4; Natalie Kucirek, Investigation, Writing—review and editing, Performed
+behavior experiments, and made substantial contributions to Figures 1C and 2F; Ziad Rifi, Investiga-
+tion, Writing—review and editing, Performed IHC experiments, and made substantial contributions
+to Figures 3C, 3D, 3E, and 3F; Jessica Wei, Investigation, Performed mass spectrometry
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 26 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 27 ---
+experiments, and made substantial contributions to Figure 1—figure supplement 10; Karsten Gro-
+nert, Resources, Supervision, Funding acquisition, Methodology, Project administration, Writing—
+review and editing; Rachel B Brem, Gregory M Barton, Conceptualization, Resources, Supervision,
+Funding acquisition, Methodology, Project administration, Writing—review and editing; Diana M
+Bautista, Conceptualization, Resources, Formal analysis, Supervision, Funding acquisition, Methodol-
+ogy, Writing—original draft, Project administration, Writing—review and editing
+Author ORCIDs
+Rose Z Hill https://orcid.org/0000-0001-9558-6400
+Jessica Wei https://orcid.org/0000-0002-7329-2812
+Gregory M Barton https://orcid.org/0000-0002-3793-0100
+Diana M Bautista https://orcid.org/0000-0002-6809-8951
+Ethics
+Animal experimentation: All mice were housed in standard conditions in accordance with standards
+approved by the Animal Care and Use Committee of the University of California Berkeley. All experi-
+ments were performed under the policies and recommendations of the International Association for
+the Study of Pain and approved by the University of California Berkeley Animal Care and Use Com-
+mittee (Protocol Number: 2017-02-9550).
+Decision letter and Author response
+Decision letter https://doi.org/10.7554/eLife.48448.sa1
+Author response https://doi.org/10.7554/eLife.48448.sa2
+Additional files
+Supplementary files
+.Source data 1. The outputs of all DESeq differential expression analyses used to determine
+adjusted pvalue and log 2fold change for all RNA-seq experiments in the manuscript.
+.Supplementary file 1. Number of mapped reads and sample information for all RNA-seq samples
+represented in the manuscript.
+.Supplementary file 2. Outputs of statistical tests performed on behavioral and flow cytometry data
+to determine whether select data sets could be combined.
+.Supplementary file 3. All flow cytometry data from Figures 1 –2represented as % of CD45+cells.
+.Transparent reporting form
+Data availability
+All data generated or analyzed during this study are included in the manuscript and supporting files.
+Data from RNA-seq experiments are uploaded to GEO under accession codes GSE132173 and
+GSE132174. Processed sequencing data (DESeq output tables) are provided as a Source data 1.
+Code used to analyze data is available at https://github.com/rzhill/10.1101-653873 (copy archived at
+https://github.com/elifesciences-publications/10.1101-653873 ).
+The following datasets were generated:
+Author(s) Year Dataset title Dataset URLDatabase and
+Identifier
+Bautista DM, Hill RZ 2019 RNA-seq of tissues from MC903-
+and Ethanol-treated micehttps://www.ncbi.nlm.
+nih.gov/geo/query/acc.
+cgi?acc=GSE132173NCBI Gene
+Expression Omnibus,
+GSE132173
+Bautista DM 2019 SLIGRL-induced gene expression
+changes in NHEK cellshttps://www.ncbi.nlm.
+nih.gov/geo/query/acc.
+cgi?acc=GSE132174NCBI Gene
+Expression Omnibus,
+GSE132174
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 27 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 28 ---
+References
+Anders S , McCarthy DJ, Chen Y, Okoniewski M, Smyth GK, Huber W, Robinson MD. 2013. Count-based
+differential expression analysis of RNA sequencing data using R and bioconductor. Nature Protocols 8:1765–
+1786. DOI: https://doi.org/10.1038/nprot.2013.099 ,PMID: 23975260
+Anders S , Huber W. 2012. Differential expression of RNA-Seq data at the gene level–the DESeq package.
+Heidelberg, http://watson.nci.nih.gov/bioc_mirror/packages/2.11/bioc/vignettes/DESeq/inst/doc/DESeq.pdf
+Andersson S . 2015. The role of mast cells and mast cell mediators in the development of atopic dermatitis in a
+mouse model . Uppsala, Sweden: SLU, Department of Biomedical Sciences and Veterinary Public Health.
+https://stud.epsilon.slu.se/6630/
+Baral P , Umans BD, Li L, Wallrapp A, Bist M, Kirschbaum T, Wei Y, Zhou Y, Kuchroo VK, Burkett PR, Yipp BG,
+Liberles SD, Chiu IM. 2018. Nociceptor sensory neurons suppress neutrophil and gdT cell responses in bacterial
+lung infections and lethal pneumonia. Nature Medicine 24:417–426. DOI: https://doi.org/10.1038/nm.4501 ,
+PMID: 29505031
+Bautista DM , Jordt SE, Nikai T, Tsuruda PR, Read AJ, Poblete J, Yamoah EN, Basbaum AI, Julius D. 2006. TRPA1
+mediates the inflammatory actions of environmental irritants and proalgesic agents. Cell124:1269–1282.
+DOI: https://doi.org/10.1016/j.cell.2006.02.023 ,PMID: 16564016
+Blake KJ , Baral P, Voisin T, Lubkin A, Pinho-Ribeiro FA, Adams KL, Roberson DP, Ma YC, Otto M, Woolf CJ,
+Torres VJ, Chiu IM. 2018. Staphylococcus aureus produces pain through pore-forming toxins and neuronal
+TRPV1 that is silenced by QX-314. Nature Communications 9:37.DOI: https://doi.org/10.1038/s41467-017-
+02448-6 ,PMID: 29295977
+Briot A , Deraison C, Lacroix M, Bonnart C, Robin A, Besson C, Dubus P, Hovnanian A. 2009. Kallikrein 5 induces
+atopic dermatitis-like lesions through PAR2-mediated thymic stromal lymphopoietin expression in netherton
+syndrome. The Journal of Experimental Medicine 206:1135–1147. DOI: https://doi.org/10.1084/jem.20082242 ,
+PMID: 19414552
+Briot A , Lacroix M, Robin A, Steinhoff M, Deraison C, Hovnanian A. 2010. Par2 inactivation inhibits early
+production of TSLP, but not cutaneous inflammation, in netherton syndrome adult mouse model. Journal of
+Investigative Dermatology 130:2736–2742. DOI: https://doi.org/10.1038/jid.2010.233 ,PMID: 20703245
+Brunner PM , Guttman-Yassky E, Leung DY. 2017. The immunology of atopic dermatitis and its reversibility with
+broad-spectrum and targeted therapies. Journal of Allergy and Clinical Immunology 139:S65–S76. DOI: https://
+doi.org/10.1016/j.jaci.2017.01.011 ,PMID: 28390479
+Caceres AI , Brackmann M, Elia MD, Bessac BF, del Camino D, D’Amours M, Witek JS, Fanger CM, Chong JA,
+Hayward NJ, Homer RJ, Cohn L, Huang X, Moran MM, Jordt SE. 2009. A sensory neuronal ion channel essential
+for airway inflammation and hyperreactivity in asthma. PNAS 106:9099–9104. DOI: https://doi.org/10.1073/
+pnas.0900591106 ,PMID: 19458046
+Carpino N , Thierfelder WE, Chang MS, Saris C, Turner SJ, Ziegler SF, Ihle JN. 2004. Absence of an essential role
+for thymic stromal lymphopoietin receptor in murine B-cell development. Molecular and Cellular Biology 24:
+2584–2592. DOI: https://doi.org/10.1128/MCB.24.6.2584-2592.2004 ,PMID: 14993294
+Carreira EU , Carregaro V, Teixeira MM, Moriconi A, Aramini A, Verri WA, Ferreira SH, Cunha FQ, Cunha TM.
+2013. Neutrophils recruited by CXCR1/2 signalling mediate post-incisional pain. European Journal of Pain 17:
+654–663. DOI: https://doi.org/10.1002/j.1532-2149.2012.00240.x ,PMID: 23132735
+Cevikbas F , Wang X, Akiyama T, Kempkes C, Savinko T, Antal A, Kukova G, Buhl T, Ikoma A, Buddenkotte J,
+Soumelis V, Feld M, Alenius H, Dillon SR, Carstens E, Homey B, Basbaum A, Steinhoff M. 2014. A sensory
+neuron-expressed IL-31 receptor mediates T helper cell-dependent itch: involvement of TRPV1 and TRPA1.
+Journal of Allergy and Clinical Immunology 133:448–460. DOI: https://doi.org/10.1016/j.jaci.2013.10.048 ,
+PMID: 24373353
+Chatterjea D , Martinov T. 2015. Mast cells: versatile gatekeepers of pain. Molecular Immunology 63:38–44.
+DOI: https://doi.org/10.1016/j.molimm.2014.03.001 ,PMID: 24666768
+Choy DF , Hsu DK, Seshasayee D, Fung MA, Modrusan Z, Martin F, Liu FT, Arron JR. 2012. Comparative
+transcriptomic analyses of atopic dermatitis and psoriasis reveal shared neutrophilic inflammation. Journal of
+Allergy and Clinical Immunology 130:1335–1343. DOI: https://doi.org/10.1016/j.jaci.2012.06.044 ,PMID: 22
+920495
+Cunha JM , Sachs D, Canetti CA, Poole S, Ferreira SH, Cunha FQ. 2003. The critical role of leukotriene B4 in
+antigen-induced mechanical hyperalgesia in immunised rats. British Journal of Pharmacology 139:1135–1145.
+DOI: https://doi.org/10.1038/sj.bjp.0705346 ,PMID: 12871832
+Dai J , Choo MK, Park JM, Fisher DE. 2017. Topical ROR inverse agonists suppress inflammation in mouse models
+of atopic dermatitis and acute irritant dermatitis. Journal of Investigative Dermatology 137:2523–2531.
+DOI: https://doi.org/10.1016/j.jid.2017.07.819 ,PMID: 28774591
+Dalgard FJ , Gieler U, Tomas-Aragones L, Lien L, Poot F, Jemec GBE, Misery L, Szabo C, Linder D, Sampogna F,
+Evers AWM, Halvorsen JA, Balieva F, Szepietowski J, Romanov D, Marron SE, Altunay IK, Finlay AY, Salek SS,
+Kupfer J. 2015. The psychological burden of skin diseases: a cross-sectional multicenter study among
+dermatological out-patients in 13 european countries. Journal of Investigative Dermatology 135:984–991.
+DOI: https://doi.org/10.1038/jid.2014.530 ,PMID: 25521458
+Deftu AF , Filippi A, Shibsaki K, Gheorghe RO, Chiritoiu M, Ristoiu V. 2017. Chemokine (C-X-C motif) ligand 1
+(CXCL1) and chemokine (C-X-C motif) ligand 2 (CXCL2) modulate the activity of TRPV1+/IB4+ cultured rat
+dorsal root ganglia neurons upon short-term and acute application. Journal of Physiology and Pharmacology
+68:385–395. PMID: 28820395
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 28 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 29 ---
+Deftu AF , Filippi A, Gheorghe RO, Ristoiu V. 2018. CXCL1 activates TRPV1 via gi/o protein and actin filaments.
+Life Sciences 193:282–291. DOI: https://doi.org/10.1016/j.lfs.2017.09.041 ,PMID: 28966134
+Demehri S , Morimoto M, Holtzman MJ, Kopan R. 2009. Skin-derived TSLP triggers progression from epidermal-
+barrier defects to asthma. PLOS Biology 7:e1000067. DOI: https://doi.org/10.1371/journal.pbio.1000067 ,
+PMID: 19557146
+Dhand A , Aminoff MJ. 2014. The neurology of itch. Brain 137:313–322. DOI: https://doi.org/10.1093/brain/
+awt158 ,PMID: 23794605
+Dong X , Dong X. 2018. Peripheral and central mechanisms of itch. Neuron 98:482–494. DOI: https://doi.org/10.
+1016/j.neuron.2018.03.023 ,PMID: 29723501
+Ewald DA , Noda S, Oliva M, Litman T, Nakajima S, Li X, Xu H, Workman CT, Scheipers P, Svitacheva N, Labuda
+T, Krueger JG, Sua ´ rez-Farin ˜as M, Kabashima K, Guttman-Yassky E. 2017. Major differences between human
+atopic dermatitis and murine models, as determined by using global transcriptomic profiling. Journal of Allergy
+and Clinical Immunology 139:562–571. DOI: https://doi.org/10.1016/j.jaci.2016.08.029 ,PMID: 27702671
+Finley A , Chen Z, Esposito E, Cuzzocrea S, Sabbadini R, Salvemini D. 2013. Sphingosine 1-phosphate mediates
+hyperalgesia via a neutrophil-dependent mechanism. PLOS ONE 8:e55255. DOI: https://doi.org/10.1371/
+journal.pone.0055255 ,PMID: 23372844
+Fogh K , Herlin T, Kragballe K. 1989. Eicosanoids in skin of patients with atopic dermatitis: prostaglandin E2 and
+leukotriene B4 are present in biologically active concentrations. Journal of Allergy and Clinical Immunology 83:
+450–455. DOI: https://doi.org/10.1016/0091-6749(89)90132-2 ,PMID: 2537352
+Gao PS , Rafaels NM, Mu D, Hand T, Murray T, Boguniewicz M, Hata T, Schneider L, Hanifin JM, Gallo RL, Gao L,
+Beaty TH, Beck LA, Leung DY, Barnes KC. 2010. Genetic variants in thymic stromal lymphopoietin are
+associated with atopic dermatitis and eczema herpeticum. Journal of Allergy and Clinical Immunology 125:
+1403–1407. DOI: https://doi.org/10.1016/j.jaci.2010.03.016 ,PMID: 20466416
+Ghasemlou N , Chiu IM, Julien JP, Woolf CJ. 2015. CD11b+Ly6G- myeloid cells mediate mechanical inflammatory
+pain hypersensitivity. PNAS 112:E6808–E6817. DOI: https://doi.org/10.1073/pnas.1501372112 ,PMID: 265986
+97
+Gittler JK , Shemer A, Sua ´rez-Farin ˜as M, Fuentes-Duculan J, Gulewicz KJ, Wang CQ, Mitsui H, Cardinale I, de
+Guzman Strong C, Krueger JG, Guttman-Yassky E. 2012. Progressive activation of T(H)2/T(H)22 cytokines and
+selective epidermal proteins characterizes acute and chronic atopic dermatitis. Journal of Allergy and Clinical
+Immunology 130:1344–1354. DOI: https://doi.org/10.1016/j.jaci.2012.07.012 ,PMID: 22951056
+Guerrero AT , Verri WA, Cunha TM, Silva TA, Schivo IR, Dal-Secco D, Canetti C, Rocha FA, Parada CA, Cunha
+FQ, Ferreira SH. 2008. Involvement of LTB4 in zymosan-induced joint nociception in mice: participation of
+neutrophils and PGE2. Journal of Leukocyte Biology 83:122–130. DOI: https://doi.org/10.1189/jlb.0207123 ,
+PMID: 17913976
+Guttman-Yassky E , Sua ´rez-Farin ˜as M, Chiricozzi A, Nograles KE, Shemer A, Fuentes-Duculan J, Cardinale I, Lin
+P, Bergman R, Bowcock AM, Krueger JG. 2009. Broad defects in epidermal cornification in atopic dermatitis
+identified through genomic analysis. Journal of Allergy and Clinical Immunology 124:1235–1244. DOI: https://
+doi.org/10.1016/j.jaci.2009.09.031 ,PMID: 20004782
+Guttman-Yassky E , Krueger JG. 2017. Atopic dermatitis and psoriasis: two different immune diseases or one
+spectrum? Current Opinion in Immunology 48:68–73. DOI: https://doi.org/10.1016/j.coi.2017.08.008 ,PMID: 2
+8869867
+Haas S , Capellino S, Phan NQ, Bo ¨hm M, Luger TA, Straub RH, Sta ¨nder S. 2010. Low density of sympathetic nerve
+fibers relative to substance P-positive nerve fibers in Lesional skin of chronic pruritus and prurigo nodularis.
+Journal of Dermatological Science 58:193–197. DOI: https://doi.org/10.1016/j.jdermsci.2010.03.020 ,
+PMID: 20417061
+Hamilton JD , Sua ´ rez-Farin ˜as M, Dhingra N, Cardinale I, Li X, Kostic A, Ming JE, Radin AR, Krueger JG, Graham
+N, Yancopoulos GD, Pirozzi G, Guttman-Yassky E. 2014. Dupilumab improves the molecular signature in skin of
+patients with moderate-to-severe atopic dermatitis. Journal of Allergy and Clinical Immunology 134:1293–
+1300. DOI: https://doi.org/10.1016/j.jaci.2014.10.013 ,PMID: 25482871
+Hammond TR , Robinton D, Stevens B. 2018. Microglia and the brain: complementary partners in development
+and disease. Annual Review of Cell and Developmental Biology 34:523–544. DOI: https://doi.org/10.1146/
+annurev-cellbio-100616-060509 ,PMID: 30089221
+Hashimoto T , Rosen JD, Sanders KM, Yosipovitch G. 2018. Possible role of neutrophils in itch. Itch3:e17.
+DOI: https://doi.org/10.1097/itx.0000000000000017
+Hidaka T , Ogawa E, Kobayashi EH, Suzuki T, Funayama R, Nagashima T, Fujimura T, Aiba S, Nakayama K,
+Okuyama R, Yamamoto M. 2017. The aryl hydrocarbon receptor AhR links atopic dermatitis and air pollution
+via induction of the neurotrophic factor artemin. Nature Immunology 18:64–73. DOI: https://doi.org/10.1038/
+ni.3614 ,PMID: 27869817
+Hill RZ , Hoffman BU, Morita T, Campos SM, Lumpkin EA, Brem RB, Bautista DM. 2018. The signaling lipid
+sphingosine 1-phosphate regulates mechanical pain. eLife 7:e33285. DOI: https://doi.org/10.7554/eLife.33285
+Hill RZ . 2019. 10.1101-653873. Github . bcbb047. https://github.com/rzhill/10.1101-653873
+Huang J , Polga ´ r E, Solinski HJ, Mishra SK, Tseng PY, Iwagaki N, Boyle KA, Dickie AC, Kriegbaum MC, Wildner H,
+Zeilhofer HU, Watanabe M, Riddell JS, Todd AJ, Hoon MA. 2018. Circuit dissection of the role of somatostatin
+in itch and pain. Nature Neuroscience 21:707–716. DOI: https://doi.org/10.1038/s41593-018-0119-z ,PMID: 2
+9556030
+Ikoma A , Steinhoff M, Sta ¨nder S, Yosipovitch G, Schmelz M. 2006. The neurobiology of itch. Nature Reviews
+Neuroscience 7:535–547. DOI: https://doi.org/10.1038/nrn1950 ,PMID: 16791143
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 29 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 30 ---
+Ioannidis LJ , Nie CQ, Ly A, Ryg-Cornejo V, Chiu CY, Hansen DS. 2016. Monocyte- and Neutrophil-Derived
+CXCL10 impairs efficient control of Blood-Stage malaria infection and promotes severe disease. The Journal of
+Immunology 196:1227–1238. DOI: https://doi.org/10.4049/jimmunol.1501562 ,PMID: 26718341
+Jabbari A , Sua ´ rez-Farin ˜as M, Dewell S, Krueger JG. 2012. Transcriptional profiling of psoriasis using RNA-seq
+reveals previously unidentified differentially expressed genes. Journal of Investigative Dermatology 132:246–
+249. DOI: https://doi.org/10.1038/jid.2011.267 ,PMID: 21850022
+Jing PB , Cao DL, Li SS, Zhu M, Bai XQ, Wu XB, Gao YJ. 2018. Chemokine receptor CXCR3 in the spinal cord
+contributes to chronic itch in mice. Neuroscience Bulletin 34:54–63. DOI: https://doi.org/10.1007/s12264-017-
+0128-z ,PMID: 28401489
+Kamo A , Tominaga M, Taneda K, Ogawa H, Takamori K. 2013. Neurotropin inhibits the increase in
+intraepidermal nerve density in the acetone-treated dry-skin mouse model. Clinical and Experimental
+Dermatology 38:665–668. DOI: https://doi.org/10.1111/ced.12100 ,PMID: 23745989
+Kanda N , Shimizu T, Tada Y, Watanabe S. 2007. IL-18 enhances IFN-gamma-induced production of CXCL9,
+CXCL10, and CXCL11 in human keratinocytes. European Journal of Immunology 37:338–350. DOI: https://doi.
+org/10.1002/eji.200636420 ,PMID: 17274000
+Kim BS , Siracusa MC, Saenz SA, Noti M, Monticelli LA, Sonnenberg GF, Hepworth MR, Van Voorhees AS,
+Comeau MR, Artis D. 2013. TSLP elicits IL-33-independent innate lymphoid cell responses to promote skin
+inflammation. Science Translational Medicine 5:170ra16. DOI: https://doi.org/10.1126/scitranslmed.3005374 ,
+PMID: 23363980
+Kim D , Kobayashi T, Nagao K. 2019. Research techniques made simple: mouse models of atopic dermatitis.
+Journal of Investigative Dermatology 139:984–990. DOI: https://doi.org/10.1016/j.jid.2019.02.014 ,
+PMID: 31010529
+Kitamura A , Takata R, Aizawa S, Watanabe H, Wada T. 2018. A murine model of atopic dermatitis can be
+generated by painting the dorsal skin with hapten twice 14 days apart. Scientific Reports 8:1–9. DOI: https://
+doi.org/10.1038/s41598-018-24363-6
+Koga C , Kabashima K, Shiraishi N, Kobayashi M, Tokura Y. 2008. Possible pathogenic role of Th17 cells for atopic
+dermatitis. Journal of Investigative Dermatology 128:2625–2630. DOI: https://doi.org/10.1038/jid.2008.111 ,
+PMID: 18432274
+Koro O , Furutani K, Hide M, Yamada S, Yamamoto S. 1999. Chemical mediators in atopic dermatitis:
+involvement of leukotriene B4 released by a type I allergic reaction in the pathogenesis of atopic dermatitis.
+Journal of Allergy and Clinical Immunology 103:663–670. DOI: https://doi.org/10.1016/S0091-6749(99)70240-
+X,PMID: 10200017
+Kou K , Nakamura F, Aihara M, Chen H, Seto K, Komori-Yamaguchi J, Kambara T, Nagashima Y, Goshima Y,
+Ikezawa Z. 2012. Decreased expression of semaphorin-3A, a neurite-collapsing factor, is associated with itch in
+psoriatic skin. Acta Dermato Venereologica 92:521–528. DOI: https://doi.org/10.2340/00015555-1350 ,
+PMID: 22565412
+Langmead B , Trapnell C, Pop M, Salzberg SL. 2009. Ultrafast and memory-efficient alignment of short DNA
+sequences to the human genome. Genome Biology 10:R25. DOI: https://doi.org/10.1186/gb-2009-10-3-r25
+Langmead B , Salzberg SL. 2012. Fast gapped-read alignment with bowtie 2. Nature Methods 9:357–359.
+DOI: https://doi.org/10.1038/nmeth.1923 ,PMID: 22388286
+Levine JD , Khasar SG, Green PG. 2006. Neurogenic inflammation and arthritis. Annals of the New York Academy
+of Sciences 1069 :155–167. DOI: https://doi.org/10.1196/annals.1351.014 ,PMID: 16855143
+Li M , Hener P, Zhang Z, Kato S, Metzger D, Chambon P. 2006. Topical vitamin D3 and low-calcemic analogs
+induce thymic stromal lymphopoietin in mouse keratinocytes and trigger an atopic dermatitis. PNAS 103:
+11736–11741. DOI: https://doi.org/10.1073/pnas.0604575103 ,PMID: 16880407
+Li M , Hener P, Zhang Z, Ganti KP, Metzger D, Chambon P. 2009. Induction of thymic stromal lymphopoietin
+expression in keratinocytes is necessary for generating an atopic dermatitis upon application of the active
+vitamin D3 analogue MC903 on mouse skin. Journal of Investigative Dermatology 129:498–502. DOI: https://
+doi.org/10.1038/jid.2008.232 ,PMID: 18650845
+Li C, Maillet I, Mackowiak C, Viala C, Di Padova F, Li M, Togbe D, Quesniaux V, Lai Y, Ryffel B. 2017.
+Experimental atopic dermatitis depends on IL-33R signaling via MyD88 in dendritic cells. Cell Death & Disease
+8:e2735. DOI: https://doi.org/10.1038/cddis.2017.90 ,PMID: 28383552
+Liu B , Tai Y, Achanta S, Kaelberer MM, Caceres AI, Shao X, Fang J, Jordt SE. 2016. IL-33/ST2 signaling excites
+sensory neurons and mediates itch response in a mouse model of poison ivy contact allergy. PNAS 113:E7572–
+E7579. DOI: https://doi.org/10.1073/pnas.1606608113 ,PMID: 27821781
+Liu B , Tai Y, Liu B, Caceres AI, Yin C, Jordt S-E. 2019. Transcriptome profiling reveals Th2 Bias and identifies
+endogenous itch mediators in poison ivy contact dermatitis. JCI Insight 4:e124497. DOI: https://doi.org/10.
+1172/jci.insight.124497
+Liu T , Ji RR. 2012. Oxidative stress induces itch via activation of transient receptor potential subtype ankyrin 1 in
+mice. Neuroscience Bulletin 28:145–154. DOI: https://doi.org/10.1007/s12264-012-1207-9 ,PMID: 22466125
+Malik K , Ungar B, Garcet S, Dutt R, Dickstein D, Zheng X, Xu H, Estrada YD, Sua ´rez-Farin ˜as M, Shemer A,
+Krueger JG, Guttman-Yassky E. 2017. Dust mite induces multiple polar T cell axes in human skin. Clinical &
+Experimental Allergy 47:1648–1660. DOI: https://doi.org/10.1111/cea.13040 ,PMID: 28977706
+Mansouri Y , Guttman-Yassky E. 2015. Immune pathways in atopic dermatitis, and definition of biomarkers
+through broad and targeted therapeutics. Journal of Clinical Medicine 4:858–873. DOI: https://doi.org/10.
+3390/jcm4050858 ,PMID: 26239452
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 30 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 31 ---
+Marshall KL , Clary RC, Baba Y, Orlowsky RL, Gerling GJ, Lumpkin EA. 2016. Touch receptors undergo rapid
+remodeling in healthy skin. Cell Reports 17:1719–1727. DOI: https://doi.org/10.1016/j.celrep.2016.10.034 ,
+PMID: 27829143
+Martel BC , Lovato P, Ba ¨umer W, Olivry T. 2017. Translational animal models of atopic dermatitis for preclinical
+studies. The Yale Journal of Biology and Medicine 90:389–402. PMID: 28955179
+Matterne U , Apfelbacher CJ, Loerbroks A, Schwarzer T, Bu ¨ttner M, Ofenloch R, Diepgen TL, Weisshaar E. 2011.
+Prevalence, correlates and characteristics of chronic pruritus: a population-based cross-sectional study. Acta
+Dermato Venereologica 91:674–679. DOI: https://doi.org/10.2340/00015555-1159 ,PMID: 21879245
+Meixiong J , Anderson M, Limjunyawong N, Sabbagh MF, Hu E, Mack MR, Oetjen LK, Wang F, Kim BS, Dong X.
+2019. Activation of Mast-Cell-Expressed Mas-Related G-Protein-Coupled receptors drives Non-histaminergic
+itch. Immunity 50:1163–1171. DOI: https://doi.org/10.1016/j.immuni.2019.03.013 ,PMID: 31027996
+Meng J , Moriyama M, Feld M, Buddenkotte J, Buhl T, Szo ¨llo¨si A, Zhang J, Miller P, Ghetti A, Fischer M, Reeh
+PW, Shan C, Wang J, Steinhoff M. 2018. New mechanism underlying IL-31-induced atopic dermatitis. Journal of
+Allergy and Clinical Immunology 141:1677–1689. DOI: https://doi.org/10.1016/j.jaci.2017.12.1002 ,PMID: 2
+9427643
+Michalec L , Choudhury BK, Postlethwait E, Wild JS, Alam R, Lett-Brown M, Sur S. 2002. CCL7 and CXCL10
+orchestrate oxidative stress-induced neutrophilic lung inflammation. The Journal of Immunology 168:846–852.
+DOI: https://doi.org/10.4049/jimmunol.168.2.846 ,PMID: 11777981
+Mihm MC , Soter NA, Dvorak HF, Austen KF. 1976. The structure of normal skin and the morphology of atopic
+eczema. Journal of Investigative Dermatology 67:305–312. DOI: https://doi.org/10.1111/1523-1747.
+ep12514346 ,PMID: 965785
+Mollanazar NK , Smith PK, Yosipovitch G. 2016. Mediators of chronic pruritus in atopic dermatitis: getting the
+itch out? Clinical Reviews in Allergy & Immunology 51:263–292. DOI: https://doi.org/10.1007/s12016-015-
+8488-5 ,PMID: 25931325
+Moosbrugger-Martinz V , Schmuth M, Dubrac S. 2017. A mouse model for atopic dermatitis using topical
+application of vitamin D3 or of its analog MC903. Methods in Molecular Biology 1559 :91–106. DOI: https://doi.
+org/10.1007/978-1-4939-6786-5_8 ,PMID: 28063040
+Morita T , McClain SP, Batia LM, Pellegrino M, Wilson SR, Kienzler MA, Lyman K, Olsen AS, Wong JF, Stucky CL,
+Brem RB, Bautista DM. 2015. HTR7 mediates serotonergic acute and chronic itch. Neuron 87:124–138.
+DOI: https://doi.org/10.1016/j.neuron.2015.05.044 ,PMID: 26074006
+Nattkemper LA , Tey HL, Valdes-Rodriguez R, Lee H, Mollanazar NK, Albornoz C, Sanders KM, Yosipovitch G.
+2018. The genetics of chronic itch: gene expression in the skin of patients with atopic dermatitis and psoriasis
+with severe Itch. Journal of Investigative Dermatology 138:1311–1317. DOI: https://doi.org/10.1016/j.jid.2017.
+12.029 ,PMID: 29317264
+Oaklander AL . 2011. Neuropathic itch. Seminars in Cutaneous Medicine and Surgery 30:87–92. DOI: https://doi.
+org/10.1016/j.sder.2011.04.006 ,PMID: 21767768
+Oaklander AL , Siegel SM. 2005. Cutaneous innervation: form and function. Journal of the American Academy of
+Dermatology 53:1027–1037. DOI: https://doi.org/10.1016/j.jaad.2005.08.049 ,PMID: 16310064
+Oetjen LK , Mack MR, Feng J, Whelan TM, Niu H, Guo CJ, Chen S, Trier AM, Xu AZ, Tripathi SV, Luo J, Gao X,
+Yang L, Hamilton SL, Wang PL, Brestoff JR, Council ML, Brasington R, Schaffer A, Brombacher F, et al. 2017.
+Sensory neurons Co-opt classical immune signaling pathways to mediate chronic itch. Cell171:217–228.
+DOI: https://doi.org/10.1016/j.cell.2017.08.006 ,PMID: 28890086
+Oetjen LK , Kim BS. 2018. Interactions of the immune and sensory nervous systems in atopy. The FEBS Journal 285:
+3138–3151. DOI: https://doi.org/10.1111/febs.14465 ,PMID: 29637705
+Oyoshi MK , He R, Li Y, Mondal S, Yoon J, Afshar R, Chen M, Lee DM, Luo HR, Luster AD, Cho JS, Miller LS,
+Larson A, Murphy GF, Geha RS. 2012. Leukotriene B4-driven neutrophil recruitment to the skin is essential for
+allergic skin inflammation. Immunity 37:747–758. DOI: https://doi.org/10.1016/j.immuni.2012.06.018 ,
+PMID: 23063331
+Padovan E , Spagnoli GC, Ferrantini M, Heberer M. 2002. IFN-a2a induces IP-10/CXCL10 and MIG/CXCL9
+production in monocyte-derived dendritic cells and enhances their capacity to attract and stimulate CD8+
+effector T cells. Journal of Leukocyte Biology 71:669–676. PMID: 11927654
+Palmer CN , Irvine AD, Terron-Kwiatkowski A, Zhao Y, Liao H, Lee SP, Goudie DR, Sandilands A, Campbell LE,
+Smith FJ, O’Regan GM, Watson RM, Cecil JE, Bale SJ, Compton JG, DiGiovanna JJ, Fleckman P, Lewis-Jones
+S, Arseculeratne G, Sergeant A, et al. 2006. Common loss-of-function variants of the epidermal barrier protein
+filaggrin are a major predisposing factor for atopic dermatitis. Nature Genetics 38:441–446. DOI: https://doi.
+org/10.1038/ng1767 ,PMID: 16550169
+Pereira MP , Mu¨hl S, Pogatzki-Zahn EM, Agelopoulos K, Sta ¨nder S. 2016. Intraepidermal nerve fiber density:
+diagnostic and therapeutic relevance in the management of chronic pruritus: a review. Dermatology and
+Therapy 6:509–517. DOI: https://doi.org/10.1007/s13555-016-0146-1
+Perkins NM , Tracey DJ. 2000. Hyperalgesia due to nerve injury: role of neutrophils. Neuroscience 101:745–757.
+DOI: https://doi.org/10.1016/S0306-4522(00)00396-1 ,PMID: 11113323
+Pinho-Ribeiro FA , Verri WA, Chiu IM. 2017. Nociceptor sensory Neuron-Immune interactions in pain and
+inflammation. Trends in Immunology 38:5–19. DOI: https://doi.org/10.1016/j.it.2016.10.001 ,PMID: 27793571
+Pinho-Ribeiro FA , Baddal B, Haarsma R, O’Seaghdha M, Yang NJ, Blake KJ, Portley M, Verri WA, Dale JB,
+Wessels MR, Chiu IM. 2018. Blocking neuronal signaling to immune cells treats streptococcal invasive infection.
+Cell173:1083–1097. DOI: https://doi.org/10.1016/j.cell.2018.04.006 ,PMID: 29754819
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 31 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 32 ---
+Qu L , Fu K, Yang J, Shimada SG, LaMotte RH. 2015. CXCR3 chemokine receptor signaling mediates itch in
+experimental allergic contact dermatitis. Pain 156:1737–1746. DOI: https://doi.org/10.1097/j.pain.
+0000000000000208 ,PMID: 25932692
+Qu L , Fu K, Shimada SG, LaMotte RH. 2017. Cl-channel is required for CXCL10-induced neuronal activation and
+itch response in a murine model of allergic contact dermatitis. Journal of Neurophysiology 118:619–624.
+DOI: https://doi.org/10.1152/jn.00187.2017 ,PMID: 28446581
+Rattenholl A , Steinhoff M. 2003. Role of proteinase-activated receptors in cutaneous biology and disease. Drug
+Development Research 59:408–416. DOI: https://doi.org/10.1002/ddr.10311
+Salvemini D , Little JW, Doyle T, Neumann WL. 2011. Roles of reactive oxygen and nitrogen species in pain. Free
+Radical Biology and Medicine 51:951–966. DOI: https://doi.org/10.1016/j.freeradbiomed.2011.01.026 ,
+PMID: 21277369
+Sandilands A , Terron-Kwiatkowski A, Hull PR, O’Regan GM, Clayton TH, Watson RM, Carrick T, Evans AT, Liao
+H, Zhao Y, Campbell LE, Schmuth M, Gruber R, Janecke AR, Elias PM, van Steensel MA, Nagtzaam I, van Geel
+M, Steijlen PM, Munro CS, et al. 2007. Comprehensive analysis of the gene encoding filaggrin uncovers
+prevalent and rare mutations in ichthyosis vulgaris and atopic eczema. Nature Genetics 39:650–654.
+DOI: https://doi.org/10.1038/ng2020 ,PMID: 17417636
+Sapieha P , Stahl A, Chen J, Seaward MR, Willett KL, Krah NM, Dennison RJ, Connor KM, Aderman CM, Liclican
+E, Carughi A, Perelman D, Kanaoka Y, Sangiovanni JP, Gronert K, Smith LE. 2011. 5-Lipoxygenase metabolite
+4-HDHA is a mediator of the antiangiogenic effect of w-3 polyunsaturated fatty acids. Science Translational
+Medicine 3:69ra12. DOI: https://doi.org/10.1126/scitranslmed.3001571 ,PMID: 21307302
+Saunders SP , Moran T, Floudas A, Wurlod F, Kaszlikowska A, Salimi M, Quinn EM, Oliphant CJ, Nu ´n˜ez G,
+McManus R, Hams E, Irvine AD, McKenzie AN, Ogg GS, Fallon PG. 2016. Spontaneous atopic dermatitis is
+mediated by innate immunity, with the secondary lung inflammation of the atopic march requiring adaptive
+immunity. Journal of Allergy and Clinical Immunology 137:482–491. DOI: https://doi.org/10.1016/j.jaci.2015.
+06.045 ,PMID: 26299987
+Scho¨n M, Denzer D, Kubitza RC, Ruzicka T, Scho ¨n MP. 2000. Critical role of neutrophils for the generation of
+psoriasiform skin lesions in flaky skin mice. Journal of Investigative Dermatology 114:976–983. DOI: https://doi.
+org/10.1046/j.1523-1747.2000.00953.x ,PMID: 10771480
+Schu¨ttenhelm BN , Duraku LS, Dijkstra JF, Walbeehm ET, Holstege JC. 2015. Differential changes in the
+peptidergic and the Non-Peptidergic skin innervation in rat models for inflammation, dry skin itch, and
+dermatitis. Journal of Investigative Dermatology 135:2049–2057. DOI: https://doi.org/10.1038/jid.2015.137 ,
+PMID: 25848979
+Scott DL , Wolfe F, Huizinga TWJ. 2010. Rheumatoid arthritis. The Lancet 376:1094–1108. DOI: https://doi.org/
+10.1016/S0140-6736(10)60826-4
+Shalit M , Campbell DE, von Allmen C, Atkins PC, Douglas SD, Zweiman B. 1987. Neutrophil activation in human
+inflammatory skin reactions. Journal of Allergy and Clinical Immunology 80:87–93. DOI: https://doi.org/10.
+1016/S0091-6749(87)80196-3 ,PMID: 3598032
+Shimada SG , LaMotte RH. 2008. Behavioral differentiation between itch and pain in mouse. Pain 139:681–687.
+DOI: https://doi.org/10.1016/j.pain.2008.08.002 ,PMID: 18789837
+Shiratori-Hayashi M , Koga K, Tozaki-Saitoh H, Kohro Y, Toyonaga H, Yamaguchi C, Hasegawa A, Nakahara T,
+Hachisuka J, Akira S, Okano H, Furue M, Inoue K, Tsuda M. 2015. STAT3-dependent reactive astrogliosis in the
+spinal dorsal horn underlies chronic itch. Nature Medicine 21:927–931. DOI: https://doi.org/10.1038/nm.3912 ,
+PMID: 26193341
+Simpson EL , Bieber T, Guttman-Yassky E, Beck LA, Blauvelt A, Cork MJ, Silverberg JI, Deleuran M, Kataoka Y,
+Lacour JP, Kingo K, Worm M, Poulin Y, Wollenberg A, Soo Y, Graham NM, Pirozzi G, Akinlade B, Staudinger H,
+Mastey V, et al. 2016. Two phase 3 trials of dupilumab versus placebo in atopic dermatitis. New England
+Journal of Medicine 375:2335–2348. DOI: https://doi.org/10.1056/NEJMoa1610020 ,PMID: 27690741
+Sivick KE , Arpaia N, Reiner GL, Lee BL, Russell BR, Barton GM. 2014. Toll-like receptor-deficient mice reveal how
+innate immune signaling influences Salmonella virulence strategies. Cell Host & Microbe 15:203–213.
+DOI: https://doi.org/10.1016/j.chom.2014.01.013 ,PMID: 24528866
+Solinski HJ , Dranchak P, Oliphant E, Gu X, Earnest TW, Braisted J, Inglese J, Hoon MA. 2019a. Inhibition of
+natriuretic peptide receptor 1 reduces itch in mice. Science Translational Medicine 11:eaav5464. DOI: https://
+doi.org/10.1126/scitranslmed.aav5464 ,PMID: 31292265
+Solinski HJ , Kriegbaum MC, Tseng PY, Earnest TW, Gu X, Barik A, Chesler AT, Hoon MA. 2019b. Nppb neurons
+are sensors of mast Cell-Induced itch. Cell Reports 26:3561–3573. DOI: https://doi.org/10.1016/j.celrep.2019.
+02.089 ,PMID: 30917312
+Spergel JM , Paller AS. 2003. Atopic dermatitis and the atopic march. Journal of Allergy and Clinical Immunology
+112:S118–S127. DOI: https://doi.org/10.1016/j.jaci.2003.09.033 ,PMID: 14657842
+Sta¨nder S , Steinhoff M. 2002. Pathophysiology of pruritus in atopic dermatitis: an overview. Experimental
+Dermatology 11:12–24. DOI: https://doi.org/10.1034/j.1600-0625.2002.110102.x ,PMID: 11952824
+Sua´rez-Farin ˜as M , Dhingra N, Gittler J, Shemer A, Cardinale I, de Guzman Strong C, Krueger JG, Guttman-
+Yassky E. 2013. Intrinsic atopic dermatitis shows similar TH2 and higher TH17 immune activation compared with
+extrinsic atopic dermatitis. Journal of Allergy and Clinical Immunology 132:361–370. DOI: https://doi.org/10.
+1016/j.jaci.2013.04.046 ,PMID: 23777851
+Sumida H , Yanagida K, Kita Y, Abe J, Matsushima K, Nakamura M, Ishii S, Sato S, Shimizu T. 2014. Interplay
+between CXCR2 and BLT1 facilitates neutrophil infiltration and resultant keratinocyte activation in a murine
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 32 of 33Research article Immunology and Inflammation Neuroscience
+--- PAGE 33 ---
+model of imiquimod-induced psoriasis. The Journal of Immunology 192:4361–4369. DOI: https://doi.org/10.
+4049/jimmunol.1302959 ,PMID: 24663678
+Takeda M , Takahashi M, Matsumoto S. 2009. Contribution of the activation of satellite Glia in sensory ganglia to
+pathological pain. Neuroscience & Biobehavioral Reviews 33:784–792. DOI: https://doi.org/10.1016/j.
+neubiorev.2008.12.005
+Tamassia N , Calzetti F, Ear T, Cloutier A, Gasperini S, Bazzoni F, McDonald PP, Cassatella MA. 2007. Molecular
+mechanisms underlying the synergistic induction of CXCL10 by LPS and IFN-gamma in human neutrophils.
+European Journal of Immunology 37:2627–2634. DOI: https://doi.org/10.1002/eji.200737340 ,PMID: 17668902
+Tominaga M , Ozawa S, Ogawa H, Takamori K. 2007. A hypothetical mechanism of intraepidermal neurite
+formation in NC/Nga mice with atopic dermatitis. Journal of Dermatological Science 46:199–210. DOI: https://
+doi.org/10.1016/j.jdermsci.2007.02.002 ,PMID: 17350228
+Tominaga M , Tengara S, Kamo A, Ogawa H, Takamori K. 2009. Psoralen-ultraviolet A therapy alters epidermal
+Sema3A and NGF levels and modulates epidermal innervation in atopic dermatitis. Journal of Dermatological
+Science 55:40–46. DOI: https://doi.org/10.1016/j.jdermsci.2009.03.007 ,PMID: 19443185
+Tominaga M , Takamori K. 2013. An update on peripheral mechanisms and treatments of itch. Biological and
+Pharmaceutical Bulletin 36:1241–1247. DOI: https://doi.org/10.1248/bpb.b13-00319 ,PMID: 23902967
+Tominaga M , Takamori K. 2014. Itch and nerve fibers with special reference to atopic dermatitis: therapeutic
+implications. The Journal of Dermatology 41:205–212. DOI: https://doi.org/10.1111/1346-8138.12317
+Usoskin D , Furlan A, Islam S, Abdo H, Lo ¨nnerberg P, Lou D, Hjerling-Leffler J, Haeggstro ¨m J, Kharchenko O,
+Kharchenko PV, Linnarsson S, Ernfors P. 2015. Unbiased classification of sensory neuron types by large-scale
+single-cell RNA sequencing. Nature Neuroscience 18:145–153. DOI: https://doi.org/10.1038/nn.3881 ,
+PMID: 25420068
+von Moltke J , Trinidad NJ, Moayeri M, Kintzer AF, Wang SB, van Rooijen N, Brown CR, Krantz BA, Leppla SH,
+Gronert K, Vance RE. 2012. Rapid induction of inflammatory lipid mediators by the inflammasome in vivo.
+Nature 490:107–111. DOI: https://doi.org/10.1038/nature11351
+Wang J . 2018. Neutrophils in tissue injury and repair. Cell and Tissue Research 371:531–539. DOI: https://doi.
+org/10.1007/s00441-017-2785-7
+Wilson SR , Gerhold KA, Bifolck-Fisher A, Liu Q, Patel KN, Dong X, Bautista DM. 2011. TRPA1 is required for
+histamine-independent, Mas-related G protein-coupled receptor-mediated itch. Nature Neuroscience 14:595–
+602. DOI: https://doi.org/10.1038/nn.2789 ,PMID: 21460831
+Yellin M , Paliienko I, Balanescu A, Ter-Vartanian S, Tseluyko V, Xu LA, Tao X, Cardarelli PM, Leblanc H, Nichol G,
+Ancuta C, Chirieac R, Luo A. 2012. A phase II, randomized, double-blind, placebo-controlled study evaluating
+the efficacy and safety of MDX-1100, a fully human anti-CXCL10 monoclonal antibody, in combination with
+methotrexate in patients with rheumatoid arthritis. Arthritis & Rheumatism 64:1730–1739. DOI: https://doi.org/
+10.1002/art.34330 ,PMID: 22147649
+Yosipovitch G . 2004. Dry skin and impairment of barrier function associated with itch - new insights. International
+Journal of Cosmetic Science 26:1–7. DOI: https://doi.org/10.1111/j.0142-5463.2004.00199.x ,PMID: 18494919
+Yosipovitch G , Papoiu AD. 2008. What causes itch in atopic dermatitis? Current Allergy and Asthma Reports 8:
+306–311. DOI: https://doi.org/10.1007/s11882-008-0049-z ,PMID: 18606082
+Zhang Z , Hener P, Frossard N, Kato S, Metzger D, Li M, Chambon P. 2009. Thymic stromal lymphopoietin
+overproduced by keratinocytes in mouse skin aggravates experimental asthma. PNAS 106:1536–1541.
+DOI: https://doi.org/10.1073/pnas.0812668106 ,PMID: 19188585
+Zhang Y , Yan J, Hu R, Sun Y, Ma Y, Chen Z, Jiang H. 2015. Microglia are involved in Pruritus induced by DNFB
+via the CX3CR1/p38 MAPK pathway. Cellular Physiology and Biochemistry 35:1023–1033. DOI: https://doi.org/
+10.1159/000373929 ,PMID: 25661672
+Zheng T , Yu J, Oh MH, Zhu Z. 2011. The atopic march: progression from atopic dermatitis to allergic rhinitis and
+asthma. Allergy, Asthma and Immunology Research 3:67–73. DOI: https://doi.org/10.4168/aair.2011.3.2.67
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 33 of 33Research article Immunology and Inflammation Neuroscience

@@ -1,0 +1,420 @@
+
+=== PAGE 6 ===
+CD4+T cells are ubiquitous in mature human AD lesions ( Guttman-Yassky and Krueger, 2017 )
+and promote chronic AD itch and inflammation. More specifically, they play a key role in IL4R a-
+dependent sensitization of pruriceptors in the second week of the MC903 model ( Oetjen et al.,
+2017 ). Thus, we were quite surprised to find that itch behaviors preceded significant CD4+T cell
+infiltration. Therefore, neutrophils drew our attention as potential early mediators of MC903 itch.
+While neutrophil infiltration is a hallmark of acute inflammation, it remains unclear whether neutro-
+phils contribute to the pathogenesis of chronic itch. Moreover, neutrophils release known prurito-
+gens, including proteases, reactive oxygen species, and/or histamine, inflammatory lipids, and
+cytokines that sensitize and/or activate pruriceptors ( Dong and Dong, 2018 ;Hashimoto et al.,
+2018 ). Increased levels of the prostaglandin PGE 2and the neutrophil-specific leukotriene LTB 4have
+also been reported in skin of AD patients ( Fogh et al., 1989 ). Indeed, by mass spectrometry, we
+observed increases in several of these inflammatory lipids, PGD 2and PGE 2, as well as LTB 4and its
+precursor 5-HETE ( Figure 1—figure supplement 10A ) in MC903-treated skin, implicating neutro-
+phils in driving AD itch and inflammation. Thus, we next tested the requirement of neutrophils to
+itch in the MC903 model.
+Neutrophils are required for early itch behaviors in the MC903 model
+of AD
+We first asked whether neutrophils, the most abundant population of infiltrating immune cells in this
+chronic itch model, were required for MC903-evoked itch. Systemic depletion of neutrophils using
+daily injections of an anti-Gr1 (aGr1) antibody ( Ghasemlou et al., 2015 ;Sivick et al., 2014 ) dramati-
+cally attenuated itch-evoked scratching through the first eight days of the model ( Figure 2A ). Con-
+sistent with a key role for neutrophils in driving chronic itch, our depletion strategy significantly and
+selectively reduced circulating and skin infiltrating neutrophils on days five and eight, days on which
+control, but not depleted mice, scratched robustly ( Figure 2B ;Figure 2—figure supplement 1A–C ).
+In contrast, basophils and CD4+T cells continued to infiltrate the skin following aGr1 treatment
+(Figure 2C–D ), suggesting that these cells are not required for early MC903 itch.
+We next used the cheek model of acute itch ( Shimada and LaMotte, 2008 ) to ask whether neu-
+trophil recruitment is sufficient to trigger scratching behaviors. As expected, we observed significant
+and selective recruitment of neutrophils to cheek skin within 15 min after CXCL1 injection ( Figure 2—
+figure supplement 2A–B ). CXCL1 injection also triggered robust scratching behaviors ( Figure 2E )
+on a similar time course to neutrophil infiltration ( Figure 2—figure supplement 2B ). Thus, we next
+acutely depleted neutrophils with aGr1 to determine whether neutrophils were required for CXCL1-
+evoked acute itch. Indeed, aGr1-treatment rapidly reduced circulating neutrophils ( Figure 2—figure
+supplement 2C ) and resulted in a dramatic loss of CXCL1-evoked itch behaviors ( Figure 2C ). This
+effect was specific to neutrophil-induced itch, as injection of chloroquine, a pruritogen that directly
+activates pruriceptors to trigger itch, still triggered robust scratching in aGr1-treated animals ( Fig-
+ure 2—figure supplement 3A ). Given that CXCL1 has been shown to directly excite and/or sensitize
+sensory neurons, ( Deftu et al., 2017 ;Deftu et al., 2018 ) it is possible that the mechanism by which
+CXCL1 elicits itch may also involve neuronal pathways. However, our results show that CXCL1-medi-
+ated neutrophil infiltration is sufficient to drive acute itch behaviors, and that neutrophils are neces-
+sary for itch in the MC903 model.
+We also examined MC903-evoked itch behaviors in mice deficient in Crlf2 , the gene encoding
+the TSLP Receptor (TSLPR KO mice; Carpino et al., 2004 ). TSLPR is expressed by both immune cells
+and sensory neurons and is a key mediator of AD in humans and in mouse models ( Li et al., 2009 ;
+Li et al., 2006 ;Zhang et al., 2009 ;Demehri et al., 2009 ;Briot et al., 2009 ). Surprisingly, MC903-
+treated TSLPR KO mice displayed robust scratching behaviors through the first eight days of the
+model ( Figure 2F ). In contrast to our results in aGr1-injected mice, TSLPR KO mice displayed robust
+neutrophil infiltration ( Figure 2G ), but completely lacked basophil and CD4+T cell infiltration into
+the skin ( Figure 2H–I ,Figure 2—figure supplement 4A ), and additionally displayed a reduction in
+mast cells ( Figure 2—figure supplement 4A ). These results suggest that basophils and CD4+T cells
+are not required for early itch and further support an inciting role for neutrophils. Previous studies
+have shown that TSLP drives the expression of Type two cytokines and related immune cells that
+promote itch and inflammation in mature AD skin lesions ( Li et al., 2009 ;Li et al., 2006 ;
+Zhang et al., 2009 ;Demehri et al., 2009 ;Briot et al., 2009 ). Consistent with a later role for TSLP
+signaling in AD, we did observe a significant reduction in itch-evoked scratching in TSLPR KO mice
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 6 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 7 ===
+Figure 2. Neutrophils are necessary and sufficient for itch behaviors. ( A) Scratching behavior of uninjected and PBS-injected mice (combined) and
+aGr1-injected mice treated with MC903 or ethanol for indicated length of time (two-way ANOVA: **** pinteraction <0.0001, F(4,447) = 7.16; Tukey’s
+multiple comparisons: pday 3 MC903 vs. EtOH = 0.1111 n = 62,51,17 mice; * pday 5 MC903 vs. EtOH = 0.0154, pday 5 MC903 vs. aGr1 = 0.9854, pday 5 aGr1 vs.
+EtOH = 0.2267, n = 69,56,17 mice; **** pday 8 MC903 vs. EtOH <0.0001, *** pday 8 MC903 vs. aGr1 = 0.0007, pday 8 aGr1 vs. EtOH = 0.1543, n = 92,85,17 mice). ( B)
+Neutrophil count from cheek skin of uninjected/PBS-injected MC903- and ethanol-treated, and aGr1-injected MC903-treated mice on day 8 (one-way
+ANOVA: ****p<0.0001, F(2,92) = 10.59; Tukey’s multiple comparisons: **** pMC903 vs. EtOH <0.00001, n = 40,38 mice; * pMC903 vs. aGr1 MC903 = 0.0109,
+n = 40,17 mice; paGr1 vs. EtOH = 0.8859, n = 38,17 mice). ( C) Basophil count from cheek skin of uninjected/PBS-injected MC903- and ethanol-treated, and
+aGr1-injected MC903-treated mice on day 8 (one-way ANOVA: ****p=0.0001, F(2,92) = 14.61; Tukey’s multiple comparisons: pMC903 vs. aGr1
+MC903 = 0.3217, n = 40,17 mice, **** pMC903 vs. EtOH <0.0001, n = 40,38 mice, * paGr1 MC903 vs. EtOH = 0.0204, n = 17,38 mice). ( D) CD4+T cell count from
+cheek skin of PBS-injected MC903- and ethanol-treated, and aGr1-injected MC903-treated mice on day 8 (two-way ANOVA: ** ptreatment = 0.0035, F
+(1,35) = 9.82; Holm-Sidak multiple comparisons for PBS versus aGr1: pMC903 = 0.8878, n = 9,11 mice; pEtOH = 0.5201, n = 8,9 mice). Control MC903 and
+EtOH data from Figure 2B–C are also displayed in Figure 1 . Exact values displayed for Figure 2A–D inFigure 2—source data 1 . (E) Scratching
+behavior of mice immediately after injection of 1 mg CXCL1 or PBS (s.c. cheek). For neutrophil-depletion experiments, mice received 250 mg anti-Gr1
+(aGr1) 20 hr prior to cheek injection of CXCL1 or PBS (one-way ANOVA: ****p<0.0001, F(4,88) = 75.53; Tukey’s multiple comparisons: * pCXCL1 vs.
+PBS= 0.0126, n = 36,31 mice; paGr1-CXCL1 vs. aGr1-PBS > 0.9999, n = 10,10 mice; paGr1-CXCL1 vs. PBS = 0.9986, n = 10,31 mice). Exact values displayed in
+Figure 2—source data 2 . (F) Scratching behavior of WT and TSLPR KO (TSLPR KO) mice treated with MC903 or ethanol for indicated length of time
+(two-way ANOVA: **** pinteraction <0.0001, F(9,657) = 4.93; Tukey’s multiple comparisons: **** pday 8 WT MC903 vs. EtOH <0.0001, * pday 8 WT MC903 vs. KO
+MC903 = 0.0194, **p day 8 KO MC903 vs. KO EtOH = 0.0039, n = 92,85,36,26 mice; **** pday 12 WT MC903 vs. EtOH <0.0001, ** pday 12 WT MC903 vs. KO MC903 = 0.0028,
+pday 12 KO MC903 vs. KO EtOH = 0.7061, n = 26,26,27,23 mice). ( G) Neutrophil count from cheek skin of wild-type MC903- and ethanol-treated, and TSLPR
+KO MC903-treated mice on day 5 (two-way ANOVA: ** pgenotype = 0.0025, F(2,125) = 6.28; Tukey’s multiple comparisons: **** pday 5 WT MC903 vs. WT
+EtOH <0.0001, n = 6,8 mice; pday 5 WT MC903 vs. KO MC903 = 0.2198, n = 6,6 mice; * pday 5 WT EtOH vs. KO MC903 = 0.0212, n = 8,6 mice). ( H) Basophil count
+from cheek skin of wild-type MC903- and ethanol-treated, and TSLPR KO MC903-treated mice on day 8 (two-way ANOVA: ** pgenotype = 0.0003, F(2,117)
+= 8.87; Tukey’s multiple comparisons: **** pday 8 WT MC903 vs. WT EtOH <0.0001, n = 40,38 mice; **** pday 8 WT MC903 vs. KO MC903 <0.0001, n = 40,15 mice;
+pday 8 WT EtOH vs. KO MC903 = 0.9519, n = 38,15 mice). See also Figure 2—figure supplement 5A . For Figure 2G–H , data from days 3, 5, and 8 are
+Figure 2 continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 7 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 8 ===
+in the second week of the model ( Figure 2F ). Thus, our data support a model in which neutrophils
+are necessary for initiation of AD and itch behaviors early in the development of AD, whereas TSLPR
+signaling mediates the recruitment of basophils and CD4+T cells to promote later stage itch and
+chronic inflammation.
+The incomplete loss of itch behaviors on day 12 in the TSLPR KO animals ( Figure 2F ) raised the
+question of whether neutrophils might also contribute to itch during the second week of the MC903
+model. To directly answer this question, we measured neutrophil infiltration and itch-evoked scratch-
+ing on day 12 in mice that received either aGr1 or PBS on days 8–11 of the model to selectively
+deplete neutrophils solely during the second week. Neutrophil depletion in the second week with
+aGr1 robustly decreased skin-infiltrating neutrophils ( Figure 2J ), and substantially reduced scratch-
+ing behaviors at day 12 ( Figure 2K ), supporting a role for neutrophils in chronic itch. Interestingly,
+we observed a 79% mean reduction in time spent scratching after neutrophil depletion at day 12,
+whereas loss of TSLPR effected a 44% reduction in time spent scratching. We speculate that neutro-
+phils and TSLP signaling comprise independent mechanisms that together account for the majority
+of AD itch. In order to ascertain whether neutrophils could be salient players in other models of AD,
+and not just MC903, we measured neutrophil infiltration into ear skin in the 1-fluoro-2,4-dinitroben-
+zene (DNFB) model of atopic dermatitis, which relies on hapten-induced sensitization to drive
+increased IgE, mixed Th1/Th2 cytokine response, skin thickening, inflammation, and robust scratch-
+ing behaviors in mice ( Zhang et al., 2015 ;Kitamura et al., 2018 ;Solinski et al., 2019a ). Indeed,
+neutrophils also infiltrated DNFB- but not vehicle-treated skin ( Figure 2—figure supplement 5A ).
+Taken together, these observations are complementary to published datasets showing evidence for
+neutrophil chemokines and transcripts in human AD lesions ( Ewald et al., 2017 ;Choy et al., 2012 ;
+Guttman-Yassky et al., 2009 ;Sua´rez-Farin ˜as et al., 2013 ;Jabbari et al., 2012 ). Overall, our data
+support a key role for neutrophils in promoting AD itch and inflammation.
+MC903 drives rapid and robust changes in the peripheral and central
+nervous systems
+But how do neutrophils drive AD itch? Itchy stimuli are detected and transduced by specialized sub-
+sets of peripheral somatosensory neurons. Thus, to answer this question we first profiled the tran-
+scriptional changes in somatosensory neurons in the MC903 model, which were previously
+unstudied. In general, little is known regarding neuronal changes in chronic itch. Our initialFigure 2 continued
+presented in Figure 2—source data 3 . (I) CD4+T cell count from cheek skin of wild-type MC903- and ethanol-treated, and TSLPR KO MC903-treated
+mice on day 8 (one-way ANOVA: **p=0.0053, F(2,24) = 6.564; Tukey’s multiple comparisons: * pWT MC903 vs. WT EtOH = 0.0163, n = 11,8 mice; * pMC903 vs.
+KO MC903 = 0.0130, n = 11,8 mice; pWT EtOH vs. KO MC903 = 0.9953, n = 8,8 mice). Wild-type MC903 and EtOH data from 2F-H are also displayed in
+Figure 1 . Exact values for Figure 2F–I displayed in Figure 2—source data 3 . (J) Neutrophil count from cheek skin of wild-type MC903- and ethanol-
+treated mice on day 12 of the MC903 model. MC903-treated animals received daily i.p. injections of 250 mg aGr1 antibody or PBS (250 mL) on days 8–11
+of the model (one-way ANOVA: *p=0.01, F(2,13) = 6.69; Tukey’s multiple comparisons: * pMC903-PBS vs. EtOH = 0.0141, n = 6,5 mice; * pMC903-PBS vs. MC903-
+aGr1= 0.10330, n = 6,5 mice; pMC903-aGr1 vs. EtOH = 0.9005, n = 5,5 mice). ( K) Time spent scratching over a thirty minute interval for wild-type MC903- and
+ethanol-treated mice on day 12 of the MC903 model. MC903-treated animals received daily i.p. injections of 250 mg aGr1 antibody or PBS (250 mL) on
+days 8–11 of the model (one-way ANOVA: ****p<0.0001, F(2,26) = 53.1; Tukey’s multiple comparisons: **** pMC903-PBS vs. EtOH <0.0001, n = 12,5 mice;
+****pMC903-PBS vs. MC903-aGr1 < 0.0001, n = 12,12 mice; pMC903-aGr1 vs. EtOH = 0.3734, n = 12,5 mice). Values from bar plots are reported in Figure 2—
+source data 5 .
+The online version of this article includes the following source data and figure supplement(s) for figure 2:
+Source data 1. Values displayed in bar plots shown in Figure 2A–D .
+Source data 2. Values displayed in the bar plots shown in Figure 2E and Figs.
+Source data 3. Values displayed in the bar plots shown in Figure 2F–I andFigure 2—figure supplement 4A–B .
+Source data 4. Values used to generate the line plots shown in Figure 2—figure supplement 1C .
+Source data 5. Values displayed in the bar plots shown in Figure 2J–K .
+Source data 6. Values displayed in the bar plots in Figure 2—figure supplement 5A .
+Figure supplement 1. aGr1 treatment preferentially depletes neutrophils.
+Figure supplement 2. CXCL1 rapidly and selectively recruits neutrophils to skin.
+Figure supplement 3. Neutrophil depletion does not affect chloroquine-evoked itch.
+Figure supplement 4. Loss of TSLPR reduces skin basophil and mast cell numbers in the first week of AD development.
+Figure supplement 5. Neutrophils robustly infiltrate the skin in the DNFB mouse model of atopic dermatitis.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 8 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 9 ===
+examination of early hyperinnervation and changes in axon guidance molecules in skin suggested
+that neurons are indeed affected early on in the MC903 model, before the onset of itch-evoked
+scratching behaviors. In contrast to the skin, where we saw many early transcriptional changes, we
+did not see any significant transcriptional changes in the trigeminal ganglia (TG) until five days after
+the first treatment, and in total only 84 genes were differentially expressed through the eighth day
+(Figure 3A–B ). These hits included genes related to excitability of itch sensory neurons, ( Dong and
+Dong, 2018 ;Usoskin et al., 2015 ) neuroinflammatory genes, ( Takeda et al., 2009 ) and activity-
+induced or immediate early genes ( Figure 3A ). Interestingly, we observed enrichment of neuronal
+markers expressed by one specific subset of somatosensory neurons that are dedicated to itch
+(Il31ra, Osmr, Trpa1, Cysltr2, and Nppb ), termed ‘NP3’ neurons ( Dong and Dong, 2018 ;
+Usoskin et al., 2015 ;Huang et al., 2018 ;Solinski et al., 2019b ). Similar to what has been reported
+in mouse models of chronic pain, we observed changes in neuroinflammatory ( Bdnf, Nptx1, Nptx2,
+Nptxr ) and immune genes ( Itk, Cd19, Rag, Tmem173 ). However, these transcriptional changes
+occurred just a few days after itch onset, in contrast to the slow changes in nerve injury and pain
+models that occur over weeks, indicating that neuropathic changes may occur sooner than previously
+thought in chronic itch. These changes occurred in tandem with the onset of scratching behaviors
+(Figure 1C ), suggesting that the early molecular and cellular changes we observed by this time point
+may be important for development or maintenance of itch-evoked scratching.
+The changes we observed in immune-related genes in the TG were suggestive of infiltration or
+expansion of immune cell populations, which has been reported in models of nerve injury and
+chronic pain, but has never been reported in chronic itch. To validate our observations, we used IHC
+to ask whether CD45+immune cells increase in the TG. We observed a significant increase in TG
+immune cell counts at day eight but not day five ( Figure 3C–F ,Figure 3—figure supplement 1A–
+D). Because we observed such dramatic expression changes in the TG on day eight of the model,
+we postulated that the CNS may also be affected by this time point. Thus, we performed RNA-seq
+on spinal cord segments that innervate the MC903-treated rostral back skin of mice. To date, only
+one study has examined changes in the spinal cord during chronic itch ( Shiratori-Hayashi et al.,
+2015 ). The authors showed that upregulation of the STAT3-dependent gene Lcn2 occurred three
+weeks after induction of chronic itch and was essential for sustained scratching behaviors. Surpris-
+ingly, we saw upregulation of Lcn2 on day eight of the MC903 model and, additionally, we observed
+robust induction of immediate early genes ( Fos, Junb, Figure 3G ), suggesting that MC903 itch
+drives activity-dependent changes in the spinal cord as early as one week after beginning treatment.
+Together, our findings show that sustained itch and inflammation can drive changes in the PNS and
+CNS much sooner than previously thought, within days rather than weeks after the onset of scratch-
+ing. We next set out to explore how loss of neutrophils impacts the molecular changes observed in
+skin and sensory neurons in the MC903 model, and which of these changes might contribute to neu-
+trophil-dependent itch.
+Neutrophils are required for upregulation of select itch- and atopic-
+related genes, including the itch-inducing chemokine CXCL10
+To ask how neutrophils promote itch in the MC903 model, we examined the transcriptional changes
+in skin and sensory ganglia isolated from non-itchy neutrophil-depleted animals and from the TSLPR
+KO mice, which scratched robustly. A number of AD-associated cytokines that were upregulated in
+control MC903 skin were not upregulated in TSLPR KO and neutrophil-depleted skin. For example,
+Il33 upregulation is both neutrophil- and TSLPR-dependent ( Figure 4A ,Figure 4—figure supple-
+ment 1A ). By contrast, upregulation of epithelial-derived cytokines and chemokines Tslp,Cxcl1 ,
+Cxcl2 ,Cxcl3 , and Cxcl5 was unaffected by either loss of TSLPR or neutrophil depletion ( Figure 4B ),
+suggesting these molecules are produced by skin cells even when the MC903-evoked immune
+response is compromised. Consistent with previous studies, Il4upregulation was completely depen-
+dent on TSLPR but not neutrophils, establishing a role for TSLP signaling in the Type two immune
+response. Among the hundreds of MC903-dependent genes we examined, only a handful of genes
+were uniquely affected by neutrophil depletion. One such gene was Cxcl10 , a chemokine known to
+be released by skin epithelial cells, neutrophils, and other myeloid cells ( Hashimoto et al., 2018 ;
+Ioannidis et al., 2016 ;Kanda et al., 2007 ;Koga et al., 2008 ;Michalec et al., 2002 ;
+Padovan et al., 2002 ;Tamassia et al., 2007 ).Cxcl10 expression was increased in TSLPR KO but not
+neutrophil-depleted skin ( Figure 4B ,Figure 4—figure supplement 1A ). CXCL10 has been
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 9 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 10 ===
+Figure 3. The MC903 model induces rapid and robust changes in neuronal tissue. ( A) Exact permutation test (10,000 iterations, see
+Materials and methods) for significance of mean absolute log 2fold change in gene expression at Day 8 (MC903 vs. ethanol) of custom-defined groups
+of genes for indicated categories (see Figure 3—source data 1 ). (B) Log 2fold change in gene expression (MC903 vs. ethanol) in mouse trigeminal
+ganglia (TG) at indicated time points for all genes which were significantly differentially expressed for at least one time point in the MC903 model.
+Figure 3 continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 10 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 11 ===
+previously shown to drive acute itch in a model of allergic contact dermatitis via CXCR3 signaling in
+sensory neurons, ( Qu et al., 2015 ) and is elevated in skin of AD patients ( Mansouri and Guttman-
+Yassky, 2015 ). Expression of Cxcl9 and Cxcl11 , two other CXCR3 ligands that are elevated in AD
+but have an unknown role in itch, was also decreased in AD skin of neutrophil-depleted mice
+(Figure 4B ).
+CXCR3 signaling is necessary for MC903-evoked chronic itch
+We hypothesized that neutrophil-dependent upregulation of CXCL10 activates sensory neurons to
+drive itch behaviors. Consistent with this model, neutrophil depletion attenuated the expression of
+activity-induced immediate early genes ( Vgf, Junb ) in the TG, suggestive of neutrophil-dependent
+sensory neuronal activity ( Figure 4C ,Figure 4—figure supplement 1B ). We found that neutrophils
+also contributed to other sensory neuronal phenotypes in the model. For example, we observed that
+expression of Lcn2 , a marker of neuropathic itch, and activity-induced genes FosandJunb were not
+increased in spinal cord isolated from neutrophil-depleted animals, indicating that neutrophil-depen-
+dent scratching behaviors may indeed drive changes in the CNS ( Figure 4D ). We also observed that
+neutrophil-depleted animals displayed no skin hyperinnervation at day two ( Figure 4E ). This result
+was surprising because we did not observe significant neutrophil infiltration at this early time point,
+but these data suggest that low numbers of skin neutrophils are sufficient to mediate these early
+effects.
+To test our model wherein CXCL10 activates CXCR3 to drive neutrophil-dependent itch, we first
+asked whether this CXCR3 ligand is in fact released in MC903-treated skin. We performed ELISA on
+cheek skin homogenate and found that CXCL10 protein was increased in MC903-treated skin from
+uninjected wild-type and TSLPR KO animals, but not in skin from neutrophil-depleted mice
+(Figure 4F ). To test whether CXCR3 signaling directly contributes to AD itch, we asked whether
+acute blockade of CXCR3 using the antagonist AMG 487 ( Qu et al., 2015 ) affected scratching
+behaviors in the MC903 model. We found that the CXCR3 antagonist strongly attenuated scratching
+behaviors on days five, eight, and twelve ( Figure 4G ), with the greatest effect at day eight. In con-
+trast, CXCR3 blockade did not attenuate scratching behaviors in naive mice injected with the prurito-
+gen chloroquine ( Figure 4G ), demonstrating that CXCR3 signaling contributes to chronic itch but is
+not required for scratching in response to an acute pruritogen. Thus, we propose that neutrophils
+promote chronic itch in atopic dermatitis via upregulation of CXCL10 and subsequent activation of
+CXCR3-dependent itch pathways ( Figure 5 ).Figure 3 continued
+Green bars = increased expression in MC903 relative to ethanol; magenta = decreased expression. Exact values and corrected p-values are reported in
+Figure 3—source data 2 andSource Data 1 Supplemental Data, respectively. ( C) Representative composite images showing immune cells (CD45,
+green), and sensory neurons (Prph, magenta) with DAPI (blue) in sectioned trigeminal ganglia from mice treated with Vehicle or MC903 for five days on
+the cheek. ( D) Quantification of images examining average number of CD45+cells per section and average ratio of CD45:Peripherin cells per section
+after five days of treatment (p=0.562 ( t= 0.6318, df= 4), 0.542 ( t= 0.6660, df= 4); two-tailed unpaired t-tests, n = 33–159 fields of view (images) each of
+both trigeminal ganglia from three mice per condition treated bilaterally). ( E) Representative composite images showing immune cells (CD45, green),
+and sensory neurons (Peripherin (Prph), magenta) with DAPI (blue) in sectioned trigeminal ganglia from mice treated with Vehicle or MC903 for eight
+days on the cheek. ( F) Quantification of images examining average number of CD45+cells per section and average ratio of CD45:Peripherin cells per
+section after eight days of treatment (**p=0.0019 ( t= 5.977, df= 5), **p =0.0093 ( t= 4.107, df= 4); two-tailed unpaired t-tests; n = 42–172 fields of view
+(images) each of both trigeminal ganglia from 3 EtOH or 4 MC903 animals treated bilaterally). Scale bar = 100 mm. Images were acquired on a
+fluorescence microscope using a 10x air objective. Values from bar plots and all TG IHC data are available in Figure 3—source data 3 . (G) Log 2fold
+change in gene expression (MC903 vs. ethanol) in mouse spinal cord on day 8 showing selected differentially expressed genes ( padjusted <0.05). Exact
+values and corrected p-values are reported in Source Data 1 Supplemental Data.
+The online version of this article includes the following source data and figure supplement(s) for figure 3:
+Source data 1. Values displayed in the bar plot shown in Figure 3A .
+Source data 2. Values displayed in the heat map shown in Figure 3B .
+Source data 3. Quantification of all IHC samples from trigeminal ganglia, and Values displayed in the bar plots shown in Figure 3D,F .
+Figure supplement 1. Method of image quantification for sectioned trigeminal ganglia.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 11 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 12 ===
+Discussion
+There is great interest in unraveling the neuroimmune interactions that promote acute and chronic
+itch. Here, we show that neutrophils are essential for the early development of MC903-evoked itch.
+Figure 4. Neutrophils are required for induction of the itch-inducing chemokine CXCL10. ( A) Log 2fold change (Day 8 MC903 vs. EtOH) of Th2 genes in
+skin from uninjected wild-type, aGR1-treated, and TSLPR KO animals. ( B) Log 2fold change (Day 8 MC903 vs. EtOH) of chemokine genes in skin from
+uninjected wild-type, aGr1-treated, and TSLPR KO animals. ( C) Log 2fold change (Day 8 MC903 vs. EtOH) of activity-induced genes in trigeminal
+ganglia from uninjected wild-type, aGr1-treated, and TSLPR KO animals. ( D) Log 2fold change (Day 8 MC903 vs. EtOH) of Lcn2 and activity-induced
+genes in spinal cord from uninjected and aGr1-treated wild-type mice on day 8. For Figure 4A–D , exact values and corrected p-values are reported in
+Source Data 1 Supplemental Data. ( E) Quantification of innervation (see Materials and methods) of MC903 and EtOH-treated mouse skin as
+determined from BTIII staining (p=0.8985; two-tailed t-test ( t= 0.1294; df = 18); n = 9,11 images each from two mice per treatment. Exact values are
+reported in Figure 4—source data 1 . (F) CXCL10 levels in skin homogenate as measured by ELISA on day 8 of the MC903 model for uninjected
+animals (left; *p=0.029 ( t= 2.715, df= 7); two-tailed t-test; n = 4,5 animals), animals which received aGr1 for 8 days (middle; p=0.43 ( t= 0.815, df= 11);
+two-tailed t-test; n = 6,6 animals), and TSLPR KO animals (right; *p=0.0357 ( t= 2.696, df= 6); two-tailed t-test; n = 4,4 animals. Skin homogenates were
+isolated on separate days and so uninjected, WT samples were not compared to aGr1-treated samples or to TSLPR KO samples. ( G) (Left) Time spent
+scratching over a thirty minute interval on days 5, 8, and 12 of the MC903 model, one hour after mice were injected with either 3.31 mM of the CXCR3
+antagonist AMG 487 or vehicle (20% HPCD in PBS; 50 mL s.c. in rostral back); (two-way ANOVA: **** ptreatment <0.0001, F(1,67) = 50.64; Tukey’s multiple
+comparisons: * pday 5 = 0.0216, n = 8,10 mice; *** pday 8 = 0.0007, n = 18,21 mice; **** pday 12 < 0.0001, n = 8,8 mice). (Right) Time spent scratching over a
+thirty minute interval one hour after mice were injected with either 3.31 mM of the CXCR3 antagonist AMG 487 or vehicle (20% HPCD in PBS; 50 mL s.c.
+in rostral back), and immediately after mice were injected with 50 mM chloroquine (20 mL i.d., cheek). p=0.92 ( t= 0.0964, df= 8); two-tailed t-test;
+n = 5,5 mice. Values from bar plots in Figure 4F–G are displayed in Figure 4—source data 2 .
+The online version of this article includes the following source data and figure supplement(s) for figure 4:
+Source data 1. Values displayed in the bar plot shown in Figure 4E .
+Source data 2. Values displayed in the bar plots shown in Figure 4F–G .
+Source data 3. Values displayed in the heat map shown in Figure 4—figure supplement 1A .
+Source data 4. Values displayed in the heat map shown in Figure 4—figure supplement 1B .
+Figure supplement 1. MC903-dependent gene expression changes in aGr1-treated and TSLPR KO animals.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 12 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 13 ===
+We further show that the recruitment of neutrophils to the skin is sufficient to drive itch behaviors
+within minutes of infiltration. While neutrophils are known to release a variety of pruritogens, their
+roles in itch and AD were not studied ( Hashimoto et al., 2018 ). Only a few studies have even
+reported the presence of neutrophils in human AD lesions ( Choy et al., 2012 ;Koro et al., 1999 ;
+Mihm et al., 1976 ;Shalit et al., 1987 ). Neutrophils have been implicated in psoriatic inflammation
+and inflammatory pain, ( Sumida et al., 2014 ;Perkins and Tracey, 2000 ;Guerrero et al., 2008 ;
+Cunha et al., 2003 ;Finley et al., 2013 ;Carreira et al., 2013 ;Levine et al., 2006 ;Scho¨n et al.,
+2000 ) where they are thought to rapidly respond to tissue injury and inflammation, ( Oyoshi et al.,
+2012 ) but they have not been directly linked to itch.
+There is a strong precedence for immune cell-neuronal interactions that drive modality-specific
+outcomes, such as itch versus pain, under distinct inflammatory conditions. In allergy, mast cells infil-
+trate the upper dermis and epidermis and release pruritogens to cause itch, ( Solinski et al., 2019b ;
+Meixiong et al., 2019 ) whereas in tissue injury, mast cell activation can trigger pain hypersensitivity
+(Chatterjea and Martinov, 2015 ). Likewise, neutrophils are also implicated in both pain and itch.
+Figure 5. Model of early AD pathogenesis. ( A) AD induction first results in increased protease expression and barrier dysfunction, which drives
+production of the cytokines TSLP and CXCL1 via PAR2 activation within keratinocytes. CXCL1 can recruit neutrophils via its receptor CXCR2.
+Neutrophils may evoke itch by multiple pathways, including degranulation and release of proteases and histamine, production of sensitizing lipids such
+as PGE 2and LTB 4, (Hashimoto et al., 2018 ) and induction of CXCL10 expression, which can activate sensory neurons via CXCR3. TSLP activates a
+number of immune cells to elicit IL-4 production, including basophils, which results in increased IL-4, recruitment of CD4+T cells, ( Oetjen et al., 2017 )
+and sensitization of neurons to promote itch later in the model.
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 13 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 14 ===
+For example, pyoderma gangrenosum, which causes painful skin ulcerations recruits neutrophils to
+the deep dermal layers to promote tissue damage and pain ( Hashimoto et al., 2018 ). In AD, neutro-
+phils are recruited to the upper dermis and epidermis, ( Choy et al., 2012 ;Shalit et al., 1987 ) and
+we now show that neutrophils trigger itch in AD. Adding to the complex and diverse roles of neutro-
+phils, neutrophils recruited to subcutaneous sites during invasive streptococcal infection alleviate
+pain by clearing the tissue of bacteria ( Pinho-Ribeiro et al., 2018 ). Several potential mechanisms
+may explain these diverse effects of neutrophils. First, the location of the inflammatory insult could
+promote preferential engagement of pain versus itch nerve fibers ( Hashimoto et al., 2018 ). This is
+supported by observations that neutrophil-derived reactive oxygen species and leukotrienes can
+promote either itch or pain under different inflammatory conditions ( Salvemini et al., 2011 ;
+Bautista et al., 2006 ;Liu and Ji, 2012 ;Caceres et al., 2009 ). Second, it has been proposed that
+there are distinct functional subsets of neutrophils that release modality-specific inflammatory medi-
+ators ( Wang, 2018 ). Third, the disease-specific inflammatory milieu may induce neutrophils to specif-
+ically secrete mediators of either itch or pain. Indeed, all three of these mechanisms have been
+proposed to underlie the diverse functions of microglia and macrophages in homeostasis, tissue
+repair, injury, and neurodegenerative disease ( Hammond et al., 2018 ). It will be of great interest to
+the field to decipher the distinct mechanisms by which neutrophils and other immune cells interact
+with the nervous system to drive pain and itch.
+In addition to neutrophils, TSLP signaling and the Type two immune response plays an important
+role in the development of itch in the second week of the MC903 model. Dendritic cells, mast cells,
+basophils, and CD4+T cells are all major effectors of the TSLP inflammatory pathway in the skin. We
+propose that neutrophils play an early role in triggering itch and also contribute to chronic itch in
+parallel with the TSLP-Type two response. While we have ruled out an early role for TSLP signaling
+and basophils and CD4+T cells in early itch, other cell types such as mast cells, which have recently
+been linked directly to chronic itch, ( Solinski et al., 2019b ;Meixiong et al., 2019 ) and dendritic
+cells may be playing an important role in setting the stage for itch and inflammation prior to infiltra-
+tion of neutrophils.
+Given the large magnitude of the itch deficit in the neutrophil-depleted mice, we were surprised
+to find fewer expression differences in MC903-dependent, AD-associated genes between neutrophil
+depleted and non-depleted mice than were observed between WT and TSLPR KO mice. One of the
+few exceptions were the Th1-associated genes Cxcl9/10/11 (Ewald et al., 2017 ;Brunner et al.,
+2017 ). We found that induction of these genes and of CXCL10 protein was completely dependent
+on neutrophils. While our results do not identify the particular cell type(s) responsible for neutrophil-
+dependent CXCL10 production, a number of cell types present in skin have been shown to produce
+CXCL10, including epithelial keratinocytes, myeloid cells, and sensory neurons ( Hashimoto et al.,
+2018 ;Ioannidis et al., 2016 ;Kanda et al., 2007 ;Koga et al., 2008 ;Michalec et al., 2002 ;
+Padovan et al., 2002 ;Tamassia et al., 2007 ). In support of a role for neutrophils in promoting
+chronic itch, we observed striking differences in neutrophil-dependent gene expression in the spinal
+cord, where expression of activity-induced genes and the chronic itch gene Lcn2 were markedly
+attenuated by loss of neutrophils. Moreover, we also demonstrate that depletion of neutrophils in
+the second week of the MC903 model can attenuate chronic itch-evoked scratching. In examining
+previous characterizations of both human and mouse models of AD and related chronic itch disor-
+ders, several studies report that neutrophils and/or neutrophil chemokines are indeed present in
+chronic lesions ( Ewald et al., 2017 ;Choy et al., 2012 ;Guttman-Yassky et al., 2009 ;Sua´rez-
+Farin˜as et al., 2013 ;Jabbari et al., 2012 ;Nattkemper et al., 2018 ;Li et al., 2017 ;
+Saunders et al., 2016 ;Andersson, 2015 ;Liu et al., 2019 ;Malik et al., 2017 ). Our observations
+newly implicate neutrophils in setting the stage for the acute-to-chronic itch transition by triggering
+molecular changes necessary to develop a chronic, itchy lesion and also contributing to persistent
+itch.
+Additionally, we demonstrate a novel role of CXCR3 signaling in MC903-induced itch. The
+CXCR3 ligand CXCL10 contributes to mouse models of acute and allergic itch ( Qu et al., 2015 ;
+Qu et al., 2017 ;Jing et al., 2018 ); however, its role in chronic itch was previously unknown. We
+speculate that the residual itch behaviors after administration of the CXCR3 antagonist could be due
+to TSLPR-dependent IL-4 signaling, as TSLPR-deficient mice display reduced itch behaviors by the
+second week of the model, or due to some other aspect of neutrophil signaling, such as release of
+proteases, leukotrienes, prostaglandins, or reactive oxygen species, all of which can directly trigger
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 14 of 33Research article Immunology and Inflammation Neuroscience
+=== PAGE 15 ===
+itch via activation of somatosensory neurons ( Hashimoto et al., 2018 ). Our observations are in align-
+ment with a recent study showing that dupilumab, a new AD drug that blocks IL4R a, a major down-
+stream effector of the TSLP signaling pathway, does not significantly reduce CXCL10 protein levels
+in human AD lesions ( Hamilton et al., 2014 ). Taken together, these findings suggest that the TSLP/
+IL-4 and neutrophil/CXCL10 pathways are not highly interdependent, and supports our findings that
+Il4transcript is robustly upregulated in the absence of neutrophils. Additionally, targeting IL4R asig-
+naling has been successful in treating itch and inflammation in some, but not all, AD patients
+(Simpson et al., 2016 ). We propose that biologics or compounds targeting neutrophils and/or the
+CXCR3 pathway may be useful for AD that is incompletely cleared by dupilumab monotherapy.
+Drugs targeting neutrophils are currently in clinical trials for the treatment of psoriasis, asthma, and
+other inflammatory disorders. For example, MDX-1100, a biologic that targets CXCL10, has already
+shown efficacy for treatment of rheumatoid arthritis in phase II clinical trials ( Yellin et al., 2012 ).
+While rheumatoid arthritis and AD have distinct etiologies, ( Scott et al., 2010 ) our body of work
+indicates that CXCL10 or CXCR3 may be promising targets for treating chronic itch. Our findings
+may also be applicable to other itch disorders where neutrophil chemoattractants and/or CXCL10
+are also elevated, such as psoriasis and allergic contact dermatitis. Overall, our data suggest that
+neutrophils incite itch and inflammation in early AD through several mechanisms, including: 1)
+directly triggering itch upon infiltration into the skin, as shown by acute injection of CXCL1, and, 2)
+indirectly triggering itch by altering expression of endogenous pruritogens (e.g. induction of Cxcl10
+expression; Hashimoto et al., 2018 ;Ioannidis et al., 2016 ;Kanda et al., 2007 ;Koga et al., 2008 ;
+Michalec et al., 2002 ;Padovan et al., 2002 ;Tamassia et al., 2007 ). Together, these direct and
+indirect mechanisms for neutrophil-dependent itch may explain why neutrophils have a dramatic
+effect on scratching behaviors on not only days eight and twelve but also day five of the model,
+when neutrophils are recruited in large numbers, but CXCR3 ligands are not as robustly induced.
+More generally, our study provides a framework for understanding how and when human chronic
+itch disease genes contribute to the distinct stages of AD pathogenesis. Our analysis of MC903-
+evoked transcriptional changes suggests we may be able to extend findings in the model not only to
+atopic dermatitis, but also to related disorders, including specific genetic forms of atopy. For exam-
+ple, we provide evidence that MC903 treatment may also model the filaggrin loss-of-function muta-
+tions, which are a key inciting factor in human heritable atopic disease ( Palmer et al., 2006 ;
+Sandilands et al., 2007 ). There are many rich datasets looking at mature patient lesions and data-
+sets for mature lesions in other mouse models of chronic itch ( Ewald et al., 2017 ;Choy et al.,
+2012 ;Guttman-Yassky et al., 2009 ;Jabbari et al., 2012 ;Nattkemper et al., 2018 ;Oetjen et al.,
+2017 ;Liu et al., 2019 ;Liu et al., 2016 ). Our study adds a temporal frame of reference to these
+existing datasets and sets the stage for probing the function of AD disease genes in greater detail.
+Furthermore, we have mapped the time course of gene expression changes in primary sensory gan-
+glia and spinal cord during chronic itch development. We show that the MC903 model recapitulates
+several hallmarks of neuropathic disease on a time course much shorter than has been reported for
+chronic itch, or chronic pain. Nervous system tissues are extremely difficult to obtain from human
+AD patients, and thus little is known regarding the neuronal changes in chronic itch disorders in
+both mouse models and human patients. Our findings can now be compared to existing and future
+datasets examining neuronal changes in chronic pain, diabetic neuropathy, shingles, neuropathic
+itch, psoriasis, and other inflammatory disorders where neuronal changes are poorly understood but
+may contribute to disease progression. The early changes we see in skin innervation, sensory gan-
+glia, and spinal cord dovetail with recent studies examining neuroimmune interactions in other
+inflammatory conditions, ( Pinho-Ribeiro et al., 2018 ;Baral et al., 2018 ;Pinho-Ribeiro et al., 2017 ;
+Blake et al., 2018 ) which all implicate early involvement of sensory neurons in the pathogenesis of
+inflammatory diseases.
+Materials and methods
+Key resources table
+Reagent type
+(species) or resource DesignationSource or
+reference IdentifiersAdditional
+information
+Continued on next page
+Walsh et al. eLife 2019;8:e48448. DOI: https://doi.org/10.7554/eLife.48448 15 of 33Research article Immunology and Inflammation Neuroscience

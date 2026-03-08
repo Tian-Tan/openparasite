@@ -1,0 +1,49 @@
+
+========================================================================
+  STEP 0: DATA LOADING
+========================================================================
+  prep1 [v2]: 58,188 genes x 212 cells [OK]
+  prep2 [v2]: 58,188 genes x 152 cells [OK]
+  prep3 [v2]: 58,188 genes x 770 cells [OK]
+  prep4 [v3]: 58,188 genes x 281 cells [OK]
+  prep5 [v3]: 58,188 genes x 80 cells [OK]
+  prep6 [v3]: 58,188 genes x 342 cells [OK]
+
+  Combined: 58,188 genes x 1837 cells  [Total=1837]
+
+========================================================================
+  STEP 1: QC METRICS
+========================================================================
+  MT genes: 37
+  UMI/cell: min=587 med=4074 max=68463
+  Genes/cell: min=501 med=2320 max=9652
+  %MT/cell: min=0.00 med=1.81 max=9.96
+
+========================================================================
+  STEP 2: QC FILTERING
+========================================================================
+  [BASELINE] min_g=200 max_g=6000 max_mt=20.0 min_c=500
+    Retained: 1694/1837 cells, 28,955 genes
+    Per-prep: {'prep1': 189, 'prep2': 152, 'prep3': 667, 'prep4': 275, 'prep5': 80, 'prep6': 331}
+  [STRICT] min_g=300 max_g=5000 max_mt=10.0 min_c=800
+    Retained: 1494/1837 cells, 28,197 genes
+    Per-prep: {'prep1': 172, 'prep2': 132, 'prep3': 586, 'prep4': 244, 'prep5': 71, 'prep6': 289}
+  [LENIENT] min_g=100 max_g=8000 max_mt=30.0 min_c=200
+    Retained: 1807/1837 cells, 29,633 genes
+    Per-prep: {'prep1': 209, 'prep2': 152, 'prep3': 743, 'prep4': 281, 'prep5': 80, 'prep6': 342}
+  [NO-MT-FILTER] min_g=200 max_g=6000 max_mt=100.0 min_c=500
+    Retained: 1694/1837 cells, 28,955 genes
+    Per-prep: {'prep1': 189, 'prep2': 152, 'prep3': 667, 'prep4': 275, 'prep5': 80, 'prep6': 331}
+
+========================================================================
+  STEP 3: NORMALIZATION & HVG SELECTION
+========================================================================
+  Computing scran approx...
+Traceback (most recent call last):
+  File "C:\Users\Computer\Documents\WebDev\Hackathons\BioXAIHackathon 2026\robustness_v3.py", line 194, in <module>
+    hi2k = hvg(Nb, 2000);  print(f"  HVGs lognorm 2k: {len(hi2k)}")
+           ^^^^^^^^^^^^^
+  File "C:\Users\Computer\Documents\WebDev\Hackathons\BioXAIHackathon 2026\robustness_v3.py", line 114, in hvg
+    bins = pd.cut(mu, bins=20, labels=False, duplicates='drop').values
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'values'
